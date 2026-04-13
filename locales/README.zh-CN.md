@@ -12,7 +12,7 @@ npx skills add lencx/skills
 
 ## 技能
 
-- [coding-protocol](./skills/coding-protocol)：用于编码任务的执行约束（参考：[Andrej Karpathy 的公开观察](https://x.com/karpathy/status/2015883857489522876)）。
+- [coding-protocol](../skills/coding-protocol)：用于编码任务的执行约束（参考：[Andrej Karpathy 的公开观察](https://x.com/karpathy/status/2015883857489522876)）。
 
 ## 许可证
 
