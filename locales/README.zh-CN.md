@@ -4,10 +4,22 @@
 
 [English](../README.md) | 中文
 
-## 快速安装
+## 安装
+
+### 快速安装（推荐）
 
 ```bash
 npx skills add lencx/skills
+```
+
+### 特定安装（全局）
+
+```bash
+# Claude Code
+npx skills add lencx/skills -a claude-code -g
+
+# Codex
+npx skills add lencx/skills -a codex -g
 ```
 
 ## 技能

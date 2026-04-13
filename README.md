@@ -4,10 +4,22 @@
 
 English | [中文](./locales/README.zh-CN.md)
 
-## Quick Install
+## Installation
+
+### Quick Install (Recommended)
 
 ```bash
 npx skills add lencx/skills
+```
+
+### Specific Install (Global)
+
+```bash
+# Claude Code
+npx skills add lencx/skills -a claude-code -g
+
+# Codex
+npx skills add lencx/skills -a codex -g
 ```
 
 ## Skills
