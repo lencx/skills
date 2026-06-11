@@ -1,6 +1,7 @@
 ---
 name: coding-protocol
-description: Ambient, risk-scaled coding protocol for reliable code work. Reduces silent assumptions, hallucinated claims, overengineering, collateral edits, workspace damage, environment mismatch, and irrelevant verification with minimal user-facing process. Apply silently to code changes, bug fixes, refactors, reviews, debugging, and implementation plans; keep trivial edits and read-only tasks lightweight.
+version: 1.0.0
+description: Risk-scaled execution protocol for reliable coding. Prevents silent assumptions, overengineering, collateral edits, and unverified claims. Apply by default to every coding task — code changes, bug fixes, refactors, reviews, debugging, and implementation plans; keep trivial edits and read-only tasks lightweight.
 ---
 
 # Coding Protocol
@@ -13,10 +14,12 @@ For multi-step work, think in terms of `[change] -> [check]`. Expose a plan only
 
 Adjust effort to ambiguity, blast radius, and reversibility:
 - Read-only or mechanical task: inspect the relevant evidence and answer or edit directly; avoid ritual.
-- Small contained change: inspect relevant files, make the narrowest edit, and run a focused check when available and useful.
+- Small contained change: inspect relevant files, make the narrowest edit, and run a focused check (test, typecheck, lint, build, or render) when the project provides one.
 - Bug fix or behavior change: reproduce the failure when feasible, or exercise the changed path with the narrowest reliable check.
-- Refactor, shared contract, public API, schema, migration, security, auth, payment, permission, concurrency, production config, or destructive change: inspect affected usage and verify strongly enough for the blast radius.
+- Refactor or change touching a high-risk area: locate the affected usages (call sites, importers, consumers) and verify their behavior, not just the edited file.
 - Irreversible or high-risk work: stop for confirmation before proceeding on assumptions.
+
+High-risk areas: auth, permissions, secrets, security, payments, data loss, schema or migration, public API or shared contract, concurrency, production config, dependency supply chain, and destructive or irreversible operations.
 
 ## 2. Work From Evidence
 
@@ -30,7 +33,9 @@ Never claim a check passed unless it was actually run. If relevant evidence cann
 
 Use the narrowest reasonable interpretation for low-risk ambiguity and move forward.
 
-Ask only when ambiguity affects correctness, safety, external behavior, user intent, irreversible work, or high-risk areas such as auth, data loss, secrets, permissions, public APIs, database migrations, payments, security, production config, dependency supply chain, or destructive operations.
+Ask only when ambiguity affects correctness, safety, external behavior, user intent, irreversible work, or a high-risk area (see Scale By Risk).
+
+If the request conflicts with observed evidence, say so before implementing rather than silently complying.
 
 When proceeding under uncertainty, keep the change reversible and local.
 
@@ -38,9 +43,11 @@ When proceeding under uncertainty, keep the change reversible and local.
 
 Write the least code that fully solves the request. Match local style and existing patterns.
 
-Do not add features, abstractions, configurability, broad defensive paths, formatting churn, dependency changes, or unrelated fixes. Every changed line should trace to the task.
+Every changed line should trace to the task: no unrequested features, abstractions, defensive paths, formatting churn, dependency changes, or unrelated fixes. If you spot an unrelated issue, note it instead of fixing it.
 
-If a simpler solution satisfies the request, prefer it. Refactor only when necessary to complete the requested change safely.
+If a simpler solution satisfies the request, surface it and prefer it — even when the request implies a more complex path. Refactor only when necessary to complete the requested change safely.
+
+Clean up artifacts your own edits made obsolete; leave pre-existing dead code alone unless asked.
 
 ## 5. Preserve User Work
 
@@ -60,11 +67,7 @@ Do not add dependencies, change package managers, alter build tooling, install g
 
 ## 7. Verify Proportionally
 
-Use the cheapest check that gives real confidence for the risk:
-- Mechanical edit or read-only task: inspect the file or diff.
-- Small contained change: run a focused test, typecheck, lint, build, or render when available and useful.
-- Bug fix: reproduce the failure when feasible, or exercise the changed path with the narrowest reliable check.
-- Refactor, shared contract, or high-risk change: verify affected behavior strongly enough for the blast radius.
+Use the cheapest check that gives real confidence for the risk, scaled by the risk ladder (see Scale By Risk).
 
 A passing check only counts if it exercises or meaningfully covers the changed path. Do not use unrelated green checks as proof.
 
@@ -78,4 +81,4 @@ Do not narrate routine internal process unless it affects the user. Do not overs
 
 ## Reference
 
-Rationale and edge-case context: `references/source-observations.md` (read only when needed).
+Rationale and failure-mode traceability: `references/source-observations.md` (read only when needed).
