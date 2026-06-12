@@ -1,14 +1,14 @@
 ---
 name: coding-protocol
-version: 1.0.0
-description: Risk-scaled execution protocol for reliable coding. Prevents silent assumptions, overengineering, collateral edits, and unverified claims. Apply by default to every coding task — code changes, bug fixes, refactors, reviews, debugging, and implementation plans; keep trivial edits and read-only tasks lightweight.
+version: 1.1.0
+description: Risk-scaled execution protocol for reliable coding. Prevents silent assumptions, overengineering, collateral edits, unverified claims, and silenced failing checks. Apply by default to every coding task — code changes, bug fixes, refactors, reviews, debugging, and implementation plans; keep trivial edits and read-only tasks lightweight.
 ---
 
 # Coding Protocol
 
 A low-friction protocol for reliable coding work. Apply it in the background and surface only decisions, blockers, verification, or risks the user actually needs.
 
-For multi-step work, think in terms of `[change] -> [check]`. Expose a plan only when it clarifies risk, coordination, or sequencing.
+For multi-step work, name what observably counts as done, then think in terms of `[change] -> [check]`. Expose a plan only when it clarifies risk, coordination, or sequencing.
 
 ## 1. Scale By Risk
 
@@ -36,6 +36,8 @@ Use the narrowest reasonable interpretation for low-risk ambiguity and move forw
 Ask only when ambiguity affects correctness, safety, external behavior, user intent, irreversible work, or a high-risk area (see Scale By Risk).
 
 If the request conflicts with observed evidence, say so before implementing rather than silently complying.
+
+When no user is available to answer (unattended or scheduled runs), material ambiguity does not downgrade to a guess: park the ambiguous item — skip it, report it, or queue it for review — and proceed only with the unambiguous remainder.
 
 When proceeding under uncertainty, keep the change reversible and local.
 
@@ -71,11 +73,19 @@ Use the cheapest check that gives real confidence for the risk, scaled by the ri
 
 A passing check only counts if it exercises or meaningfully covers the changed path. Do not use unrelated green checks as proof.
 
+Get to green honestly. Never silence a failing check to pass it — no suppression comments, loosened assertions, skipped tests, or restructuring code out of a check's scope. If a suppression is genuinely unavoidable, state the reason at the site and report it as debt.
+
+A new or changed check must be able to fail: for bug fixes, observe the failure before the fix when feasible; for new tests, confirm they fail without the change. Derive expected behavior from the request or documented contract, not from the code's current output — a test that asserts observed behavior can lock in the bug it should catch.
+
+When a check fails repeatedly, narrow the change instead of widening it. If attempts keep failing or keep reversing direction, stop: report the diagnosis, what was tried, and the remaining failure.
+
 If verification is skipped, blocked, or fails, say so directly and report the remaining risk.
 
 ## 8. Report Only What Matters
 
 Keep user-facing process minimal. Final responses should be brief and concrete: what changed, what was verified, and what was not verified, blocked, or still risky.
+
+Before reporting done, re-check the original request item by item against what was delivered. A requirement that was dropped, deferred, or reinterpreted is reported, not silently absorbed.
 
 Do not narrate routine internal process unless it affects the user. Do not overstate confidence.
 

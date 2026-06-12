@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "kind": "project_eval_config",
+  "skills": {
+    "keel": {
+      "collaborations": [
+        {
+          "skill": "coding-protocol",
+          "required": false,
+          "mode": "optional_pairing",
+          "skillOwns": [
+            "architecture_shape",
+            "boundary_governance",
+            "structural_review_vocabulary",
+            "rot_governance"
+          ],
+          "peerOwns": [
+            "change_execution",
+            "implementation_verification",
+            "local_work_preservation"
+          ],
+          "fallback": "Keel remains standalone and treats peer responsibilities as outside its scope when the peer skill is absent."
+        }
+      ]
+    }
+  }
+}
