@@ -26,8 +26,8 @@ npx skills add lencx/skills -a codex -g
 
 ## Skills
 
-- [coding-protocol](./skills/coding-protocol): Ambient, risk-scaled execution protocol for coding tasks (ref: [Andrej Karpathy's public observations](https://x.com/karpathy/status/2015883857489522876)).
 - [keel](./skills/keel): Architecture design and governance protocol for system structure, boundaries, contracts, migrations, and long-lived codebase health. Keeps the load-bearing spine small, owned, checked, and deletable over time.
+- [coding-protocol](./skills/coding-protocol): Ambient, risk-scaled execution protocol for coding tasks (ref: [Andrej Karpathy's public observations](https://x.com/karpathy/status/2015883857489522876)).
 
 ## Compatibility
 
@@ -43,8 +43,8 @@ Tip: these skills pair best with declarative prompts — state the success crite
 - Local development with Claude Code: symlink the skill so the installed copy always tracks the repo (re-run `npx skills add` instead if you prefer copies):
 
   ```bash
-  ln -sfn "$(pwd)/skills/coding-protocol" ~/.claude/skills/coding-protocol
   ln -sfn "$(pwd)/skills/keel" ~/.claude/skills/keel
+  ln -sfn "$(pwd)/skills/coding-protocol" ~/.claude/skills/coding-protocol
   ```
 
 ## License
