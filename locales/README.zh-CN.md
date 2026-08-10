@@ -36,8 +36,6 @@ npx skills@latest add lencx/skills -a codex -g
 
 #### Codex
 
-需要 Codex CLI 0.146.0 或更高版本。
-
 ```bash
 codex plugin marketplace add lencx/skills
 codex plugin add lencx-skills@lencx
@@ -49,22 +47,6 @@ codex plugin add lencx-skills@lencx
 claude plugin marketplace add lencx/skills
 claude plugin install lencx-skills@lencx
 ```
-
-## 发布
-
-在仓库根目录直接验证 Claude Code 插件与 Marketplace：
-
-```bash
-claude plugin validate . --strict
-```
-
-构建不包含 Claude 专属 manifest 的干净 Codex 提交包：
-
-```bash
-./scripts/package-codex-plugin.sh
-```
-
-产物位于 `dist/lencx-skills-codex.zip`。
 
 ## 技能
 

@@ -38,8 +38,6 @@ npx skills@latest add lencx/skills -a codex -g
 
 #### Codex
 
-Requires Codex CLI 0.146.0 or later.
-
 ```bash
 codex plugin marketplace add lencx/skills
 codex plugin add lencx-skills@lencx
@@ -51,22 +49,6 @@ codex plugin add lencx-skills@lencx
 claude plugin marketplace add lencx/skills
 claude plugin install lencx-skills@lencx
 ```
-
-## Publishing
-
-Validate the Claude Code plugin and marketplace directly from the repository root:
-
-```bash
-claude plugin validate . --strict
-```
-
-Build a clean Codex submission archive without the Claude-specific manifest:
-
-```bash
-./scripts/package-codex-plugin.sh
-```
-
-The archive is written to `dist/lencx-skills-codex.zip`.
 
 ## Skills
 
