@@ -69,7 +69,16 @@ The archive is written to `dist/lencx-skills-codex.zip`.
 - [keel](./skills/keel): Architecture review and governance for repository-defined load-bearing facts, boundaries, contracts, migrations, guards, and deletion.
 - [coding-protocol](./skills/coding-protocol): Risk-scaled coding execution hygiene for authority, scope, evidence, user-work preservation, verification, and reporting (ref: [Andrej Karpathy's public observations](https://x.com/karpathy/status/2015883857489522876)).
 
-Tip: these skills pair best with declarative prompts — state the success criteria ("make these tests pass") rather than step-by-step instructions.
+### Recommended Companions
+
+`coding-protocol` and `keel` pair well with:
+
+- [Matt Pocock's Skills](https://github.com/mattpocock/skills) for software engineering workflows.
+- [Impeccable](https://github.com/pbakaus/impeccable) for design and UI/UX workflows.
+
+Using them together broadens coverage across product design, engineering practice, architecture governance, and risk-scaled execution. These are independent projects and should be installed separately.
+
+Tip: describe the goal, success criteria, and relevant constraints, then let the agent plan the steps. For example: "Implement this change and make sure the relevant tests pass."
 
 ## License
 
