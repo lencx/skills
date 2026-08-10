@@ -4,7 +4,11 @@
 
 <h1 align="center">lencx-skills</h1>
 
-> 📚 A curated collection of skills for AI agents — turning tacit knowledge into reliable execution.
+<p align="center">
+  <a href="https://skills.sh/lencx/skills"><img src="https://skills.sh/b/lencx/skills" alt="skills.sh"></a>
+</p>
+
+> 💡 Rooted in lencx’s hands-on experience — turning knowledge into reliable execution.
 
 English | [中文](./locales/README.zh-CN.md)
 

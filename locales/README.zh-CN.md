@@ -4,7 +4,11 @@
 
 <h1 align="center">lencx-skills</h1>
 
-> 📚 一组为 AI agent 准备的精选技能集合，将隐性的经验沉淀为可靠的执行。
+<p align="center">
+  <a href="https://skills.sh/lencx/skills"><img src="https://skills.sh/b/lencx/skills" alt="skills.sh"></a>
+</p>
+
+> 💡 源自 lencx 的实践沉淀，让知识成为可靠的执行力。
 
 [English](../README.md) | 中文
 
