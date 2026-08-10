@@ -2,7 +2,7 @@
 name: coding-protocol
 description: "Risk-scaled execution guardrails for repository-scoped code or configuration changes, bug fixes, debugging, refactors, code reviews, test changes, implementation plans that lead to code, and Git mutations. Skip conceptual explanations, contract-preserving prose-only edits, pure architecture design, and read-only repository status."
 metadata:
-  version: "1.3.0"
+  version: "1.3.1"
 ---
 
 # Coding Protocol
@@ -27,6 +27,8 @@ High-risk areas include auth, permissions, secrets, security, payments, data los
 ## 2. Work From Evidence
 
 Inspect relevant code, tests, types, documentation, contracts, and runtime output before claiming how the system works. Separate observations from assumptions when the difference matters. Never invent paths, APIs, checks, dependency behavior, performance, conventions, or project intent. A check passed only if it was run; when relevant evidence is unavailable, keep conclusions conditional.
+
+Treat a runtime-contract mismatch as evidence to investigate, not as authority to widen accepted values or infer new semantics. Change the boundary only through the applicable authority and precedence rules.
 
 ## 3. Handle Material Uncertainty
 

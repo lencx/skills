@@ -9,6 +9,7 @@ Each observed failure mode maps to the SKILL.md section that counters it. When e
 | Failure mode | Countered by |
 | --- | --- |
 | **Silent assumptions** — incorrect assumptions made on the user's behalf; inconsistencies not surfaced, including same-level conflicts hidden by letting load order choose or by accumulating incompatible requirements | Preamble; 2 Work From Evidence; 3 Handle Material Uncertainty |
+| **Contract drift** — treating runtime data outside a declared contract as authority to widen accepted values or invent semantics without resolving the applicable authority and precedence | 2 Work From Evidence; 3 Handle Material Uncertainty; 4 Keep Changes Small |
 | **Unverified claims** — stating behavior or "passing" checks that were never actually run | 2 Work From Evidence; 7 Verify Proportionally |
 | **Overcomplicated output** — bloated code, abstractions, and APIs; far more code than necessary | 4 Keep Changes Small |
 | **Collateral changes** — edits to code and comments orthogonal to the task, including parts not sufficiently understood | 4 Keep Changes Small; 5 Preserve User Work |
