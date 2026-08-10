@@ -1,4 +1,4 @@
-# Source Observations
+# Rule Rationale
 
 The initial observations are traceable to [Andrej Karpathy's public post](https://x.com/karpathy/status/2015883857489522876). Later rows are this project's failure-mode hypotheses from observed use; do not attribute the full map to that source.
 

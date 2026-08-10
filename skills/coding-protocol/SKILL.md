@@ -3,6 +3,7 @@ name: coding-protocol
 description: "Risk-scaled execution guardrails for repository-scoped code or configuration changes, bug fixes, debugging, refactors, code reviews, test changes, implementation plans that lead to code, and Git mutations. Skip conceptual explanations, contract-preserving prose-only edits, pure architecture design, and read-only repository status."
 metadata:
   version: "1.3.1"
+  author: "lencx"
 ---
 
 # Coding Protocol
@@ -72,4 +73,4 @@ Produce the artifact and handoff required by the task or focused workflow. Repor
 
 ## Reference
 
-Before changing or auditing this protocol's rules, read `references/source-observations.md` and keep every failure-mode-to-section mapping accurate. Do not load it for routine coding tasks.
+Before changing or auditing this protocol's rules, read `references/rule-rationale.md` and keep every failure-mode-to-section mapping accurate. Do not load it for routine coding tasks.

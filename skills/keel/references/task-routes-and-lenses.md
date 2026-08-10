@@ -1,4 +1,4 @@
-# Diagnostics
+# Task Routes And Lenses
 
 Operational companion to SKILL.md for design and review work. It supplies task routes and a review matrix without replacing repository evidence, focused-workflow artifacts, or their vocabulary. Return load-bearing findings and closure conditions through the owning decision path.
 

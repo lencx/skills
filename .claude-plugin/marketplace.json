@@ -1,0 +1,21 @@
+{
+  "name": "lencx",
+  "description": "Reliable agent workflows published by lencx.",
+  "owner": {
+    "name": "lencx",
+    "url": "https://lencx.me"
+  },
+  "plugins": [
+    {
+      "name": "lencx-skills",
+      "source": "./",
+      "description": "A curated collection of reliable workflows for AI agents.",
+      "category": "development",
+      "keywords": [
+        "architecture",
+        "coding",
+        "workflows"
+      ]
+    }
+  ]
+}

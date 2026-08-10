@@ -3,6 +3,7 @@ name: keel
 description: "Design or review load-bearing architecture: authority, ownership, public, persisted, or cross-boundary contracts, dependency boundaries, recovery, architecture guards, migration, rewrite, deprecation, deletion, and drift. Use when work establishes, changes, or evaluates these decisions or controls; skip focused work that only consumes them as supplied inputs and preserves them."
 metadata:
   version: "1.3.0"
+  author: "lencx"
 ---
 
 # Keel
@@ -101,8 +102,8 @@ Begin a rewrite with the smallest independently replaceable slice and its preser
 
 Read only when needed:
 
-- `references/source-observations.md` — rule mechanisms, provenance, omissions.
-- `references/diagnostics.md` — design and review routes and matrix.
+- `references/rule-rationale.md` — rule mechanisms, provenance, omissions.
+- `references/task-routes-and-lenses.md` — design and review routes and matrix.
 - `references/surface-cutover.md` — fallback compatibility and cutover evidence.
 - `references/recovery-guards.md` — recovery, guard, and exception details.
 - `references/rot-audit.md` — drift and long-lived-health indicators.

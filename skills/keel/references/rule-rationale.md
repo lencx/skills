@@ -1,4 +1,4 @@
-# Source Observations
+# Rule Rationale
 
 SKILL.md states the rules; this file records what the rules cannot carry: the mechanism that makes each failure mode happen, the public practice the rules translate, and what was deliberately left out. Read it when deciding whether a rule still earns its place — a rule is retired by checking whether its mechanism still operates, not by vote or by feel.
 

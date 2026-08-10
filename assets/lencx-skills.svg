@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">lencx skills</title>
+  <desc id="description">An open index of reusable skills unfolding from a shared core.</desc>
+  <g fill="#5268DC">
+    <path d="M166 366c78-8 178-15 276-16 21 0 38 15 38 34 0 21-17 36-38 36-100-2-199-8-276-17-15-4-15-32 0-37Z" transform="rotate(-6 128 384)"/>
+    <path d="M164 363c65-7 159-13 244-13 22 0 40 15 40 34 0 21-18 37-40 36-86-3-178-8-244-15-15-4-16-37 0-42Z" transform="rotate(-34 128 384)"/>
+    <path d="M162 360c54-7 125-10 202-9 22 0 40 15 40 33 0 20-17 36-39 36-78-4-149-7-203-13-15-6-16-40 0-47Z" transform="rotate(-62 128 384)"/>
+    <path fill-rule="evenodd" d="M128 332a52 52 0 1 1 0 104 52 52 0 0 1 0-104Zm0 34a18 18 0 1 0 0 36 18 18 0 0 0 0-36Z"/>
+  </g>
+</svg>

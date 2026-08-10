@@ -1,4 +1,8 @@
-# lencx-skills
+<p align="center">
+  <img src="../assets/lencx-skills.svg" alt="lencx skills logo" width="160">
+</p>
+
+<h1 align="center">lencx-skills</h1>
 
 > 📚 一组为 AI agent 准备的精选技能集合，将隐性的经验沉淀为可靠的执行。
 
@@ -6,21 +10,57 @@
 
 ## 安装
 
+请选择 skills 安装器或原生插件中的一种；同时使用会让每个技能重复出现。
+
 ### 快速安装（推荐）
 
 ```bash
-npx skills add lencx/skills
+npx skills@latest add lencx/skills
 ```
 
 ### 特定安装（全局）
 
 ```bash
 # Claude Code
-npx skills add lencx/skills -a claude-code -g
+npx skills@latest add lencx/skills -a claude-code -g
 
 # Codex
-npx skills add lencx/skills -a codex -g
+npx skills@latest add lencx/skills -a codex -g
 ```
+
+### 插件安装
+
+#### Codex
+
+需要 Codex CLI 0.146.0 或更高版本。
+
+```bash
+codex plugin marketplace add lencx/skills
+codex plugin add lencx-skills@lencx
+```
+
+#### Claude Code
+
+```bash
+claude plugin marketplace add lencx/skills
+claude plugin install lencx-skills@lencx
+```
+
+## 发布
+
+在仓库根目录直接验证 Claude Code 插件与 Marketplace：
+
+```bash
+claude plugin validate . --strict
+```
+
+构建不包含 Claude 专属 manifest 的干净 Codex 提交包：
+
+```bash
+./scripts/package-codex-plugin.sh
+```
+
+产物位于 `dist/lencx-skills-codex.zip`。
 
 ## 技能
 
