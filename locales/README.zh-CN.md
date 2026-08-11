@@ -50,19 +50,19 @@ claude plugin install lencx-skills@lencx
 
 ## 更新与版本
 
-`@latest` 选择安装器版本，不决定 skill 内容。Bundle 发布使用一致的 manifest 版本和 Git tag；`v1.4.0` 尚在计划中，未正式发布。
+`@latest` 选择安装器版本，不决定 skill 内容。
 
 ```bash
 # 更新已安装的 skill
 npx skills@latest update keel coding-protocol -p  # 项目
 npx skills@latest update keel coding-protocol -g  # 全局
 
-# v1.4.0 发布后，固定安装内容
+# 可复现安装
 npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y        # Codex
 npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y  # Claude Code
 ```
 
-`update` 保持当前 source ref，也不会安装后来新增的 skill；变更 tag 或新增 skill 时，用目标 tag 重新运行 `add`。已发布 tag 按不可变策略管理，可通过仓库 tag protection 或 ruleset 强制执行。
+`update` 只刷新已安装的 skill；安装新 skill 或切换 tag 时使用 `add`。
 
 ## 技能
 

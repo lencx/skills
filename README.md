@@ -52,19 +52,19 @@ claude plugin install lencx-skills@lencx
 
 ## Updates and Versioning
 
-`@latest` selects the installer, not the skill content. Bundle releases use matching manifest versions and Git tags; `v1.4.0` is planned but not yet published.
+`@latest` selects the installer, not the skill content.
 
 ```bash
 # Update installed skills
 npx skills@latest update keel coding-protocol -p  # project
 npx skills@latest update keel coding-protocol -g  # global
 
-# After v1.4.0 is published, install pinned content
+# Reproducible install
 npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y        # Codex
 npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y  # Claude Code
 ```
 
-`update` stays on the installed source ref and does not add newly published skills. To change tags or add skills, rerun `add` with the desired tag. Published tags are treated as immutable; enforce this with repository tag protection or a ruleset.
+`update` only refreshes installed skills; use `add` to install new skills or switch tags.
 
 ## Skills
 
