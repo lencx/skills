@@ -1,28 +1,41 @@
 # Task Routes And Lenses
 
-Optional companion for substantial architecture work. SKILL.md owns the method
-and Closed/Open states; this file only highlights concerns specific to a task
-shape. Do not load it for a small internal choice when a concise comparison is
-already enough.
+This file contains branch-specific concerns only. SKILL.md owns working-state
+selection, the constructive loop, Closed/Open completion, and sections 1–8.
 
 ## Task routes
 
-Choose a route after comparing viable directions. A route organizes deeper
-evidence; it does not preselect a solution or require a new artifact. If a
-different route contributes a material concern, import that concern without
-duplicating the full route.
+Choose a route after the working state and initial framing are clear. A route
+organizes deeper evidence; it does not preselect a solution or require a new
+artifact. If another route contributes a material concern, import that concern
+without duplicating the full route.
 
 | Route | Use when | Branch-specific concern |
 | --- | --- | --- |
-| `greenfield_design` | goals and external constraints exist without inherited repository architecture | distinguish user/domain evidence from invented precedent; state assumptions, decision authority, and the cheapest way to test the recommendation |
-| `architecture_review` | a design, RFC, change set, or existing system needs a load-bearing adequacy, improvement, or integration judgment | map material claims to evidence or explicit unknowns; preserve focused findings; recommend changes only where the review supports them |
-| `boundary_change` | a contract, schema, export, flag, entry surface, or compatibility promise is added, widened, moved, or removed | identify affected consumers, decision authority, compatibility or cutover commitment, and proportionate verification |
-| `structural_refactor` | a load-bearing module or seam is split, merged, moved, rewritten, or generalized | separate target seam from first mutation slice; preserve contracts and deletion path; when broader family scope is authoritative, check a materially distinct unedited member |
+| `greenfield_design` | **Decision:** goals and external constraints exist without inherited repository architecture | apply SKILL.md's greenfield evidence rule; state assumptions, decision authority, and the cheapest way to test the result |
+| `architecture_review` | **Judgment:** a design, RFC, change set, or existing system needs a load-bearing adequacy, conformance, feasibility, or integration verdict | map material claims to evidence or explicit unknowns, preserve focused ownership, and transition to Decision before proposing authorized improvements |
+| `boundary_change` | **Decision:** a contract, schema, export, flag, entry surface, or compatibility promise is added, widened, moved, or removed | identify affected consumers, decision authority, compatibility or cutover commitment, and proportionate verification |
+| `structural_refactor` | **Decision:** a load-bearing module or seam is split, merged, moved, rewritten, or generalized | apply SKILL.md's Target scope rule; preserve contracts and the deletion path |
 
-Complete a selected route only when its branch-specific concern appears in the recommendation or is recorded as an Open unknown. Treat SKILL.md sections 1–8 as the sole source of cross-cutting obligations.
+Complete a selected route only when its branch-specific concern appears in the result or is recorded as an Open unknown. Treat SKILL.md sections 1–8 as the sole source of cross-cutting obligations.
 
 If evidence reopens a materially different direction, return to comparison
 instead of finishing the current route by inertia.
+
+## Rewrite branch
+
+For a `structural_refactor` that proposes a rewrite, apply SKILL.md's Target
+scope rule, derive the target terminal invariant from representative evidence,
+and start with the smallest independently replaceable implementation slice and
+its preserved contracts. Expand only when a bounded migration cannot close
+safely or carries greater evidenced migration or recovery risk.
+
+A whole-target replacement is supported only when the target is bounded; its
+surfaces, dependents, state, and preserved contracts are known; acceptance
+evidence maps those contracts and the terminal invariant; runnable rollback or
+retreat evidence exists; and representative, materially distinct smaller slices
+do not reach the same invariant at equal or lower evidenced risk. Do not require
+proof against unbounded hypothetical slices.
 
 ## Optional review prompts
 

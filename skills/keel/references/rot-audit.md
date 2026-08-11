@@ -1,6 +1,6 @@
 # Rot Audit
 
-Read only when auditing architecture drift, recurring bypass, exception growth, or the long-lived health of boundaries and guards.
+This Governance audit examines architecture drift, recurring bypass, exception growth, and the long-lived health of boundaries and guards.
 
 ## Route
 
@@ -14,7 +14,7 @@ Lagging symptoms such as incidents and rewrites arrive late, so use leading indi
 
 | Indicator | How to read it |
 | --- | --- |
-| Suppression count — lint disables, unchecked casts, skipped tests, baseline entries | Default the trend and baseline to shrink-only. A justified increase is a visible decision with authority, reason, narrow scope, date, and removal condition; unreviewed growth is exception accretion. |
+| Suppression count — lint disables, unchecked casts, skipped tests, baseline entries | Default the trend and baseline to shrink-only. A justified increase is a visible decision with authority, reason, narrow scope, owner, review trigger, and removal condition; unreviewed growth is exception accretion. |
 | Negative-control freshness | Track the last time a planted or known violation was detected. Staleness questions the guard mechanism even when the repository is clean. |
 | Observed violation history | Track real violations separately as pressure on the boundary. A long quiet period does not by itself justify retiring a falsifiable guard. |
 | Public surface growth | Compare exports, fields, and options added per period with delivered behavior or outcomes. Surface outgrowing delivery means promises may be minted as a side effect. |

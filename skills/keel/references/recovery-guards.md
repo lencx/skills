@@ -1,6 +1,6 @@
 # Recovery And Guards
 
-Read only when selecting recovery controls, designing or retiring a guard, or changing an exception baseline. Repository requirements and focused workflows still own concrete mechanisms and verification execution.
+Repository requirements and focused workflows own concrete recovery or guard mechanisms and verification execution; this file supplies branch-specific control choices.
 
 ## Select Controls From Failure
 
@@ -9,4 +9,4 @@ Read only when selecting recovery controls, designing or retiring a guard, or ch
 - Partial work or failed cutover: rollback, resumable migration, compensation, or repair queue.
 - Ordering or concurrent conflict: version rule, detector, merge, tie-break, or escalation.
 
-Guard evidence shows a known or safely planted violation fails, the exact pre-control state passes after restoration, and scope cannot be escaped. Record the guard owner and freshness trigger; track real violations separately. Exception growth records decision authority, scope, reason, owner, date, and removal condition. A review-only guard names the review event, retained evidence, and escalation.
+Guard evidence shows a known or safely planted violation fails, the exact pre-control state passes after restoration, and scope cannot be escaped. Record the guard owner and freshness trigger; track real violations separately. Exception growth records decision authority, scope, reason, owner, review trigger, and removal condition. A review-only guard names the review event, retained evidence, and escalation.

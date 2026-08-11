@@ -1,6 +1,6 @@
 # Surface And Cutover
 
-Read only when a repository lacks compatibility categories, a surface may be a de facto contract, or a public, persisted, or cross-boundary change needs cutover evidence.
+Repository compatibility categories remain authoritative; this file supplies fallback grading and cutover evidence.
 
 ## Fallback Surface Ladder
 

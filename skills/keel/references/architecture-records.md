@@ -1,6 +1,6 @@
 # Architecture Records
 
-Use this reference only for records that carry or route load-bearing architecture facts. Leave general documentation, prose quality, rendering, and domain-specific artifact formats to their owning workflow.
+This reference governs records that carry or route load-bearing architecture facts. General documentation, prose quality, rendering, and domain-specific artifact formats remain with their owning workflow.
 
 ## Resolve Authority Before Structure
 
@@ -13,7 +13,7 @@ Separate six concerns:
 - **Format authority** — who may change structure, metadata, and naming.
 - **Lifecycle authority** — who may supersede, migrate, archive, or delete a record.
 
-This list grants no edit permission. The user and host grant action authorization; an execution workflow governs authorized edits and work preservation. A request to reorganize files does not authorize rewriting facts or historical records. Treat repository-declared sources and decision or lifecycle roles as current until an authorized migration closes. A stale source may be challenged but not replaced without decision authority. In greenfield work, use user goals, external constraints, and provenance-bearing domain inputs to propose a document structure; preserve the owning workflow's facts and do not present the structure as inherited truth.
+This list grants no edit permission. The user and host grant action authorization; an execution workflow governs authorized edits and work preservation. A request to reorganize files does not authorize rewriting facts or historical records. Treat repository-declared sources and decision or lifecycle roles as current until an authorized migration closes. A stale source may be challenged but not replaced without decision authority. For a greenfield Decision, apply SKILL.md's Greenfield evidence rule before proposing structure; preserve the owning workflow's facts and do not present a proposal as inherited truth.
 
 ## Select A Route
 
