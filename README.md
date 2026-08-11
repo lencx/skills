@@ -52,31 +52,19 @@ claude plugin install lencx-skills@lencx
 
 ## Updates and Versioning
 
-In `npx skills@latest`, `@latest` means “use the current installer”; it is not the bundle version. The Codex and Claude plugin manifests currently identify the candidate bundle as `1.4.0`. The first tagged release is planned as `v1.4.0` but has not been published; pinned commands using that tag work only after it exists.
-
-Update only these installed skills:
+`@latest` selects the installer, not the skill content. Bundle releases use matching manifest versions and Git tags; `v1.4.0` is planned but not yet published.
 
 ```bash
-# Project-scoped
-npx skills@latest update keel coding-protocol -p
+# Update installed skills
+npx skills@latest update keel coding-protocol -p  # project
+npx skills@latest update keel coding-protocol -g  # global
 
-# Global
-npx skills@latest update keel coding-protocol -g
+# After v1.4.0 is published, install pinned content
+npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y        # Codex
+npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y  # Claude Code
 ```
 
-`update` does not discover skills added to this repository later; run `add` again to install a newly published skill.
-
-After the tag is published, pin a reproducible installation to it:
-
-```bash
-# Codex
-npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y
-
-# Claude Code
-npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y
-```
-
-A pinned source ref does not advance to another tag through `update`; rerun `add` with the new tag. Both plugin manifests carry the same bundle SemVer, and each release uses the matching Git tag. Release policy treats a published tag as immutable; configure repository tag protection or a ruleset before publishing if technical enforcement is required.
+`update` stays on the installed source ref and does not add newly published skills. To change tags or add skills, rerun `add` with the desired tag. Published tags are treated as immutable; enforce this with repository tag protection or a ruleset.
 
 ## Skills
 
