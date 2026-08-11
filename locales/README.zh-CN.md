@@ -48,6 +48,26 @@ claude plugin marketplace add lencx/skills
 claude plugin install lencx-skills@lencx
 ```
 
+## 更新与版本
+
+在 `npx skills@latest` 中，`@latest` 仅表示“使用当前安装器”，不是仓库版本。本仓库只有一个正式内容版本：不可变的 bundle tag。
+
+滚动更新全局安装时，只更新已经安装的 skill：
+
+```bash
+npx skills@latest update -g
+```
+
+`update` 不会发现此仓库后来新增的 skill；要安装新发布的 skill，需要再次运行 `add`。
+
+需要可复现安装时，用不可变 source tag 固定 bundle：
+
+```bash
+npx skills@latest add 'lencx/skills#v1.0.0' --skill keel coding-protocol -a codex -g -y
+```
+
+内容版本统一为 bundle/tag `v1.0.0`。升级固定版本的安装时，应使用新 tag 重新运行 `add`，不要期待 `update` 跨越原来的 source ref。Codex 与 Claude 的 plugin manifest 使用同一个 bundle SemVer；正式发布 `1.0.0` 后，任何发布内容变更都单调递增该版本，并使用同名不可变 Git tag。
+
 ## 技能
 
 - [keel](../skills/keel)：面向新建与既有系统的承重架构设计、评审与治理，覆盖权责、契约、依赖与状态边界、恢复、结构变更、漂移、守卫、迁移和删除。

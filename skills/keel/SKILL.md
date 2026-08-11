@@ -1,9 +1,6 @@
 ---
 name: keel
 description: "Design, review, or govern load-bearing architecture for open choices, design judgments, or long-lived health; skip fixed-architecture execution. Applies to new/existing systems. Private/local/reversible module boundaries qualify; scale rigor to impact. Covers responsibility/authority, interfaces/contracts, dependency/state/recovery, structural seams, guards/exceptions, drift/rot, migration, retirement, deletion, and rewrite risk."
-metadata:
-  version: "1.5.0"
-  author: "lencx"
 ---
 
 # Keel
@@ -18,7 +15,7 @@ Inspect only enough of the request, governing sources, and representative call s
 
 - **Decision** — establish, change, or compare a load-bearing arrangement. This includes greenfield work and an authorized improvement to an existing target.
 - **Judgment** — evaluate the adequacy, conformance, or feasibility of a supplied architecture, design, RFC, change set, or existing system. Keep the target fixed. If it is infeasible, finish Open with evidence and required decision authority; enter Decision only when selection or improvement is authorized.
-- **Governance** — decide whether to restore, retain, migrate, retire, or remove a declared architecture control, or judge its long-lived health. Enter Decision only when an authorized remedy requires a new load-bearing arrangement.
+- **Governance** — decide whether to restore, retain, migrate, retire, or remove a declared or evidenced architecture arrangement or control, or judge its long-lived health. Evidence must show a load-bearing obligation, recurring bypass, or architecture drift rather than ordinary maintenance. Enter Decision only when an authorized remedy requires a new load-bearing arrangement.
 - **Exit** — the request and governing sources fix a feasible material architecture and the remaining task only implements, diagnoses, tunes, tests, or verifies within it. Re-enter only when evidence opens a materially different load-bearing Decision, Judgment, or Governance issue.
 
 Private, local, reversible, and single-consumer choices can still require Decision or Judgment; scale evidence and ceremony to impact, reversibility, and uncertainty.
@@ -127,7 +124,7 @@ A retirement closes the active entry surface, enumerates and migrates or retires
 
 ## References
 
-After selecting Decision, Judgment, or Governance, load only a matching branch reference; Exit loads none:
+After selecting Decision, Judgment, or Governance, load only the matching branch references needed by the selected state and active material concerns; Exit loads none:
 
 - `references/rule-rationale.md` — when changing, auditing, replacing, or retiring a Keel rule.
 - `references/task-routes-and-lenses.md` — when a substantial greenfield design, architecture review, boundary change, or structural refactor benefits from a formal route, or a rewrite needs slice-versus-whole-target judgment.

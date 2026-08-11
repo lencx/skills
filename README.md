@@ -50,6 +50,26 @@ claude plugin marketplace add lencx/skills
 claude plugin install lencx-skills@lencx
 ```
 
+## Updates and Versioning
+
+In `npx skills@latest`, `@latest` means “use the current installer”; it is not a repository version. This repository has one published content version: its immutable bundle tag.
+
+For rolling global installations, update the skills already installed:
+
+```bash
+npx skills@latest update -g
+```
+
+`update` does not discover skills added to this repository later; run `add` again to install a newly published skill.
+
+For a reproducible installation, pin the bundle to an immutable source tag:
+
+```bash
+npx skills@latest add 'lencx/skills#v1.0.0' --skill keel coding-protocol -a codex -g -y
+```
+
+The content version is the bundle/tag `v1.0.0`. To upgrade a pinned installation, rerun `add` with the new tag instead of expecting `update` to cross the original source ref. The Codex and Claude plugin manifests carry the same bundle SemVer; after `1.0.0`, published content advances that version monotonically and uses the matching immutable Git tag.
+
 ## Skills
 
 - [keel](./skills/keel): Load-bearing architecture design, review, and governance for new and existing systems—authority, ownership, contracts, dependency and state boundaries, recovery, structural change, drift, guards, migration, and deletion.
