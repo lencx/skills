@@ -50,8 +50,8 @@ claude plugin install lencx-skills@lencx
 
 ## 技能
 
-- [coding-protocol](../skills/coding-protocol)：按风险分级的编码执行约束，覆盖授权范围、证据、用户工作保护、验证与交付说明（参考：[Andrej Karpathy 的公开观察](https://x.com/karpathy/status/2015883857489522876)）。
-- [keel](../skills/keel)：审查并治理由仓库定义的承重事实、边界、契约、迁移、守卫与删除路径。
+- [keel](../skills/keel)：面向新建与既有系统的承重架构设计、评审与治理，覆盖权责、契约、依赖与状态边界、恢复、结构变更、漂移、守卫、迁移和删除。
+- [coding-protocol](../skills/coding-protocol)：面向仓库范围内的编码执行与代码证据判断的风险分级约束，覆盖授权、目标范围、证据、用户工作保护、环境假设、验证与如实说明（参考：[Andrej Karpathy 的公开观察](https://x.com/karpathy/status/2015883857489522876)）。
 
 ### 推荐搭配
 

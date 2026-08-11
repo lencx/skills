@@ -1,6 +1,6 @@
 {
   "name": "lencx-skills",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A curated collection of reliable workflows for AI agents.",
   "author": {
     "name": "lencx",
@@ -18,17 +18,17 @@
   "interface": {
     "displayName": "lencx skills",
     "shortDescription": "Reliable agent workflows",
-    "longDescription": "Reusable workflows for architecture review and risk-scaled coding execution.",
+    "longDescription": "Reusable workflows for load-bearing architecture design, review, and governance, plus risk-scaled repository execution and code-evidence work.",
     "developerName": "lencx",
     "category": "Developer Tools",
     "capabilities": [
-      "Architecture review",
-      "Risk-scaled coding"
+      "Load-bearing architecture design and governance",
+      "Risk-scaled repository execution and code evidence"
     ],
     "websiteURL": "https://lencx.me",
     "defaultPrompt": [
-      "Review this repository's architecture with keel.",
-      "Use coding-protocol while implementing this change."
+      "Use keel to design, review, or govern this project's load-bearing architecture.",
+      "Use coding-protocol for this repository's implementation, debugging, or code review."
     ],
     "brandColor": "#0F172A",
     "composerIcon": "./assets/lencx-skills.svg",

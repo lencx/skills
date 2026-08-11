@@ -2,25 +2,30 @@
 name: coding-protocol
 description: "Risk-scaled execution guardrails for repo code/config/test changes, debugging, code review, implementation plans, and Git mutations. Skip architecture-only work, conceptual explanations, contract-preserving prose-only edits, and status-only queries."
 metadata:
-  version: "1.3.1"
+  version: "1.4.0"
   author: "lencx"
 ---
 
 # Coding Protocol
 
-A low-friction protocol for reliable coding work. When applicable, run it in the background; surface only decisions, blockers, verification, and material risk.
+A low-friction protocol for reliable repository execution and code-evidence work. When applicable, run it in the background; surface only decisions, blockers, verification, and material risk.
 
 ## Applicability Gate
 
-Run this gate before any protocol step or reference read:
+Before any protocol step or reference read, select exactly one state in this order: Mixed, Execution, Evidence, Exit. Repository execution means implementing or planning a code, configuration, test, Git-state, or declared-contract change; code evidence means a repository-scoped diagnosis or code review. A contract-preserving prose-only edit is neither.
 
-- **Apply** when the task includes repository code, configuration, or test work; debugging; code review; an implementation plan; or a Git mutation. A mixed task remains in scope for its applicable execution portion.
-- **Exit** when the task is only conceptual explanation, a contract-preserving prose-only edit, read-only status, or architecture decision work with no repository implementation plan.
-- **Handoff after a forced or mistaken load** — state the mismatch briefly and continue with the owning workflow, or the general workflow when none applies, without this protocol.
+- **Mixed** — the task includes an Execution or Evidence portion plus a substantive portion owned by another workflow. Apply this protocol only to repository execution or code evidence; do not reshape the other workflow.
+- **Execution** — the only applicable responsibility is authorized repository execution. Apply this protocol to that work. A plan authorizes planning, not mutation.
+- **Evidence** — the only applicable responsibility is a code-evidence judgment without mutation authority. Apply read-only constraints; a diagnosis or review finding does not authorize a fix.
+- **Exit** — the deliverable carries neither repository-execution nor code-evidence responsibility. After a forced or mistaken load, state the mismatch briefly. If the host exposes a skill catalog, inspect it and completely read a suitable owning workflow when one is present; otherwise continue with the general workflow. Stop using this protocol's framing, references, and completion language.
 
-Repository evidence supplies local facts. Repository instructions and contracts supply required checks. A focused workflow supplies its method, artifact, and completion criterion. This protocol supplies execution constraints: authorization, action scope, work preservation, environment assumptions, evidence integrity, and truthful reporting. Combine requirements by concern; activation never supersedes another source or expands authority. Follow the host's established precedence when requirements conflict. Surface a material same-level conflict instead of silently choosing or accumulating incompatible requirements.
+## Composition
 
-When a focused workflow applies, use its completion criterion. Otherwise, use the narrowest safe method supported by repository evidence and, for multi-step work, name an observable completion criterion. Work as `[change] -> [check]`, revising the route when evidence changes. Expose a plan only when it clarifies risk, coordination, or sequencing.
+Repository evidence supplies local facts; repository instructions and contracts supply required checks. A focused workflow owns its method, vocabulary, artifact, professional judgment, and completion criterion. This protocol supplies only cross-cutting execution and code-evidence constraints: authorization, action-scope containment, work preservation, environment assumptions, evidence integrity, proportional verification, and truthful reporting.
+
+Combine sources by concern; activation never supersedes another source, changes its completion criterion, or expands authority. Follow the host's established precedence when requirements conflict. Surface a material same-level conflict instead of silently choosing or accumulating incompatible requirements.
+
+Use the focused workflow's completion criterion when one applies. Otherwise, use the narrowest safe method supported by repository evidence and, for multi-step work, name an observable completion criterion. Work as `[action] -> [check]`, revising the route when evidence changes. Expose a plan only when it clarifies risk, coordination, or sequencing.
 
 ## 1. Scale By Risk
 
@@ -51,11 +56,11 @@ If the requested outcome, stated facts, or mechanism conflicts with observed evi
 
 ## 4. Keep Changes Small
 
-Make the smallest complete change consistent with the authorized request, repository contracts, and focused workflow. Match local patterns. Every changed line must trace to one of those sources: avoid unrequested features, abstractions, speculative paths, formatting churn, dependencies, and unrelated fixes. Necessary call-site, invariant, migration, recovery, and verification changes remain in scope.
+Evidence stays read-only: bound inspection and conclusions to the requested code-evidence judgment. Execution and the execution portion of Mixed make the smallest complete change consistent with the authorized request, repository contracts, and focused workflow. Match local patterns. Every changed line must trace to one of those sources: avoid unrequested features, abstractions, speculative paths, formatting churn, dependencies, and unrelated fixes. Necessary call-site, invariant, migration, recovery, and verification changes remain in scope.
 
-A first tranche does not establish its target scope. Resolve local change, rollout template, or disposable experiment from the request or an authoritative scope source—not sample count, code shape, the word *pilot*, or a later outcome. If that distinction materially changes the seam or promises, ask one decision-changing question or keep the work reversible and broader reuse unclaimed. The smallest mutation may still need evidence against a declared family-level acceptance criterion; it does not authorize migrating the remainder.
+An execution slice does not define or expand the intended target. Take target scope from the request or an authoritative source. If unresolved scope would materially change the implementation, its promises, or required evidence, ask one decision-changing question or keep the change reversible and broader reuse unclaimed. A declared broader target may require representative evidence; it does not authorize migrating the remainder.
 
-Prefer a simpler supported solution when the mechanism was only a suggestion; preserve it when it is material to user intent. Refactor only as needed for a safe completion. Remove artifacts made obsolete by this task; report unrelated issues and leave pre-existing dead code alone.
+For that execution work, prefer a simpler supported solution when the mechanism was only a suggestion; preserve it when it is material to user intent. Refactor only as needed for a safe completion. Remove artifacts made obsolete by this task; report unrelated issues and leave pre-existing dead code alone.
 
 ## 5. Preserve User Work
 
@@ -73,14 +78,17 @@ Run checks required by the user, repository, or focused workflow; add the cheape
 
 Get to green honestly. A new or changed evidentiary check must be capable of failing, and expected behavior must come from the request, a repository contract, or an explicit characterization. Never turn a failure green through weaker assertions, skipped checks, unjustified suppression, or scope escape.
 
-Read `references/verification.md` when designing or changing a check, proving sensitivity, relying on representation-level evidence, or considering a suppression.
-
 Diagnose before widening the change. If attempts thrash, stop with the diagnosis. Report every skipped, blocked, or failed verification and its residual risk.
 
 ## 8. Report Only What Matters
 
 Produce the artifact and handoff required by the task or focused workflow. Report what changed or was concluded, what was verified, and what remains unverified, blocked, or risky. Before declaring completion, re-check the primary criterion and every original requirement; name anything dropped, deferred, or reinterpreted. Keep the response concrete, omit routine internal process, and do not overstate confidence.
 
-## Reference
+## References
 
-Before changing or auditing this protocol's rules, read `references/rule-rationale.md` and keep every failure-mode-to-section mapping accurate. Do not load it for routine coding tasks.
+After the applicability gate, load only the reference that applies:
+
+- `references/verification.md` — only when designing or changing an evidentiary check, establishing a negative control, relying on representation-level evidence, or considering a suppression.
+- `references/rule-rationale.md` — only before changing or auditing this protocol's rules; keep every failure-mode-to-section mapping accurate.
+
+Load neither reference on Exit.

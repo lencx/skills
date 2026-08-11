@@ -8,16 +8,16 @@ This is a maintenance index for non-obvious failure mechanisms, not a requiremen
 
 | Failure mode | Countered by |
 | --- | --- |
-| **Silent assumptions** — incorrect assumptions made on the user's behalf; inconsistencies not surfaced, including same-level conflicts hidden by letting load order choose or by accumulating incompatible requirements | Preamble; 2 Work From Evidence; 3 Handle Material Uncertainty |
+| **Silent assumptions** — incorrect assumptions made on the user's behalf; inconsistencies not surfaced, including same-level conflicts hidden by letting load order choose or by accumulating incompatible requirements | Composition; 2 Work From Evidence; 3 Handle Material Uncertainty |
 | **Contract drift** — treating runtime data outside a declared contract as authority to widen accepted values or invent semantics without resolving the applicable authority and precedence | 2 Work From Evidence; 3 Handle Material Uncertainty; 4 Keep Changes Small |
 | **Unverified claims** — stating behavior or "passing" checks that were never actually run | 2 Work From Evidence; 7 Verify Proportionally |
 | **Overcomplicated output** — bloated code, abstractions, and APIs; far more code than necessary | 4 Keep Changes Small |
-| **Pilot-scope collapse** — sample count does not reveal whether a first tranche is a local change, rollout template, or disposable experiment; silently guessing or back-propagating an observed outcome into intent produces either a sample-shaped abstraction or an unrequested universal framework | 3 Handle Material Uncertainty; 4 Keep Changes Small; 8 Report Only What Matters |
+| **Execution-slice scope inference** — treating a first tranche, sample count, code shape, or later outcome as authority to define or expand the target either underfits stated broader intent or invents unsupported reuse | 3 Handle Material Uncertainty; 4 Keep Changes Small; 8 Report Only What Matters |
 | **Collateral changes** — edits to code and comments orthogonal to the task, including parts not sufficiently understood | 4 Keep Changes Small; 5 Preserve User Work |
 | **No self-cleanup** — scaffolding and dead code left behind by the model's own edits | 4 Keep Changes Small (cleanup clause) |
 | **Sycophancy** — agreeing too readily instead of pushing back or surfacing better alternatives | 3 (evidence-conflict clause); 4 (surface the simpler solution) |
 | **Contrarian substitution** — replacing an explicitly required mechanism or outcome merely because the agent prefers a simpler one | 3 Handle Material Uncertainty; 4 Keep Changes Small |
-| **Action-scope expansion** — treating a request to review, explain, diagnose, mention, or compare a skill, or the automatic loading of a focused skill, as permission to edit the workspace | 3 Handle Material Uncertainty |
+| **Action-scope expansion** — treating a request to review, explain, diagnose, mention, or compare a skill, or the automatic loading of a focused skill, as permission to edit the workspace | Applicability Gate (Execution; Evidence); 3 Handle Material Uncertainty |
 | **Publication expansion** — treating permission to edit locally, or a side effect named only by an automatically loaded workflow, as permission to commit, push, deploy, publish, message externally, or change machine-wide state | 3 Handle Material Uncertainty; 5 Preserve User Work |
 | **Implicit destructive authorization** — treating a task's apparent need as permission to discard work, reset state, rewrite history, or delete a broad target | 5 Preserve User Work |
 | **Destructive-action paralysis** — refusing an explicitly authorized, exactly targeted, recoverable destructive action solely because it is destructive | 5 Preserve User Work |
@@ -34,8 +34,8 @@ This is a maintenance index for non-obvious failure mechanisms, not a requiremen
 | **Representation-coupled verification** — asserting an incidental or private implementation representation as if it proved behavior, when that exact representation is not the documented contract or guard target | 7 Verify Proportionally |
 | **Thrashing** — repeated failed fix attempts that widen the blast radius or flip direction instead of stopping with a diagnosis | 7 Verify Proportionally |
 | **Unattended guessing** — with no user available to ask, material ambiguity silently downgrades to a confident guess | 3 Handle Material Uncertainty |
-| **Dropped requirements** — reporting done while parts of the request, a mixed task's applicable execution portion, or a focused workflow's primary completion criterion were silently dropped or reinterpreted | Preamble (mixed-task clause); 8 Report Only What Matters |
-| **Process noise** — applying execution ritual outside the protocol's scope, including continuing after its applicability gate excludes the task; narrating irrelevant process; overstating confidence; or compressing a required focused artifact in the name of brevity | Preamble (applicability and exit gate); 8 Report Only What Matters |
+| **Dropped requirements** — reporting done while parts of the request, a mixed task's applicable execution portion, or a focused workflow's primary completion criterion were silently dropped or reinterpreted | Applicability Gate (Mixed); Composition; 8 Report Only What Matters |
+| **Process noise** — applying execution ritual outside the protocol's scope, including continuing after its applicability gate excludes the task; narrating irrelevant process; overstating confidence; or compressing a required focused artifact in the name of brevity | Applicability Gate (Exit); 8 Report Only What Matters |
 
 ## Effective working patterns
 
