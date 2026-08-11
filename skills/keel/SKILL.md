@@ -1,34 +1,53 @@
 ---
 name: keel
-description: "Design or review load-bearing architecture: authority, ownership, public, persisted, or cross-boundary contracts, dependency boundaries, recovery, architecture guards, migration, rewrite, deprecation, deletion, and drift. Use when work establishes, changes, or evaluates these decisions or controls; skip focused work that only consumes them as supplied inputs and preserves them."
+description: "Design, explore, review, or govern load-bearing architecture at module, boundary, or system scale. Skip work that only implements supplied, fixed architecture. Private/local/reversible choices qualify. Open choices and long-lived health cover responsibility/shape, ownership/authority, interfaces/contracts, dependency boundaries, state/recovery, structural change, architecture drift/rot, guard or exception health, migration, deletion, and rewrite risk."
 metadata:
-  version: "1.3.0"
+  version: "1.4.0"
   author: "lencx"
 ---
 
 # Keel
 
-Use *keel* for load-bearing facts, transitions, contracts, and accountability. Resolve repository-declared instructions, records, contracts, entry paths, and guards before analysis; use local terms. Conflicting, stale, or missing sources or precedence are findings.
+Keel has two coequal jobs: discover and shape the best-supported load-bearing direction, and keep declared architecture enforceable, economical, and deletable as the system evolves. The second job treats drift, guard and exception health, bypass economics, migration, deletion, and rewrite pressure as architecture work when they can change a load-bearing decision or control.
 
-Separate exploration from closure. In greenfield work, treat user goals, external constraints, and provenance-bearing domain inputs as evidence, not inherited architecture. Propose minimal options, label assumptions, and leave decision-changing unknowns open.
+Use *keel* at module, boundary, and system scale for responsibility between parts, authority or ownership, interfaces or contracts, dependency direction, state or recovery ownership, and seams that isolate future change. Use repository-native terms and treat applicable instructions, records, contracts, and entry paths as evidence rather than decoration.
 
 ## Composition
 
-- Repository sources set facts, terms, precedence, and contract scope; Keel does not elevate every document.
-- Focused workflows own method, vocabulary, artifact, and completion. Product and UI design, domain modeling, documentation, and professional security, threat, privacy, compliance, legal, financial, or medical judgments remain theirs.
-- Compose Keel only when the same task establishes or changes a load-bearing authority, ownership, contract, cutover, or recovery decision. If those decisions are supplied and unchanged, skip Keel. Consume focused evidence and return only architecture implications.
-- Keel closes authority, accountability, compatibility, dependencies, recovery, guards, migration, and deletion; it does not choose architecture style, framework, stack, or product shape.
-- The user and host grant action authority. Execution workflows govern mutation, work preservation, test mechanics, and verification. Keel proves neither implementation nor production fitness.
+- **Apply** when the task must choose, change, compare, or improve a load-bearing outcome; explicitly asks for an architecture/design/RFC/change-set adequacy or conformance judgment; or audits whether declared architecture remains enforced, economical, and deletable as the system evolves. A fixed target remains fixed unless the review finds it infeasible or the request authorizes improvement.
+- **Exit** when the request and governing sources fix the material architecture and the remaining task only implements, diagnoses, tunes, tests, or verifies within it. Re-enter only if evidence shows that implementation requires a materially different load-bearing outcome.
+- Private, local, reversible, and single-consumer choices can still be architecture; they require less evidence and ceremony, not automatic exclusion.
+- Before committing either way, inspect only enough of the request, governing sources, and representative call sites or contracts to distinguish a real open choice from architecture-shaped context. Similar code, sample count, the word *pilot*, and later success or failure are feasibility clues, not target-scope authority.
+- Focused workflows retain their method, vocabulary, artifact, and professional judgment. Keel integrates architecture implications; it does not replace product, domain, security, privacy, legal, documentation, or execution ownership.
+- Automatic or forced loading grants neither applicability nor action authority. If Keel does not apply, say so briefly and continue with the owning workflow without Keel-specific routes, references, or output framing.
 
-A lens applies when its answer could change a load-bearing decision or closure. *Proportionate* means the lightest evidence or control that closes risk given impact, reversibility, and uncertainty. Resolve each applicable numbered lens; keep decision-changing unknowns open. Give an auditable skip reason when omission could hide risk.
+## Solve Constructively
+
+Keel should leave the user with a useful direction, not just constraints or a checklist:
+
+1. **Frame and inspect** — state the decision, desired outcome, authority, hard constraints, and criteria. Search only for evidence likely to change the framing, candidate set, or recommendation.
+2. **Form and compare** — derive the smallest set of materially distinct viable directions needed to expose the real tradeoff. Include a simpler or no-change direction when credible; do not invent alternatives when constraints leave one path. Use a bounded model, characterization, conformance check, or reversible experiment when it is the cheapest decision-changing evidence.
+3. **Integrate and recommend** — preserve focused-workflow findings, compare candidates on the same criteria, and recommend the best-supported direction with its material tradeoffs and confidence. Surface a better option the user did not name when evidence supports it without silently changing the goal.
+4. **Deepen only what won** — resolve the numbered concerns and load a specialized reference only when its answer can still change the recommendation, adoption, recovery, or retirement plan. Use `references/task-routes-and-lenses.md` only when a formal route will improve a substantial design or review.
+
+Stop when more search, options, or detail are unlikely to change the recommendation or close a material risk. If new evidence reopens a viable direction, compare it rather than defending the incumbent.
+
+Finish in one of two states:
+
+- **Closed** — the best-supported direction, decision authority, accountability, and material risks are resolved; no known unknown can still change the decision.
+- **Open** — give the strongest bounded recommendation or experiment available, the decision-changing unknown, and its owner or ownership gap plus the next evidence or decision trigger. Alternatives are included only when real.
+
+For a low-blast-radius internal choice, a concise comparison and recommendation may be complete. Do not invent compatibility, migration, recovery, guards, governance, or artifacts that cannot change the choice.
+
+For governance work, a constructive result may be subtraction, restored enforcement, a cheaper governed path, staged migration, retirement, or justified no action—not a new layer by default.
 
 ## 1. Keep The Spine Small
 
-Map only the load-bearing points that apply, using repository-native terms. Examples include entry surfaces, mutation admission, accepted state, externally visible effects, completion, and recovery. Do not inventory every example. When a repository-declared or risk-plausible point is omitted, state why it is absent or inapplicable rather than inventing a stage. Changing or adding an applicable point is a boundary decision.
+Map only the load-bearing points that apply, using repository-native terms. Entry surfaces, mutation admission, accepted state, externally visible effects, completion, and recovery are examples, not a required inventory. When a repository-declared or risk-plausible point is omitted, state why it is absent or inapplicable rather than inventing a stage. Changing or adding an applicable point is a boundary decision.
 
-A load-bearing decision chain is not one controller, writer, process, transport, or deployment topology. Multiple execution mechanisms may coexist when they preserve every applicable declared boundary contract. A new or changed load-bearing point is a redesign: name the blocker it solves, its reconciliation rule when relevant, and the path it changes or retires.
+A load-bearing decision chain is not one controller, writer, process, transport, or deployment topology. Multiple execution mechanisms may coexist when they preserve every applicable declared boundary contract. A new or changed load-bearing point is a redesign: name the outcome, force, or blocker it addresses; its reconciliation rule when relevant; and the path it changes or retires.
 
-Cross-cutting mechanisms may have dedicated owners without becoming parallel authority roots or bypasses. Add a top-level concept only with explicit jurisdiction and decision rights, no undistorted existing owner, and a passing section 8 net-growth review.
+Cross-cutting mechanisms may have dedicated owners without becoming parallel authority roots or bypasses. Add a top-level concept only when its jurisdiction is explicit, no existing owner can carry it without distortion, and it removes more ambiguity than it adds.
 
 ## 2. Grade Every Surface
 
@@ -62,11 +81,15 @@ Give each material fact, contract, boundary decision, and lifecycle an accountab
 
 State what each load-bearing owner owns. Where adjacent duties could be confused, also state what it **does not own**.
 
-Follow declared dependency direction and cross boundaries through their public surface or assembly seam. Move semantics into a shared domain only when they are neutral and accountability belongs there; two consumers needing the same capability is insufficient. Prefer bounded, declared, tool-enumerable entry surfaces so retirement remains possible.
+Follow declared dependency direction and cross boundaries through their public surface or assembly seam. Move semantics into a shared domain only when they are neutral and accountability belongs there; two consumers needing the same capability is insufficient.
+
+A first tranche and its target scope are separate decisions. Resolve local cleanup, rollout template, or disposable experiment from the request or an authoritative scope source—not sample count, code shape, the word *pilot*, or a later outcome. If broader family scope is declared, test the seam against representative, materially distinct members without migrating them; if scope remains material and unresolved, keep reuse unclaimed and recommend the cheapest clarification or reversible experiment.
+
+Prefer bounded, declared, tool-enumerable entry surfaces so retirement remains possible.
 
 ## 5. Design The Negative Path And The Time Axis
 
-Every material negative outcome has defined behavior or an explicit unknown; a decision-changing unknown keeps the design open. Examine applicable denial, failure, partial, stale, cancellation, timeout, duplicate, out-of-order, concurrent-conflict, partition, and uncertain-commit cases. For stateful or repeatable work, also examine retry, restart, and replay. Do not invent a state machine for a reversible private choice.
+Define behavior or an explicit unknown for material negative outcomes. Examine only cases plausible for the design, including failure, partial or stale work, cancellation, timeout, duplication, concurrency, uncertain commit, retry, restart, and replay. Do not invent a state machine for a reversible private choice.
 
 Close each applicable recovery with:
 
@@ -80,9 +103,7 @@ Classify effects as reversible, compensable, or irreversible and scale controls 
 
 ## 6. Guard Boundaries With Falsifiable Checks
 
-Pair each material architecture rule with a traceable reason and a proportionate falsifiable guard. When automation is not justified, define an explicit auditable review and the evidence it leaves. Layered validation is defense-in-depth only when each layer has a distinct responsibility.
-
-A guard needs evidence that it detects a known or safely planted violation. Keel specifies sensitivity and freshness requirements; an authorized execution workflow decides whether and how to run the negative control. A quiet, falsifiable guard is not dead merely because no real violation occurred.
+Keep a traceable reason for each material architecture rule. Add a falsifiable guard or explicit review only when violation creates meaningful risk and the check can change action. A guard needs evidence that it detects a known or safely planted violation; an execution workflow owns how that evidence is produced.
 
 Default exception baselines to shrink-only. Growth is a boundary decision that records decision authority, reason, narrow scope, and removal condition. Moving code outside a guard's scope is also a boundary change. Read `references/recovery-guards.md` when designing or retiring a guard or changing an exception baseline.
 
@@ -90,21 +111,23 @@ Default exception baselines to shrink-only. Growth is a boundary decision that r
 
 Reduce avoidable friction without weakening controlling product, safety, security, privacy, or compliance policy. Recurring bypass signals route cost, not misconduct. The owning workflow may contain active risk immediately; trace containment scope, decision authority, cost, and exit while repairing the durable path.
 
-## 8. Keep Change And Deletion Routine
+## 8. Metabolize Or Rot
 
-Make drift, migration, and deletion routine. A new noun, layer, or abstraction must remove more ambiguity than it adds. In an existing system, name what it retires; otherwise record net growth, accountability, reason, and review trigger. In greenfield work, compare it with a simpler omitted alternative instead of inventing a retirement ledger.
+Rot is entropy: it cannot be prevented, only metabolized faster than it accumulates. Make drift, migration, and deletion routine. A new noun, layer, or abstraction must remove more ambiguity than it adds. In an existing system, name what it retires; otherwise record net growth, accountability, reason, and review trigger. In greenfield work, compare it with a simpler omitted alternative instead of inventing a retirement ledger.
 
 A retirement closes the active entry surface, enumerates and migrates or retires dependents, and preserves required behavioral evidence outside the implementation. Historical code informs behavior and risk; it does not define the target topology.
 
-Begin a rewrite with the smallest independently replaceable slice and its preserved contracts. Expand only if bounded migration cannot close. Whole-target replacement closes only when the target is bounded and independently replaceable; entry surfaces, dependents, state, and preserved contracts are scoped; sections 2 and 5 close; and every viable smaller slice cannot reach the same terminal invariant or has greater evidenced migration or recovery risk.
+Begin a rewrite by deriving the target terminal invariant and target seam from representative evidence. Then select the smallest independently replaceable implementation slice and its preserved contracts. Expand only when evidence shows that a bounded migration cannot close safely or carries greater migration or recovery risk than a broader replacement.
+
+A whole-target replacement is valid when the target is bounded, its surfaces, dependents, state, preserved contracts, acceptance evidence, and recovery path are known, and representative smaller slices do not reach the same invariant at equal or lower evidenced risk. Do not demand proof over unbounded hypothetical slices.
 
 ## References
 
 Read only when needed:
 
-- `references/rule-rationale.md` — rule mechanisms, provenance, omissions.
-- `references/task-routes-and-lenses.md` — design and review routes and matrix.
-- `references/surface-cutover.md` — fallback compatibility and cutover evidence.
-- `references/recovery-guards.md` — recovery, guard, and exception details.
-- `references/rot-audit.md` — drift and long-lived-health indicators.
-- `references/architecture-records.md` — record authority, routing, and delegated structure.
+- `references/rule-rationale.md` — before changing, auditing, replacing, or retiring a Keel rule.
+- `references/task-routes-and-lenses.md` — when a substantial greenfield design, architecture review, boundary change, or structural refactor benefits from a formal route.
+- `references/surface-cutover.md` — when repository grades are absent, a surface may be a de facto contract, or cutover evidence is needed.
+- `references/recovery-guards.md` — when selecting recovery controls, designing or retiring a guard, or changing an exception baseline.
+- `references/rot-audit.md` — when governing architecture decay or auditing drift, recurring bypass, exception growth, or long-lived health.
+- `references/architecture-records.md` — when records carry or route load-bearing architecture facts.

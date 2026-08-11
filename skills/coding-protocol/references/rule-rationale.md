@@ -4,7 +4,7 @@ The initial observations are traceable to [Andrej Karpathy's public post](https:
 
 ## Failure modes → protocol rules
 
-Each observed failure mode maps to the SKILL.md section that counters it. When editing SKILL.md, keep this map true in both directions: a failure mode with no rule, or a rule with no motivation here, is drift.
+This is a maintenance index for non-obvious failure mechanisms, not a requirement for one rule or test per row. Keep mappings useful, merge overlap, and remove rows that no longer change the protocol.
 
 | Failure mode | Countered by |
 | --- | --- |
@@ -12,6 +12,7 @@ Each observed failure mode maps to the SKILL.md section that counters it. When e
 | **Contract drift** — treating runtime data outside a declared contract as authority to widen accepted values or invent semantics without resolving the applicable authority and precedence | 2 Work From Evidence; 3 Handle Material Uncertainty; 4 Keep Changes Small |
 | **Unverified claims** — stating behavior or "passing" checks that were never actually run | 2 Work From Evidence; 7 Verify Proportionally |
 | **Overcomplicated output** — bloated code, abstractions, and APIs; far more code than necessary | 4 Keep Changes Small |
+| **Pilot-scope collapse** — sample count does not reveal whether a first tranche is a local change, rollout template, or disposable experiment; silently guessing or back-propagating an observed outcome into intent produces either a sample-shaped abstraction or an unrequested universal framework | 3 Handle Material Uncertainty; 4 Keep Changes Small; 8 Report Only What Matters |
 | **Collateral changes** — edits to code and comments orthogonal to the task, including parts not sufficiently understood | 4 Keep Changes Small; 5 Preserve User Work |
 | **No self-cleanup** — scaffolding and dead code left behind by the model's own edits | 4 Keep Changes Small (cleanup clause) |
 | **Sycophancy** — agreeing too readily instead of pushing back or surfacing better alternatives | 3 (evidence-conflict clause); 4 (surface the simpler solution) |
@@ -33,8 +34,8 @@ Each observed failure mode maps to the SKILL.md section that counters it. When e
 | **Representation-coupled verification** — asserting an incidental or private implementation representation as if it proved behavior, when that exact representation is not the documented contract or guard target | 7 Verify Proportionally |
 | **Thrashing** — repeated failed fix attempts that widen the blast radius or flip direction instead of stopping with a diagnosis | 7 Verify Proportionally |
 | **Unattended guessing** — with no user available to ask, material ambiguity silently downgrades to a confident guess | 3 Handle Material Uncertainty |
-| **Dropped requirements** — reporting done while parts of the request or a focused workflow's primary completion criterion were silently dropped or reinterpreted | 8 Report Only What Matters |
-| **Process noise** — narrated ritual, irrelevant detail, overstated confidence, or compressing a required focused artifact in the name of brevity | 8 Report Only What Matters |
+| **Dropped requirements** — reporting done while parts of the request, a mixed task's applicable execution portion, or a focused workflow's primary completion criterion were silently dropped or reinterpreted | Preamble (mixed-task clause); 8 Report Only What Matters |
+| **Process noise** — applying execution ritual outside the protocol's scope, including continuing after its applicability gate excludes the task; narrating irrelevant process; overstating confidence; or compressing a required focused artifact in the name of brevity | Preamble (applicability and exit gate); 8 Report Only What Matters |
 
 ## Effective working patterns
 

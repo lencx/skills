@@ -4,7 +4,9 @@ Read only when auditing architecture drift, recurring bypass, exception growth, 
 
 ## Route
 
-Declare the audit scope, selected indicators, evidence window, exception baseline, and negative-control evidence. Close when every in-scope indicator has grounded evidence, an explicitly unavailable source, or a reasoned exclusion. Return findings, justified no-action or subtraction candidates, accountable owners, the next review trigger, and any next snapshot.
+Declare the audit scope, selected indicators, evidence window, exception baseline, and negative-control evidence. Evidence accounting is complete when every in-scope indicator has grounded evidence, an explicitly unavailable source, or a reasoned exclusion.
+
+Apply SKILL.md's Closed/Open contract to the audit. Unavailable sources or exclusions that could change a load-bearing decision contribute applicable findings or decision-changing unknowns and therefore select Open. In either state, additionally return justified no-action or subtraction candidates, indicator owners or explicit ownership gaps, the next review trigger, and any next snapshot.
 
 ## Indicators
 
@@ -17,7 +19,7 @@ Lagging symptoms such as incidents and rewrites arrive late, so use leading indi
 | Observed violation history | Track real violations separately as pressure on the boundary. A long quiet period does not by itself justify retiring a falsifiable guard. |
 | Public surface growth | Compare exports, fields, and options added per period with delivered behavior or outcomes. Surface outgrowing delivery means promises may be minted as a side effect. |
 | Concept count | Compare new nouns—services, managers, layers, configuration keys—with retired concepts or explicitly accepted net growth. |
-| Ambiguous authority | The same fact is independently editable through multiple routes without the applicable section 3 dimensions needed to reconcile them. Deliberate federation and replicas are not defects when those dimensions are explicit. |
+| Duplicate truth or stale authority | The same fact is independently editable through multiple routes, or its declared source or owner no longer matches the active change path. Deliberate federation and replicas are not defects when the applicable section 3 dimensions and reconciliation are explicit. |
 | Boundary or accountability divergence | Code widens or crosses a declared boundary without corresponding contract and decision-right evidence. Internal churn behind an unchanged contract is not drift. |
 | Bypass frequency | Track how often the governed path is skipped. After controlling policy is accounted for, a rising rate may expose avoidable route cost; it is not evidence of individual misconduct. |
 | Undeclared cross-boundary imports | Count imports that violate declared dependency direction or bypass a public surface, not directory kinship by itself. |

@@ -17,12 +17,14 @@ This list grants no edit permission. The user and host grant action authorizatio
 
 ## Select A Route
 
-| Context | Default action | Closed when |
+If sources or requests conflict, resolve the conflict branch alongside the structural context, then apply SKILL.md's Closed/Open contract to the combined result.
+
+| Context | Default action | Complete when |
 | --- | --- | --- |
-| Existing; structure preserved | Clarify the current canonical record's status and repair focused links without changing facts. Record unresolved conflicts as findings. | No new document structure or parallel authority was introduced and every changed fact still resolves to its declared source. |
+| Existing; structure preserved | Clarify the current canonical record's status and repair focused links without changing facts. Apply the conflict overlay when sources or requests disagree. | No new document structure or parallel authority was introduced, every changed fact still resolves to its declared source, and any conflict is resolved through the overlay. |
 | Existing; restructuring authorized | Inventory facts, owners, readers, inbound links, generators, guards, immutable history, and rollback or forward-recovery routes. Migrate the smallest coherent slice and retire or redirect its old entry points. | The target owner, every affected reader and route, regeneration, validation, migration recovery, and old-record lifecycle are resolved. |
 | Greenfield; record structure authorized | Create only the records required by current facts and decisions. Start with one canonical record per coherent fact jurisdiction; add an index only when more than one entry path needs navigation. | Every material fact has an owner and evidence path, without empty scaffolding or duplicated prose. |
-| Sources or requests conflict | Partition jurisdiction. Select one source with projections only when decision authority or precedence permits; otherwise keep the material choice open. Accept unusual but coherent format preferences. | The conflict rule is explicit, or the decision-changing unknown and its owner are returned without false closure. |
+| Sources or requests conflict | Partition jurisdiction. Select one source with projections only when decision authority or precedence permits; otherwise keep the material choice open. Accept unusual but coherent format preferences. | The conflict branch is complete when decision authority or precedence yields an explicit conflict rule; otherwise it contributes an applicable finding or decision-changing unknown to SKILL.md's Open branch. |
 
 ## Keep Record Roles Distinct
 

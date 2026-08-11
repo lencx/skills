@@ -1,6 +1,6 @@
 ---
 name: coding-protocol
-description: "Risk-scaled execution guardrails for repository-scoped code or configuration changes, bug fixes, debugging, refactors, code reviews, test changes, implementation plans that lead to code, and Git mutations. Skip conceptual explanations, contract-preserving prose-only edits, pure architecture design, and read-only repository status."
+description: "Risk-scaled execution guardrails for repo code/config/test changes, debugging, code review, implementation plans, and Git mutations. Skip architecture-only work, conceptual explanations, contract-preserving prose-only edits, and status-only queries."
 metadata:
   version: "1.3.1"
   author: "lencx"
@@ -8,7 +8,15 @@ metadata:
 
 # Coding Protocol
 
-A low-friction protocol for reliable coding work. Apply it in the background; surface only decisions, blockers, verification, and material risk.
+A low-friction protocol for reliable coding work. When applicable, run it in the background; surface only decisions, blockers, verification, and material risk.
+
+## Applicability Gate
+
+Run this gate before any protocol step or reference read:
+
+- **Apply** when the task includes repository code, configuration, or test work; debugging; code review; an implementation plan; or a Git mutation. A mixed task remains in scope for its applicable execution portion.
+- **Exit** when the task is only conceptual explanation, a contract-preserving prose-only edit, read-only status, or architecture decision work with no repository implementation plan.
+- **Handoff after a forced or mistaken load** — state the mismatch briefly and continue with the owning workflow, or the general workflow when none applies, without this protocol.
 
 Repository evidence supplies local facts. Repository instructions and contracts supply required checks. A focused workflow supplies its method, artifact, and completion criterion. This protocol supplies execution constraints: authorization, action scope, work preservation, environment assumptions, evidence integrity, and truthful reporting. Combine requirements by concern; activation never supersedes another source or expands authority. Follow the host's established precedence when requirements conflict. Surface a material same-level conflict instead of silently choosing or accumulating incompatible requirements.
 
@@ -44,6 +52,8 @@ If the requested outcome, stated facts, or mechanism conflicts with observed evi
 ## 4. Keep Changes Small
 
 Make the smallest complete change consistent with the authorized request, repository contracts, and focused workflow. Match local patterns. Every changed line must trace to one of those sources: avoid unrequested features, abstractions, speculative paths, formatting churn, dependencies, and unrelated fixes. Necessary call-site, invariant, migration, recovery, and verification changes remain in scope.
+
+A first tranche does not establish its target scope. Resolve local change, rollout template, or disposable experiment from the request or an authoritative scope source—not sample count, code shape, the word *pilot*, or a later outcome. If that distinction materially changes the seam or promises, ask one decision-changing question or keep the work reversible and broader reuse unclaimed. The smallest mutation may still need evidence against a declared family-level acceptance criterion; it does not authorize migrating the remainder.
 
 Prefer a simpler supported solution when the mechanism was only a suggestion; preserve it when it is material to user intent. Refactor only as needed for a safe completion. Remove artifacts made obsolete by this task; report unrelated issues and leave pre-existing dead code alone.
 
