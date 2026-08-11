@@ -1,6 +1,6 @@
 ---
 name: keel
-description: "Design, review, or govern load-bearing architecture for new projects, existing systems, and module boundaries. Skip work that only implements fixed architecture. Use for open choices or long-lived health; private/local/reversible choices qualify. Covers shape/ownership, interfaces/contracts, dependency/state/recovery, structural change/reusable seams, drift/rot, guard/exception health, migration, deletion, and rewrite risk."
+description: "Design, review, or govern load-bearing architecture for open choices, design judgments, or long-lived health; skip fixed-architecture execution. Applies to new/existing systems. Private/local/reversible module boundaries qualify; scale rigor to impact. Covers responsibility/authority, interfaces/contracts, dependency/state/recovery, structural seams, guards/exceptions, drift/rot, migration, retirement, deletion, and rewrite risk."
 metadata:
   version: "1.5.0"
   author: "lencx"

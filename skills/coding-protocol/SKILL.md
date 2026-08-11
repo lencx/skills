@@ -1,6 +1,6 @@
 ---
 name: coding-protocol
-description: "Risk-scaled execution guardrails for repo code/config/test changes, debugging, code review, implementation plans, and Git mutations. Skip architecture-only work, conceptual explanations, contract-preserving prose-only edits, and status-only queries."
+description: "Risk-scaled execution guardrails for repository work. Skip architecture-only, explanation-only, contract-preserving prose-only, and status-only tasks. Covers code/config/test changes, debugging, code review, implementation plans, and Git mutations. In mixed tasks, apply only to the repository-work portion."
 metadata:
   version: "1.4.0"
   author: "lencx"
