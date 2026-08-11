@@ -19,6 +19,8 @@ duplicating the full route.
 | `boundary_change` | a contract, schema, export, flag, entry surface, or compatibility promise is added, widened, moved, or removed | identify affected consumers, decision authority, compatibility or cutover commitment, and proportionate verification |
 | `structural_refactor` | a load-bearing module or seam is split, merged, moved, rewritten, or generalized | separate target seam from first mutation slice; preserve contracts and deletion path; when broader family scope is authoritative, check a materially distinct unedited member |
 
+Complete a selected route only when its branch-specific concern appears in the recommendation or is recorded as an Open unknown. Treat SKILL.md sections 1–8 as the sole source of cross-cutting obligations.
+
 If evidence reopens a materially different direction, return to comparison
 instead of finishing the current route by inertia.
 
