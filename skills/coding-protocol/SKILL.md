@@ -1,6 +1,6 @@
 ---
 name: coding-protocol
-description: "Risk-scaled guardrails for repo code/config/test/contract changes, debugging, code review, implementation plans, or Git mutations. In mixed tasks, govern only that work. Skip architecture decision/review, explanation, contract-preserving prose, and status."
+description: "Risk-scaled repo execution and code-evidence protocol. Skip architecture-only work, explanation, contract-preserving prose, and status. Use for contract changes, debugging, code review, implementation plans, and Git mutation; mixed tasks: only those parts."
 ---
 
 # Coding Protocol

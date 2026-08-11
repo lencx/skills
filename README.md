@@ -52,23 +52,31 @@ claude plugin install lencx-skills@lencx
 
 ## Updates and Versioning
 
-In `npx skills@latest`, `@latest` means “use the current installer”; it is not a repository version. This repository has one published content version: its immutable bundle tag.
+In `npx skills@latest`, `@latest` means “use the current installer”; it is not the bundle version. The Codex and Claude plugin manifests currently identify the candidate bundle as `1.4.0`. The first tagged release is planned as `v1.4.0` but has not been published; pinned commands using that tag work only after it exists.
 
-For rolling global installations, update the skills already installed:
+Update only these installed skills:
 
 ```bash
-npx skills@latest update -g
+# Project-scoped
+npx skills@latest update keel coding-protocol -p
+
+# Global
+npx skills@latest update keel coding-protocol -g
 ```
 
 `update` does not discover skills added to this repository later; run `add` again to install a newly published skill.
 
-For a reproducible installation, pin the bundle to an immutable source tag:
+After the tag is published, pin a reproducible installation to it:
 
 ```bash
-npx skills@latest add 'lencx/skills#v1.0.0' --skill keel coding-protocol -a codex -g -y
+# Codex
+npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y
+
+# Claude Code
+npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y
 ```
 
-The content version is the bundle/tag `v1.0.0`. To upgrade a pinned installation, rerun `add` with the new tag instead of expecting `update` to cross the original source ref. The Codex and Claude plugin manifests carry the same bundle SemVer; after `1.0.0`, published content advances that version monotonically and uses the matching immutable Git tag.
+A pinned source ref does not advance to another tag through `update`; rerun `add` with the new tag. Both plugin manifests carry the same bundle SemVer, and each release uses the matching Git tag. Release policy treats a published tag as immutable; configure repository tag protection or a ruleset before publishing if technical enforcement is required.
 
 ## Skills
 

@@ -50,23 +50,31 @@ claude plugin install lencx-skills@lencx
 
 ## 更新与版本
 
-在 `npx skills@latest` 中，`@latest` 仅表示“使用当前安装器”，不是仓库版本。本仓库只有一个正式内容版本：不可变的 bundle tag。
+在 `npx skills@latest` 中，`@latest` 仅表示“使用当前安装器”，不是 bundle 版本。Codex 与 Claude 的 plugin manifest 当前将候选 bundle 标记为 `1.4.0`。首个带 tag 的版本计划为 `v1.4.0`，但目前尚未发布；引用该 tag 的固定安装命令只有在 tag 存在后才可用。
 
-滚动更新全局安装时，只更新已经安装的 skill：
+只更新这两个已安装的 skill：
 
 ```bash
-npx skills@latest update -g
+# 项目范围
+npx skills@latest update keel coding-protocol -p
+
+# 全局
+npx skills@latest update keel coding-protocol -g
 ```
 
 `update` 不会发现此仓库后来新增的 skill；要安装新发布的 skill，需要再次运行 `add`。
 
-需要可复现安装时，用不可变 source tag 固定 bundle：
+tag 发布后，可将可复现安装固定到该 tag：
 
 ```bash
-npx skills@latest add 'lencx/skills#v1.0.0' --skill keel coding-protocol -a codex -g -y
+# Codex
+npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y
+
+# Claude Code
+npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y
 ```
 
-内容版本统一为 bundle/tag `v1.0.0`。升级固定版本的安装时，应使用新 tag 重新运行 `add`，不要期待 `update` 跨越原来的 source ref。Codex 与 Claude 的 plugin manifest 使用同一个 bundle SemVer；正式发布 `1.0.0` 后，任何发布内容变更都单调递增该版本，并使用同名不可变 Git tag。
+固定 source ref 不会通过 `update` 前进到另一个 tag；升级时应使用新 tag 重新运行 `add`。两份 plugin manifest 使用同一个 bundle SemVer，每次发布使用匹配的 Git tag。发布策略将已经发布的 tag 视为不可变；如需技术强制，应在发布前配置 tag protection 或 ruleset。
 
 ## 技能
 
