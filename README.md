@@ -64,7 +64,7 @@ npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a code
 npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y  # Claude Code
 ```
 
-`update` only refreshes installed skills; use `add` to install new skills or switch tags.
+`update` operates on tracked skills. Use `add` to install a new skill or change its Git ref.
 
 ## Skills
 

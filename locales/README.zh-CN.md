@@ -62,7 +62,7 @@ npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a code
 npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y  # Claude Code
 ```
 
-`update` 只刷新已安装的 skill；安装新 skill 或切换 tag 时使用 `add`。
+`update` 只处理已跟踪的 skill；安装新 skill 或更改 Git ref 时使用 `add`。
 
 ## 技能
 
