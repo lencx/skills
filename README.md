@@ -50,32 +50,6 @@ claude plugin marketplace add lencx/skills
 claude plugin install lencx-skills@lencx
 ```
 
-### Update Skills
-
-Use the same path you chose for installation.
-
-#### Skills Installer
-
-```bash
-# Update the selected project or global scope
-npx skills@latest update
-```
-
-Pass `-p` to update project skills only, or `-g` to update global skills only.
-
-#### Native Plugin
-
-```bash
-# Codex — refresh the marketplace, then reinstall from it
-codex plugin marketplace upgrade lencx
-codex plugin add lencx-skills@lencx
-
-# Claude Code — restart Claude Code after the update
-claude plugin update lencx-skills@lencx
-```
-
-Start a new Codex task, or restart Claude Code, to load the updated plugin.
-
 ## Skills
 
 - [keel](./skills/keel): Load-bearing architecture design, review, and governance for new and existing systems—authority, ownership, contracts, dependency and state boundaries, recovery, structural change, drift, guards, migration, and deletion.
