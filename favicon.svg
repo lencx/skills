@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="161 -10 320 320" width="100%" height="100%" role="img" aria-labelledby="title description">
+  <title id="title">lencx skills logo - AI Singularity</title>
+  <desc id="description">Highly optimized, sharp and elegant data wings converging into a precise singularity.</desc>
+  <defs>
+    <linearGradient id="core-wing-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+
+    <linearGradient id="core-wing-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+
+    <linearGradient id="core-wing-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#D946EF" />
+    </linearGradient>
+
+    <filter id="ambientGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020617" flood-opacity="0.25" />
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#60A5FA" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <g filter="url(#ambientGlow)">
+    <g transform="rotate(-64 256 256)">
+      <path d="M 256,256 C 240,140 360,110 460,160 C 390,195 320,250 256,256 Z"
+            fill="url(#core-wing-1)" opacity="0.85" />
+    </g>
+
+    <g transform="rotate(-32 256 256)">
+      <path d="M 256,256 C 240,140 360,110 460,160 C 390,195 320,250 256,256 Z"
+            fill="url(#core-wing-2)" opacity="0.9" />
+    </g>
+
+    <g transform="rotate(0 256 256)">
+      <path d="M 256,256 C 240,140 360,110 460,160 C 390,195 320,250 256,256 Z"
+            fill="url(#core-wing-3)" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,625 @@
+# lencx-skills 中文文档
+
+lencx-skills 已发布中文页面的完整语料。
+
+Documentation index: https://skills.lencx.me/zh/llms.txt
+
+---
+
+# Skills 精选
+
+值得在安装前先了解的主流 GitHub Skills 项目。
+
+Page: https://skills.lencx.me/zh/collections/
+Markdown: https://skills.lencx.me/zh/collections/index.md
+
+先了解每个项目做什么、适合什么场景，以及安装前要注意什么。
+
+<div class="curated-browser" data-curated-browser>
+<div class="curated-filters" data-curated-filters role="group" aria-label="按标签筛选精选项目" hidden><button type="button" data-tag-filter="all" aria-pressed="true"><span>#全部</span><small>6</small></button><button type="button" data-tag-filter="reference" aria-pressed="false"><span>#参考</span><small>2</small></button><button type="button" data-tag-filter="engineering" aria-pressed="false"><span>#工程</span><small>4</small></button><button type="button" data-tag-filter="design" aria-pressed="false"><span>#设计</span><small>2</small></button><button type="button" data-tag-filter="delivery" aria-pressed="false"><span>#交付</span><small>3</small></button><button type="button" data-tag-filter="quality" aria-pressed="false"><span>#质量</span><small>4</small></button></div>
+<div class="curated-grid" data-curated-grid><article class="curated-card curated-card--anthropic" data-curated-card data-tags="reference quality" data-repository="anthropics/skills" data-description-source="github-about" data-art-seed="f2db8404c222" data-art-pattern="orbit" style="--curated-bg-angle:158deg;--curated-glow-x:85%;--curated-glow-y:11%;--curated-shape-right:-30px;--curated-shape-top:6px;--curated-shape-width:160px;--curated-shape-height:99px;--curated-shape-rotate:16deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/76263028?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-anthropic-agent-skills-title">Anthropic Agent Skills</h2><span class="curated-card__repository">anthropics/skills</span></div></div></header><a class="curated-card__primary-link" href="/zh/collections/anthropic-agent-skills/" aria-labelledby="curated-card-anthropic-agent-skills-title" title="Agent Skills 公共仓库"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="项目标签"><a class="curated-card__tag" href="/zh/collections/?tag=reference" data-card-tag="reference" aria-label="按标签筛选: #参考" title="按标签筛选: #参考">#参考</a><a class="curated-card__tag" href="/zh/collections/?tag=quality" data-card-tag="quality" aria-label="按标签筛选: #质量" title="按标签筛选: #质量">#质量</a></div><p class="curated-card__description" title="Agent Skills 公共仓库">Agent Skills 公共仓库</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub 快照"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="168,206">16.8万</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="20,038">2万</dd></div></dl><a class="curated-card__github-link" href="https://github.com/anthropics/skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Anthropic Agent Skills" title="查看 GitHub 仓库"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--matt" data-curated-card data-tags="engineering delivery" data-repository="mattpocock/skills" data-description-source="github-about" data-art-seed="89e612f6ea97" data-art-pattern="slash" style="--curated-bg-angle:151deg;--curated-glow-x:96%;--curated-glow-y:10%;--curated-shape-right:-4px;--curated-shape-top:-32px;--curated-shape-width:201px;--curated-shape-height:143px;--curated-shape-rotate:0deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/28293365?u=0d66fa0a2c0a4ec5201818081308c14a43b72fe5&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-matt-pocock-skills-title">Matt Pocock’s Skills</h2><span class="curated-card__repository">mattpocock/skills</span></div></div></header><a class="curated-card__primary-link" href="/zh/collections/matt-pocock-skills/" aria-labelledby="curated-card-matt-pocock-skills-title" title="面向真正工程师的 Skills，直接来自作者的 .agents 目录。"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="项目标签"><a class="curated-card__tag" href="/zh/collections/?tag=engineering" data-card-tag="engineering" aria-label="按标签筛选: #工程" title="按标签筛选: #工程">#工程</a><a class="curated-card__tag" href="/zh/collections/?tag=delivery" data-card-tag="delivery" aria-label="按标签筛选: #交付" title="按标签筛选: #交付">#交付</a></div><p class="curated-card__description" title="面向真正工程师的 Skills，直接来自作者的 .agents 目录。">面向真正工程师的 Skills，直接来自作者的 .agents 目录。</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub 快照"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="213,970">21.4万</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="18,468">1.8万</dd></div></dl><a class="curated-card__github-link" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Matt Pocock’s Skills" title="查看 GitHub 仓库"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--impeccable" data-curated-card data-tags="design quality" data-repository="pbakaus/impeccable" data-description-source="github-about" data-art-seed="21fcbee2e5fa" data-art-pattern="panel" style="--curated-bg-angle:145deg;--curated-glow-x:89%;--curated-glow-y:69%;--curated-shape-right:-24px;--curated-shape-top:41px;--curated-shape-width:148px;--curated-shape-height:110px;--curated-shape-rotate:-11deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/43004?u=a2129579fad3fa98301c2d64da926bbb5fb6b129&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-impeccable-title">Impeccable</h2><span class="curated-card__repository">pbakaus/impeccable</span></div></div></header><a class="curated-card__primary-link" href="/zh/collections/impeccable/" aria-labelledby="curated-card-impeccable-title" title="让 AI Harness 更擅长设计的一套设计语言。"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="项目标签"><a class="curated-card__tag" href="/zh/collections/?tag=design" data-card-tag="design" aria-label="按标签筛选: #设计" title="按标签筛选: #设计">#设计</a><a class="curated-card__tag" href="/zh/collections/?tag=quality" data-card-tag="quality" aria-label="按标签筛选: #质量" title="按标签筛选: #质量">#质量</a></div><p class="curated-card__description" title="让 AI Harness 更擅长设计的一套设计语言。">让 AI Harness 更擅长设计的一套设计语言。</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub 快照"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="58,314">5.8万</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="3,558">3558</dd></div></dl><a class="curated-card__github-link" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Impeccable" title="查看 GitHub 仓库"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--superpowers" data-curated-card data-tags="engineering delivery quality" data-repository="obra/superpowers" data-description-source="github-about" data-art-seed="4251a228ae40" data-art-pattern="radial" style="--curated-bg-angle:129deg;--curated-glow-x:92%;--curated-glow-y:41%;--curated-shape-right:6px;--curated-shape-top:-14px;--curated-shape-width:190px;--curated-shape-height:130px;--curated-shape-rotate:16deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/45416?u=37d9e6e1ec50898b8c0b4005613538db1f7a4167&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-superpowers-title">Superpowers</h2><span class="curated-card__repository">obra/superpowers</span></div></div></header><a class="curated-card__primary-link" href="/zh/collections/superpowers/" aria-labelledby="curated-card-superpowers-title" title="一套可落地的 Agent Skills 框架与软件开发方法论。"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="项目标签"><a class="curated-card__tag" href="/zh/collections/?tag=engineering" data-card-tag="engineering" aria-label="按标签筛选: #工程" title="按标签筛选: #工程">#工程</a><a class="curated-card__tag" href="/zh/collections/?tag=delivery" data-card-tag="delivery" aria-label="按标签筛选: #交付" title="按标签筛选: #交付">#交付</a><a class="curated-card__tag" href="/zh/collections/?tag=quality" data-card-tag="quality" aria-label="按标签筛选: #质量" title="按标签筛选: #质量">#质量</a></div><p class="curated-card__description" title="一套可落地的 Agent Skills 框架与软件开发方法论。">一套可落地的 Agent Skills 框架与软件开发方法论。</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub 快照"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="270,806">27.1万</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="24,194">2.4万</dd></div></dl><a class="curated-card__github-link" href="https://github.com/obra/superpowers" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Superpowers" title="查看 GitHub 仓库"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--gstack" data-curated-card data-tags="engineering design delivery" data-repository="garrytan/gstack" data-description-source="github-about" data-art-seed="695e19aa5fb0" data-art-pattern="terminal" style="--curated-bg-angle:119deg;--curated-glow-x:76%;--curated-glow-y:17%;--curated-shape-right:-26px;--curated-shape-top:-15px;--curated-shape-width:150px;--curated-shape-height:125px;--curated-shape-rotate:14deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/19957?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-gstack-title">gstack</h2><span class="curated-card__repository">garrytan/gstack</span></div></div></header><a class="curated-card__primary-link" href="/zh/collections/gstack/" aria-labelledby="curated-card-gstack-title" title="使用 Garry Tan 原样的 Claude Code 配置：23 个具有明确观点的工具，分别承担 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色。"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="项目标签"><a class="curated-card__tag" href="/zh/collections/?tag=engineering" data-card-tag="engineering" aria-label="按标签筛选: #工程" title="按标签筛选: #工程">#工程</a><a class="curated-card__tag" href="/zh/collections/?tag=design" data-card-tag="design" aria-label="按标签筛选: #设计" title="按标签筛选: #设计">#设计</a><a class="curated-card__tag" href="/zh/collections/?tag=delivery" data-card-tag="delivery" aria-label="按标签筛选: #交付" title="按标签筛选: #交付">#交付</a></div><p class="curated-card__description" title="使用 Garry Tan 原样的 Claude Code 配置：23 个具有明确观点的工具，分别承担 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色。">使用 Garry Tan 原样的 Claude Code 配置：23 个具有明确观点的工具，分别承担 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色。</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub 快照"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="127,596">12.8万</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="19,216">1.9万</dd></div></dl><a class="curated-card__github-link" href="https://github.com/garrytan/gstack" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: gstack" title="查看 GitHub 仓库"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--addy" data-curated-card data-tags="reference engineering quality" data-repository="addyosmani/agent-skills" data-description-source="github-about" data-art-seed="1b1a194f4fbb" data-art-pattern="dots" style="--curated-bg-angle:139deg;--curated-glow-x:95%;--curated-glow-y:17%;--curated-shape-right:-9px;--curated-shape-top:-31px;--curated-shape-width:161px;--curated-shape-height:96px;--curated-shape-rotate:10deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/110953?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-addy-agent-skills-title">Addy Osmani’s Agent Skills</h2><span class="curated-card__repository">addyosmani/agent-skills</span></div></div></header><a class="curated-card__primary-link" href="/zh/collections/addy-agent-skills/" aria-labelledby="curated-card-addy-agent-skills-title" title="面向 AI 编码代理的生产级工程 Skills。"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="项目标签"><a class="curated-card__tag" href="/zh/collections/?tag=reference" data-card-tag="reference" aria-label="按标签筛选: #参考" title="按标签筛选: #参考">#参考</a><a class="curated-card__tag" href="/zh/collections/?tag=engineering" data-card-tag="engineering" aria-label="按标签筛选: #工程" title="按标签筛选: #工程">#工程</a><a class="curated-card__tag" href="/zh/collections/?tag=quality" data-card-tag="quality" aria-label="按标签筛选: #质量" title="按标签筛选: #质量">#质量</a></div><p class="curated-card__description" title="面向 AI 编码代理的生产级工程 Skills。">面向 AI 编码代理的生产级工程 Skills。</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub 快照"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="86,280">8.6万</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="9,269">9269</dd></div></dl><a class="curated-card__github-link" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Addy Osmani’s Agent Skills" title="查看 GitHub 仓库"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article></div>
+</div>
+
+<p class="curated-index-note">入选由编辑判断决定；GitHub 指标只描述仓库活跃度，不代表兼容性或质量。 GitHub 快照: 2026年8月12日.</p>
+
+---
+
+# Addy Osmani’s Agent Skills
+
+一套生产工程生命周期 Skills，包含明确门槛、反合理化规则、专业角色和分阶段 Brownfield 采用路径。
+
+Page: https://skills.lencx.me/zh/collections/addy-agent-skills/
+Markdown: https://skills.lencx.me/zh/collections/addy-agent-skills/index.md
+
+<div class="curated-detail curated-card--addy">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/110953?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Addy Osmani’s Agent Skills">addyosmani/agent-skills</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=reference" title="按标签筛选: #参考">#参考</a><a href="/zh/collections/?tag=engineering" title="按标签筛选: #工程">#工程</a><a href="/zh/collections/?tag=quality" title="按标签筛选: #质量">#质量</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="86,280">86,280</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="9,269">9,269</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>be42637</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">它的独特性不在目录规模，而在每个工作流都会公开 Agent 常见的合理化借口、红旗和退出证据，让工程纪律可以被检查，而不是停留在口号。</p>
+<p>命令将 Define、Plan、Build、Verify、Review 与 Ship 映射到专注 Skills 和专业 personas。using-agent-skills 负责路由，并约束假设、技术反驳、范围和证据；单个 Skill 遵循触发 → 流程 → 合理化借口 → 红旗 → 验证，命令可以组合多项纪律，但 persona 不递归调用 persona。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">谁决定何时做、如何做、从什么视角做</h2>
+<p>仓库把流程编排、可复用方法和专家判断分开。这个边界让多 Agent 评审可以被理解，也防止 persona 递归产生隐藏流程。</p>
+</header>
+<div class="curated-signature curated-signature--responsibilities" data-story-kind="responsibilities">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">何时</span><h3>Command</h3><p>把 Define、Plan、Build、Verify、Review、Ship 等生命周期阶段映射到多项能力。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">如何</span><h3>Skill</h3><p>提供一种可复用流程，包含触发条件、步骤、合理化借口、红旗和验证。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">谁来判断</span><h3>Persona</h3><p>提供一种专家评审视角，但不会递归编排更多 personas。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/README.md" target="_blank" rel="noopener">生命周期与 Skills 目录<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/docs/adoption-guide.md#L73-L128" target="_blank" rel="noopener">Brownfield 采用<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/skills/doubt-driven-development/SKILL.md#L49-L181" target="_blank" rel="noopener">Doubt-driven Review<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">这些工作流为何可审计</h2>
+<div class="curated-story__mechanisms">
+<article><h3>可审计的质量门槛</h3><p>强制步骤、常见借口与反驳、红旗及明确退出证据，让每项工作流都能被检查，而不是停留在口号。</p></article><article><h3>分阶段 Brownfield 采用</h3><p>既有代码库从上下文、只读评审和针对下一次变更的特征测试开始，避免一次加载全部 Skills 或大爆炸重写。</p></article><article><h3>独立怀疑循环</h3><p>小型高风险产物可交给新上下文，只提供产物和契约，再把发现重新与一手内容核对。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">分阶段采用这套目录</h2>
+<ol class="curated-story__practice">
+<li><p>既有代码库先做 context engineering、只读评审，以及围绕下一项改动的 characterization tests。</p></li><li><p>只加载当前阶段需要的 Skills；仓库明确反对每次会话都注入完整目录。</p></li><li><p>只需一种专家判断时直接使用 persona，需要组合多种评审纪律时使用命令。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">按阶段使用生命周期，不要一次全量加载</h2>
+<div class="curated-story__decision">
+<div>
+<h3>适合</h3>
+<p>希望在 Greenfield 与 Brownfield 仓库中统一规格、实现、验证、评审和发布门槛的生产型团队。</p>
+</div>
+<div>
+<h3>注意边界</h3>
+<p>这套方法刻意具有规定性且阶段较多。单独复制某个 Skill 可能漏掉根目录共享 references，不同 Harness 的命令、personas、hooks 和插件能力也不完全一致。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>be42637</code></p>
+<ul>
+<li><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/README.md" target="_blank" rel="noopener">生命周期与 Skills 目录<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/docs/adoption-guide.md#L73-L128" target="_blank" rel="noopener">Brownfield 采用<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/skills/doubt-driven-development/SKILL.md#L49-L181" target="_blank" rel="noopener">Doubt-driven Review<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Anthropic Agent Skills
+
+Anthropic 公开的 Agent Skills 示例与参考实现，覆盖创意、技术、企业和文档工作流。
+
+Page: https://skills.lencx.me/zh/collections/anthropic-agent-skills/
+Markdown: https://skills.lencx.me/zh/collections/anthropic-agent-skills/index.md
+
+<div class="curated-detail curated-card--anthropic">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/76263028?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/anthropics/skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Anthropic Agent Skills">anthropics/skills</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=reference" title="按标签筛选: #参考">#参考</a><a href="/zh/collections/?tag=quality" title="按标签筛选: #质量">#质量</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="168,206">168,206</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="20,038">20,038</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/anthropics/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>f17010c</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">它不是一套软件交付制度。它真正有价值的地方，是用一手文件展示 Skill 如何打包、渐进加载，以及如何与 baseline 对照评估。</p>
+<p>每项 Skill 都是可独立加载的目录：名称与 description 常驻用于发现，触发后才加载 SKILL.md，脚本、references 与 assets 按需使用。仓库中的 skill-creator 还会让真实提示分别运行启用 Skill 与 baseline，评估断言和输出质量，再根据人工反馈迭代。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">什么内容会在何时进入上下文</h2>
+<p>Skill 的目录结构本质上是一份上下文预算契约：发现成本要低，触发后才加载主流程，较重的知识和工具只在任务真正需要时出现。</p>
+</header>
+<div class="curated-signature curated-signature--layers" data-story-kind="layers">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">始终可见</span><h3>name + description</h3><p>发现元数据同时告诉模型这个 Skill 做什么，以及何时应该选择它。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">触发之后</span><h3>SKILL.md</h3><p>只有触发条件匹配后，主决策流程才进入上下文。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">按需使用</span><h3>scripts / references / assets</h3><p>确定性操作、可选知识和输出素材保持在主提示之外，直到被引用或执行。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">基础 Skill 模板<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill Creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">这个仓库真正教会你的 Skill 设计</h2>
+<div class="curated-story__mechanisms">
+<article><h3>三级上下文加载</h3><p>发现元数据始终可见，触发后才加载 SKILL.md，附带资源只在真正需要时进入上下文或执行。</p></article><article><h3>行为与 Baseline 对照评估</h3><p>skill-creator 让真实提示分别启用与不启用 Skill，评估断言、输出、成本和耗时，并提供人工 Review。</p></article><article><h3>从极简到生产型示例</h3><p>极简模板与 Claude 实际使用、包含脚本和素材的文档工作流并列，也明确揭示不同许可边界。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">先评估行为，再润色文字</h2>
+<ol class="curated-story__practice">
+<li><p>从模板开始，description 要同时说明 Skill 做什么，以及什么情况下应当触发。</p></li><li><p>把主流程留在 SKILL.md，将重复操作、按需知识和输出素材分别放入 scripts、references 与 assets。</p></li><li><p>把触发失败与输出失败分开诊断：description 使用触发 eval，正文使用任务断言和人工 Review。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">把它当作参考资料库，而不是流程接管者</h2>
+<div class="curated-story__decision">
+<div>
+<h3>适合在</h3>
+<p>学习 Agent Skill 结构、创建 Claude Skill，或研究成熟的文档与工作流实现。</p>
+</div>
+<div>
+<h3>不要默认</h3>
+<p>Anthropic 明确说明多数内容用于演示与教育。应在自己的环境中验证；部分文档 Skills 仅为 source-available。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>f17010c</code></p>
+<ul>
+<li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md#about-this-repository" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">基础 Skill 模板<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill Creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# gstack
+
+一套基于角色的 Claude Code 操作系统，让产品意图持续流向规划、浏览器 QA、发布、部署和文档。
+
+Page: https://skills.lencx.me/zh/collections/gstack/
+Markdown: https://skills.lencx.me/zh/collections/gstack/index.md
+
+<div class="curated-detail curated-card--gstack">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/19957?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/garrytan/gstack" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: gstack">garrytan/gstack</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=engineering" title="按标签筛选: #工程">#工程</a><a href="/zh/collections/?tag=design" title="按标签筛选: #设计">#设计</a><a href="/zh/collections/?tag=delivery" title="按标签筛选: #交付">#交付</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="127,596">127,596</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="19,216">19,216</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/garrytan/gstack" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>94993f7</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">gstack 与其说是松散的 Skills 目录，不如说是一支被命令化的创业团队：产物从产品追问一路流向真实浏览器 QA、部署健康、发布文档和复盘。</p>
+<p>其关联 Sprint 是 Think → Plan → Build → Review → Test → Ship → Reflect。不同命令分别承担组织角色，office-hours 与各类 plan review 的产物会传递给工程、浏览器 QA、发布、部署、canary 和文档阶段；其中多个阶段能够改代码、提交、推送、创建或合并 PR，甚至部署。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">首尾相连的完整 Sprint</h2>
+<p>真正的区别是产物流转：上游产品与计划决策会成为工程、QA、发布和运维的输入，而不是在一次对话后被丢弃。</p>
+</header>
+<div class="curated-signature curated-signature--sprint" data-story-kind="sprint">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">Think</span><h3>office-hours</h3><p>追问问题、用户与产品判断。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">Plan</span><h3>多视角计划评审</h3><p>CEO、工程、设计、DX 和安全视角分别挑战不同假设。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">Build</span><h3>实现</h3><p>已确认的产物指导代码修改。</p></article><article class="curated-signature__item" style="--story-index:4"><span class="curated-signature__meta">Review</span><h3>静态与独立评审</h3><p>评审代码，并可按需引入第二模型。</p></article><article class="curated-signature__item" style="--story-index:5"><span class="curated-signature__meta">Test</span><h3>浏览器 QA</h3><p>在 Chromium 中复现、修复、重跑并增加回归证据。</p></article><article class="curated-signature__item" style="--story-index:6"><span class="curated-signature__meta">Ship</span><h3>PR → 部署 → Canary</h3><p>让结果穿过 CI、生产部署和上线后健康检查。</p></article><article class="curated-signature__item" style="--story-index:7"><span class="curated-signature__meta">Reflect</span><h3>文档与复盘</h3><p>发现过期文档，并把经验带入下一轮 Sprint。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/README.md#L171-L235" target="_blank" rel="noopener">Sprint 与角色流水线<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/docs/skills.md" target="_blank" rel="noopener">Skills 深入说明<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">这条 Sprint 如何超越写代码</h2>
+<div class="curated-story__mechanisms">
+<article><h3>浏览器进入主 QA 流程</h3><p>QA 驱动真实 Chromium，记录缺陷、以原子提交修复、重跑失败路径并增加回归测试；qa-only 保留纯报告模式。</p></article><article><h3>发布闭环不止于 Review</h3><p>Ship 在开 PR 前审计测试和覆盖率；land-and-deploy 等待 CI 与部署，canary 观察线上，document-release 检查过期文档。</p></article><article><h3>规划使用不同组织视角</h3><p>CEO、工程、设计、DX 与安全评审分别挑战不同假设，不把所有问题压缩成一个泛化 planning prompt。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">低风险评估这套系统</h2>
+<ol class="curated-story__practice">
+<li><p>先用 office-hours → plan-ceo-review → review → qa 低成本体验，再决定是否采用完整 Sprint。</p></li><li><p>在明确授权修改代码、提交、推送和部署前，优先使用 qa-only 等纯报告模式。</p></li><li><p>生产事故或严格限定改动范围的任务使用 guard。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">区分纯报告使用与交付权限</h2>
+<div class="curated-story__decision">
+<div>
+<h3>最适合</h3>
+<p>希望一个 Claude Code 环境覆盖产品思考、实现评审、实时 QA、发布、部署、文档和复盘的技术创始人或小团队。</p>
+</div>
+<div>
+<h3>权限边界</h3>
+<p>主要体验围绕 Claude Code，安装可能修改全局或受跟踪的 Agent 状态，且多个命令拥有高权限写操作。About 中的 23 应作为受控描述保留，而不能当作实时清单数量。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>94993f7</code></p>
+<ul>
+<li><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/README.md#L171-L235" target="_blank" rel="noopener">Sprint 与角色流水线<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/docs/skills.md" target="_blank" rel="noopener">Skills 深入说明<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/README.md#L444-L456" target="_blank" rel="noopener">隐私与遥测<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Impeccable
+
+帮助 AI 编码代理塑造、评审、审计和完善前端体验的设计指导与实用命令。
+
+Page: https://skills.lencx.me/zh/collections/impeccable/
+Markdown: https://skills.lencx.me/zh/collections/impeccable/index.md
+
+<div class="curated-detail curated-card--impeccable">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/43004?u=a2129579fad3fa98301c2d64da926bbb5fb6b129&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Impeccable">pbakaus/impeccable</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=design" title="按标签筛选: #设计">#设计</a><a href="/zh/collections/?tag=quality" title="按标签筛选: #质量">#质量</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="58,314">58,314</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="3,558">3,558</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>ae388ac</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">Impeccable 把设计变成一套权威来源与渲染证据系统，而不是一组只会要求 Agent“把页面做得更好看”的提示词。</p>
+<p>每次会话先解析 PRODUCT.md、DESIGN.md、对应 surface brief 和平台指南，再只加载一个负责当前任务的命令 playbook；真正修改 UI 前还会加载独立 craft floor。确定性 detector 与浏览器实时变体用于补充纯模型评审无法提供的证据。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">每次 UI 修改背后的权威栈</h2>
+<p>每一层回答不同问题。分开之后，重新设计可以替换视觉方向而不篡改产品事实，机械检查也只负责支撑设计判断，而不会冒充判断本身。</p>
+</header>
+<div class="curated-signature curated-signature--authority-stack" data-story-kind="authority-stack">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">产品事实</span><h3>PRODUCT.md</h3><p>用户、任务、证据、使用环境、约束与无障碍要求保持稳定。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">视觉事实</span><h3>DESIGN.md + surface brief</h3><p>产品级视觉世界与某个具体页面的独有决策彼此分离。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">一种判断</span><h3>命令 Playbook</h3><p>critique、audit、polish、harden 等命令只加载当前任务真正需要的方法。</p></article><article class="curated-signature__item" style="--story-index:4"><span class="curated-signature__meta">修改之前</span><h3>Craft floor</h3><p>独立质量底线约束排版、对比度、间距、图标和常见设计捷径。</p></article><article class="curated-signature__item" style="--story-index:5"><span class="curated-signature__meta">渲染证据</span><h3>Detector + 实时浏览器</h3><p>确定性规则捕获机械缺陷；live 模式比较真实渲染出的备选方案。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/README.md#why-impeccable" target="_blank" rel="noopener">Why Impeccable<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/SKILL.md#setup" target="_blank" rel="noopener">命令与示例<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/reference/live.md" target="_blank" rel="noopener">实时浏览器迭代<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">它比“做好设计”具体在哪里</h2>
+<div class="curated-story__mechanisms">
+<article><h3>产品事实与视觉方向分离</h3><p>重新设计可以替换视觉世界，但仍必须保留作为产品事实记录的用户、用途、证据、内容和约束。</p></article><article><h3>不同命令负责不同判断</h3><p>critique 判断体验，audit 检查技术质量，polish 收口发布缺口，harden 处理错误、i18n、溢出和边界状态。</p></article><article><h3>工具支撑的渲染证据</h3><p>Detectors 捕获机械缺陷；live 模式操作真实预览，包括元素选择、备选方案、标注与接受或拒绝。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">根据需要的判断选择命令</h2>
+<ol class="curated-story__practice">
+<li><p>先运行 impeccable init，让后续命令获得真实品牌和产品上下文。</p></li><li><p>把命令限定到具体目标，例如 audit blog、polish settings 或 harden checkout。</p></li><li><p>用 critique 判断体验，用 audit 执行确定性的技术检查；不要把两者混为一谈。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">采用方法，但不要泄露私有上下文</h2>
+<div class="curated-story__decision">
+<div>
+<h3>适合用于</h3>
+<p>需要设计塑形、UX 评审、技术审计或发版前完善的 Landing Page、作品集、应用界面和 Dashboard。</p>
+</div>
+<div>
+<h3>共享前检查</h3>
+<p>安装可能加入项目 hooks。Codex 用户需要审查并批准，hook 定义变化后可能要重新批准。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>ae388ac</code></p>
+<ul>
+<li><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/README.md#why-impeccable" target="_blank" rel="noopener">Why Impeccable<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/SKILL.md#setup" target="_blank" rel="noopener">命令与示例<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/reference/live.md" target="_blank" rel="noopener">实时浏览器迭代<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Matt Pocock’s Skills
+
+一组面向日常软件工程工作流、可组合且易于调整的 Skills。
+
+Page: https://skills.lencx.me/zh/collections/matt-pocock-skills/
+Markdown: https://skills.lencx.me/zh/collections/matt-pocock-skills/index.md
+
+<div class="curated-detail curated-card--matt">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/28293365?u=0d66fa0a2c0a4ec5201818081308c14a43b72fe5&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Matt Pocock’s Skills">mattpocock/skills</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=engineering" title="按标签筛选: #工程">#工程</a><a href="/zh/collections/?tag=delivery" title="按标签筛选: #交付">#交付</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="213,970">213,970</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="18,468">18,468</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>84fdeff</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">这套集合刻意拒绝成为统一生命周期：显式 orchestrator 负责组合流程，自动选中的 Skill 只贡献一种工程纪律，而仓库 setup 让两者服从项目本身的约定。</p>
+<p>grill-with-docs、implement 等用户调用 Skills 负责组织流程；诊断、TDD、research 和 code review 等模型调用 Skills 只提供一项可复用纪律。首次 setup 会先记录 issue tracker、triage 标签，以及领域上下文与 ADR 的位置，后续流程必须遵循这些仓库约定。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">三种不能混在一起的职责</h2>
+<p>最重要的设计选择是调用边界。它防止一个自动触发的辅助 Skill 在不知不觉中接管整个工程流程。</p>
+</header>
+<div class="curated-signature curated-signature--roles" data-story-kind="roles">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">用户显式调用</span><h3>流程编排器</h3><p>grill-with-docs、to-spec 与 implement 负责用户明确要求的一段流程。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">模型按需调用</span><h3>工程纪律</h3><p>诊断、TDD、research、领域建模与评审分别只提供一种可复用方法。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">仓库拥有</span><h3>Setup 契约</h3><p>后续流程开始依赖之前，先记录 tracker、triage 词汇，以及 CONTEXT.md 或 ADR 的位置。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/README.md#reference" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/setup-matt-pocock-skills/SKILL.md#process" target="_blank" rel="noopener">仓库 Setup<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">可以单独借鉴的工程机制</h2>
+<div class="curated-story__mechanisms">
+<article><h3>领域语言成为仓库状态</h3><p>grill-with-docs 会在 CONTEXT.md 中磨清术语，并把重要决策写入 ADR，让后续会话沿用代码库自己的名词。</p></article><article><h3>诊断从可变红的命令开始</h3><p>diagnosing Skill 在一个无人值守命令准确复现症状前拒绝推测，之后再最小化复现并检验可证伪假设。</p></article><article><h3>架构使用精确模块词汇</h3><p>codebase-design 在明确且可测试的 seam 上寻找深模块——用小接口隐藏大量行为，而不是泛泛建议重写。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">先完成仓库 Setup，再选择一种纪律</h2>
+<ol class="curated-story__practice">
+<li><p>托管的 Claude 插件和可编辑的 skills.sh 安装方式二选一，避免重复加载。</p></li><li><p>首次使用时完成仓库 setup，明确 issue tracker、标签和领域文档位置。</p></li><li><p>困难 Bug 先让一个快速命令稳定复现准确症状，再排列三到五个可证伪假设。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">选择模块化控制，而不是统一生命周期</h2>
+<div class="curated-story__decision">
+<div>
+<h3>适合</h3>
+<p>需要更好规格、领域建模、任务拆分、TDD、困难问题诊断或代码评审的仓库。</p>
+</div>
+<div>
+<h3>采用成本</h3>
+<p>工程 Skills 假设已经完成仓库级 setup；缺少 tracker、标签与文档约定时，默认流程可能与项目错位。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>84fdeff</code></p>
+<ul>
+<li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/README.md#reference" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/diagnosing-bugs/SKILL.md#phase-1--build-a-feedback-loop" target="_blank" rel="noopener">Skills 参考<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/setup-matt-pocock-skills/SKILL.md#process" target="_blank" rel="noopener">仓库 Setup<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Superpowers
+
+由可组合 Skills 构成的编码代理软件开发方法，覆盖设计、规划、测试、评审和交付。
+
+Page: https://skills.lencx.me/zh/collections/superpowers/
+Markdown: https://skills.lencx.me/zh/collections/superpowers/index.md
+
+<div class="curated-detail curated-card--superpowers">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/45416?u=37d9e6e1ec50898b8c0b4005613538db1f7a4167&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/obra/superpowers" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Superpowers">obra/superpowers</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=engineering" title="按标签筛选: #工程">#工程</a><a href="/zh/collections/?tag=delivery" title="按标签筛选: #交付">#交付</a><a href="/zh/collections/?tag=quality" title="按标签筛选: #质量">#质量</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="270,806">270,806</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="24,194">24,194</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/obra/superpowers" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>44c9b2d</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">安装 Superpowers 等于接受一套带硬门槛的开发制度：设计确认、隔离环境、TDD、独立评审和新鲜验证都是要求，而不是可选技巧。</p>
+<p>Brainstorming 与人工设计确认是规划和编码前的硬门槛。实现随后进入隔离 worktree，以 TDD 执行窄任务，并把实现者自审、规格评审和代码质量评审分开；只有刚刚重新执行且读完结果的证明命令，才能支持完成声明。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">一项改动在完成前必须通过的路径</h2>
+<p>顺序之所以重要，是因为每个门槛都会生成下一步依赖的证据。即使改动看起来很小，跳步仍被视为流程失败。</p>
+</header>
+<div class="curated-signature curated-signature--hard-gates" data-story-kind="hard-gates">
+<article class="curated-signature__item" style="--story-index:1"><h3>梳理问题</h3><p>澄清意图并比较方案。</p></article><article class="curated-signature__item" style="--story-index:2"><h3>确认设计</h3><p>在规划之前由人确认预期行为。</p></article><article class="curated-signature__item" style="--story-index:3"><h3>隔离环境</h3><p>使用 worktree 并建立干净基线。</p></article><article class="curated-signature__item" style="--story-index:4"><h3>拆解计划</h3><p>写出包含文件和证明命令的窄任务。</p></article><article class="curated-signature__item" style="--story-index:5"><h3>TDD</h3><p>通过 red、green、refactor 实现。</p></article><article class="curated-signature__item" style="--story-index:6"><h3>两层评审</h3><p>先检查规格符合性，再检查代码质量。</p></article><article class="curated-signature__item" style="--story-index:7"><h3>重新验证</h3><p>在声明完成前立即重跑证明命令。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/README.md" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/brainstorming/SKILL.md#the-process" target="_blank" rel="noopener">Brainstorming 工作流<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/verification-before-completion/SKILL.md#the-iron-law" target="_blank" rel="noopener">完成前验证<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">这些门槛为何不可省略</h2>
+<div class="curated-story__mechanisms">
+<article><h3>设计确认是硬门槛</h3><p>即便是小型行为变更，也要先解决意图、备选方案和可读设计，之后才能开始脚手架、规划或实现。</p></article><article><h3>实现与评审职责分离</h3><p>每个任务都依次经历实现、自审、规格符合性评审、代码质量评审，并在修复后重新评审。</p></article><article><h3>验证必须时间新鲜</h3><p>只有刚刚重新运行证明命令，并读完完整输出和退出状态，才能支持完成声明。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">用一项真实改动试运行</h2>
+<ol class="curated-story__practice">
+<li><p>先完成 brainstorming 和设计确认，再让 Agent 编写实现计划。</p></li><li><p>优先复用现有隔离环境，修改前运行项目 setup 与 baseline tests。</p></li><li><p>坚持 red、green、refactor，并在声明完成前重新执行能直接证明结论的命令。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">采用它会改变工作如何被批准</h2>
+<div class="curated-story__decision">
+<div>
+<h3>值得承担成本的场景</h3>
+<p>需要严格规格、隔离实现、TDD、子代理协作与评审闭环的功能开发或 Bug 修复。</p>
+</div>
+<div>
+<h3>流程冲突</h3>
+<p>其仓库把这些工作流定义为 mandatory，而非可选建议。采用前应确认这种流程接管程度符合项目既有规则。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>44c9b2d</code></p>
+<ul>
+<li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/README.md" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/brainstorming/SKILL.md#the-process" target="_blank" rel="noopener">Brainstorming 工作流<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/verification-before-completion/SKILL.md#the-iron-law" target="_blank" rel="noopener">完成前验证<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# 开始使用
+
+通过 skills 安装器或原生插件安装一次 lencx-skills。
+
+Page: https://skills.lencx.me/zh/get-started/
+Markdown: https://skills.lencx.me/zh/get-started/index.md
+
+请选择 skills 安装器或原生插件中的一种；同时使用会让每个技能重复出现。
+
+## 快速安装（推荐）
+
+```bash
+npx skills@latest add lencx/skills
+```
+
+## 特定安装（全局）
+
+```bash
+# Claude Code
+npx skills@latest add lencx/skills -a claude-code -g
+
+# Codex
+npx skills@latest add lencx/skills -a codex -g
+```
+
+## 原生插件安装
+
+### Codex
+
+```bash
+codex plugin marketplace add lencx/skills
+codex plugin add lencx-skills@lencx
+```
+
+### Claude Code
+
+```bash
+claude plugin marketplace add lencx/skills
+claude plugin install lencx-skills@lencx
+```
+
+## 更新 Skills
+
+请沿用安装时选择的方式。
+
+### Skills 安装器
+
+```bash
+# 更新所选的项目级或全局 Skills
+npx skills@latest update
+```
+
+只更新项目级 Skills 时使用 `-p`，只更新全局 Skills 时使用 `-g`。
+
+### 原生插件
+
+```bash
+# Codex：刷新 marketplace，再从中重新安装
+codex plugin marketplace upgrade lencx
+codex plugin add lencx-skills@lencx
+
+# Claude Code：更新后请重启 Claude Code
+claude plugin update lencx-skills@lencx
+```
+
+更新 Codex 插件后请开启新任务；更新 Claude Code 插件后请重启 Claude Code。
+
+安装后，请在任务中说明目标、成功标准与必要约束，再让 agent 选择适用的技能。
+
+---
+
+# 技能
+
+根据当前需要的判断职责选择 lencx-skills 工作流。
+
+Page: https://skills.lencx.me/zh/skills/
+Markdown: https://skills.lencx.me/zh/skills/index.md
+
+每项技能都有明确的职责和适用性入口。先描述目标与约束，再让 agent
+加载真正负责当前判断的工作流。
+
+## 按职责选择
+
+| 技能 | 适用场景 | 完整规范 |
+| --- | --- | --- |
+| [Keel](/zh/skills/keel/) | 承重架构的设计、评审或长期治理仍有开放判断。 | [英文规范](/skills/keel/) |
+| [Coding Protocol](/zh/skills/coding-protocol/) | 仓库执行或代码证据工作需要按风险控制。 | [英文规范](/skills/coding-protocol/) |
+
+## 组合使用
+
+Keel 负责架构判断，Coding Protocol 负责安全的仓库执行。一个任务同时包含两者时，先由
+Keel 收敛承重设计，再由 Coding Protocol 完成已经授权的修改与验证。
+
+当前中文页面提供入口与职责概要；可执行规则仍以仓库中的英文 `SKILL.md` 为准。
+
+工程工作流可以搭配 [Matt Pocock's Skills](https://github.com/mattpocock/skills)，
+产品与界面工作可以搭配 [Impeccable](https://github.com/pbakaus/impeccable)。
+两者都是独立项目，需要单独安装。
+
+---
+
+# Coding Protocol
+
+面向仓库执行与代码证据工作的风险分级约束。
+
+Page: https://skills.lencx.me/zh/skills/coding-protocol/
+Markdown: https://skills.lencx.me/zh/skills/coding-protocol/index.md
+
+> 本页是中文职责概要。[完整英文规范](/skills/coding-protocol/)与仓库中的
+> [`skills/coding-protocol/SKILL.md`](https://github.com/lencx/skills/blob/main/skills/coding-protocol/SKILL.md)
+> 是可执行行为的事实源。
+
+Coding Protocol 为仓库范围内的实现、调试、代码评审与 Git 修改提供按风险扩展的执行约束，
+重点保护授权边界、目标范围、证据真实性、用户已有工作、环境假设与验证结果。
+
+## 何时使用
+
+- 任务授权了代码、配置、测试或 Git 状态的修改。
+- 需要基于仓库证据做诊断或代码评审。
+- 任务同时包含专业工作流与实际仓库执行，需要为执行部分提供通用安全边界。
+
+## 何时不使用
+
+纯解释、架构判断或不改变契约的文字编辑不需要进入该协议。它不会因为被加载就扩大用户授权，
+也不会替代负责当前专业判断的工作流。
+
+## 核心原则
+
+从证据出发，做最小完整修改，保留用户工作，按风险验证，并如实报告未完成、失败或未验证的部分。
+
+---
+
+# Keel
+
+面向承重架构设计、评审与治理的工作流。
+
+Page: https://skills.lencx.me/zh/skills/keel/
+Markdown: https://skills.lencx.me/zh/skills/keel/index.md
+
+> 本页是中文职责概要。[完整英文规范](/skills/keel/)与仓库中的
+> [`skills/keel/SKILL.md`](https://github.com/lencx/skills/blob/main/skills/keel/SKILL.md)
+> 是可执行行为的事实源。
+
+Keel 用于新建与既有系统中的承重架构判断，覆盖责任与决策权、接口与契约、依赖和状态边界、
+恢复机制、结构切面、守卫与例外、漂移与腐化、迁移、退役、删除以及重写风险。
+
+## 何时使用
+
+- 仍需选择或比较一个会长期影响系统的结构方向。
+- 需要评审既有架构是否满足已声明的标准与边界。
+- 需要决定恢复、保留、迁移、退役或移除某项架构安排。
+
+## 何时不使用
+
+当架构已经由请求与有效约束明确固定，剩余工作只是实现、调试、调优或验证时，Keel
+会退出并把任务交给相应执行工作流。
+
+## 核心边界
+
+Keel 负责承重架构判断，不会因为自动加载而获得修改权限，也不会接管领域工作流的专业方法、
+执行流程或完成标准。

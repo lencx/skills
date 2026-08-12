@@ -1,0 +1,69 @@
+---
+title: "Superpowers"
+description: "由可组合 Skills 构成的编码代理软件开发方法，覆盖设计、规划、测试、评审和交付。"
+language: "zh-CN"
+---
+
+<div class="curated-detail curated-card--superpowers">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/45416?u=37d9e6e1ec50898b8c0b4005613538db1f7a4167&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/obra/superpowers" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Superpowers">obra/superpowers</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=engineering" title="按标签筛选: #工程">#工程</a><a href="/zh/collections/?tag=delivery" title="按标签筛选: #交付">#交付</a><a href="/zh/collections/?tag=quality" title="按标签筛选: #质量">#质量</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="270,806">270,806</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="24,194">24,194</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/obra/superpowers" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>44c9b2d</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">安装 Superpowers 等于接受一套带硬门槛的开发制度：设计确认、隔离环境、TDD、独立评审和新鲜验证都是要求，而不是可选技巧。</p>
+<p>Brainstorming 与人工设计确认是规划和编码前的硬门槛。实现随后进入隔离 worktree，以 TDD 执行窄任务，并把实现者自审、规格评审和代码质量评审分开；只有刚刚重新执行且读完结果的证明命令，才能支持完成声明。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">一项改动在完成前必须通过的路径</h2>
+<p>顺序之所以重要，是因为每个门槛都会生成下一步依赖的证据。即使改动看起来很小，跳步仍被视为流程失败。</p>
+</header>
+<div class="curated-signature curated-signature--hard-gates" data-story-kind="hard-gates">
+<article class="curated-signature__item" style="--story-index:1"><h3>梳理问题</h3><p>澄清意图并比较方案。</p></article><article class="curated-signature__item" style="--story-index:2"><h3>确认设计</h3><p>在规划之前由人确认预期行为。</p></article><article class="curated-signature__item" style="--story-index:3"><h3>隔离环境</h3><p>使用 worktree 并建立干净基线。</p></article><article class="curated-signature__item" style="--story-index:4"><h3>拆解计划</h3><p>写出包含文件和证明命令的窄任务。</p></article><article class="curated-signature__item" style="--story-index:5"><h3>TDD</h3><p>通过 red、green、refactor 实现。</p></article><article class="curated-signature__item" style="--story-index:6"><h3>两层评审</h3><p>先检查规格符合性，再检查代码质量。</p></article><article class="curated-signature__item" style="--story-index:7"><h3>重新验证</h3><p>在声明完成前立即重跑证明命令。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/README.md" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/brainstorming/SKILL.md#the-process" target="_blank" rel="noopener">Brainstorming 工作流<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/verification-before-completion/SKILL.md#the-iron-law" target="_blank" rel="noopener">完成前验证<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">这些门槛为何不可省略</h2>
+<div class="curated-story__mechanisms">
+<article><h3>设计确认是硬门槛</h3><p>即便是小型行为变更，也要先解决意图、备选方案和可读设计，之后才能开始脚手架、规划或实现。</p></article><article><h3>实现与评审职责分离</h3><p>每个任务都依次经历实现、自审、规格符合性评审、代码质量评审，并在修复后重新评审。</p></article><article><h3>验证必须时间新鲜</h3><p>只有刚刚重新运行证明命令，并读完完整输出和退出状态，才能支持完成声明。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">用一项真实改动试运行</h2>
+<ol class="curated-story__practice">
+<li><p>先完成 brainstorming 和设计确认，再让 Agent 编写实现计划。</p></li><li><p>优先复用现有隔离环境，修改前运行项目 setup 与 baseline tests。</p></li><li><p>坚持 red、green、refactor，并在声明完成前重新执行能直接证明结论的命令。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">采用它会改变工作如何被批准</h2>
+<div class="curated-story__decision">
+<div>
+<h3>值得承担成本的场景</h3>
+<p>需要严格规格、隔离实现、TDD、子代理协作与评审闭环的功能开发或 Bug 修复。</p>
+</div>
+<div>
+<h3>流程冲突</h3>
+<p>其仓库把这些工作流定义为 mandatory，而非可选建议。采用前应确认这种流程接管程度符合项目既有规则。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>44c9b2d</code></p>
+<ul>
+<li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/README.md" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/brainstorming/SKILL.md#the-process" target="_blank" rel="noopener">Brainstorming 工作流<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/verification-before-completion/SKILL.md#the-iron-law" target="_blank" rel="noopener">完成前验证<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>

@@ -1,0 +1,12 @@
+# lencx-skills
+
+Official documentation for lencx-skills, a growing collection of task-focused workflows for AI agents.
+
+Full corpus (all pages, one document): https://skills.lencx.me/llms-full.txt
+
+## Pages
+
+- [collections](https://skills.lencx.me/collections/llms.txt)
+- [Get started](https://skills.lencx.me/get-started/index.md) — Install lencx-skills once through the skills installer or a native plugin.
+- [skills](https://skills.lencx.me/skills/llms.txt)
+- [zh](https://skills.lencx.me/zh/llms.txt)

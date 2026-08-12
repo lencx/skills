@@ -1,0 +1,19 @@
+# lencx-skills 中文文档
+
+面向读者与 AI agent 的 lencx-skills 中文入口。
+
+完整中文语料：https://skills.lencx.me/zh/llms-full.txt
+
+## 页面
+
+- [Skills 精选](https://skills.lencx.me/zh/collections/index.md) — 值得在安装前先了解的主流 GitHub Skills 项目。
+- [Addy Osmani’s Agent Skills](https://skills.lencx.me/zh/collections/addy-agent-skills/index.md) — 一套生产工程生命周期 Skills，包含明确门槛、反合理化规则、专业角色和分阶段 Brownfield 采用路径。
+- [Anthropic Agent Skills](https://skills.lencx.me/zh/collections/anthropic-agent-skills/index.md) — Anthropic 公开的 Agent Skills 示例与参考实现，覆盖创意、技术、企业和文档工作流。
+- [gstack](https://skills.lencx.me/zh/collections/gstack/index.md) — 一套基于角色的 Claude Code 操作系统，让产品意图持续流向规划、浏览器 QA、发布、部署和文档。
+- [Impeccable](https://skills.lencx.me/zh/collections/impeccable/index.md) — 帮助 AI 编码代理塑造、评审、审计和完善前端体验的设计指导与实用命令。
+- [Matt Pocock’s Skills](https://skills.lencx.me/zh/collections/matt-pocock-skills/index.md) — 一组面向日常软件工程工作流、可组合且易于调整的 Skills。
+- [Superpowers](https://skills.lencx.me/zh/collections/superpowers/index.md) — 由可组合 Skills 构成的编码代理软件开发方法，覆盖设计、规划、测试、评审和交付。
+- [开始使用](https://skills.lencx.me/zh/get-started/index.md) — 通过 skills 安装器或原生插件安装一次 lencx-skills。
+- [技能](https://skills.lencx.me/zh/skills/index.md) — 根据当前需要的判断职责选择 lencx-skills 工作流。
+- [Coding Protocol](https://skills.lencx.me/zh/skills/coding-protocol/index.md) — 面向仓库执行与代码证据工作的风险分级约束。
+- [Keel](https://skills.lencx.me/zh/skills/keel/index.md) — 面向承重架构设计、评审与治理的工作流。

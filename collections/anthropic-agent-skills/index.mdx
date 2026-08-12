@@ -1,0 +1,69 @@
+---
+title: "Anthropic Agent Skills"
+description: "Anthropic’s public examples and reference implementations for creative, technical, enterprise, and document workflows."
+image: "https://skills.lencx.me/og.png"
+---
+
+<div class="curated-detail curated-card--anthropic">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/76263028?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/anthropics/skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Anthropic Agent Skills">anthropics/skills</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=reference" title="Filter by tag: #Reference">#Reference</a><a href="/collections/?tag=quality" title="Filter by tag: #Quality">#Quality</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="168,206">168,206</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="20,038">20,038</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/anthropics/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>f17010c</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">This is not a software-delivery operating system. Its value is showing, in first-party files, how a Skill is packaged, progressively loaded, and tested against a baseline.</p>
+<p>Each Skill is an independently loadable directory. Its name and description stay visible for discovery, SKILL.md loads when triggered, and scripts, references, or assets are used only when needed. The bundled skill-creator then evaluates real prompts against a baseline, grades assertions and output quality, and iterates from human feedback.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">What enters context, and when</h2>
+<p>The package shape is a context-budget contract. A useful Skill keeps discovery cheap, delays its procedure until it triggers, and defers heavy material until the task actually needs it.</p>
+</header>
+<div class="curated-signature curated-signature--layers" data-story-kind="layers">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">Always visible</span><h3>name + description</h3><p>Discovery metadata tells the model both what the Skill does and when it should be selected.</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">After trigger</span><h3>SKILL.md</h3><p>The decision procedure enters context only after the trigger has matched.</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">On demand</span><h3>scripts / references / assets</h3><p>Deterministic work, optional knowledge, and output material remain outside the main prompt until referenced or executed.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">Basic Skill template<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">What the repository teaches about Skill design</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Three context levels</h3><p>Discovery metadata is always visible, SKILL.md loads only after a trigger, and bundled resources enter context or execute only when needed.</p></article><article><h3>Behavior is evaluated against a baseline</h3><p>skill-creator runs realistic prompts with and without the Skill, grades assertions and outputs, records cost and timing, and presents human review.</p></article><article><h3>Minimal and production-heavy examples</h3><p>A tiny template sits beside script- and asset-heavy document workflows used by Claude, exposing both packaging extremes and their license boundary.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">Evaluate behavior before polishing prose</h2>
+<ol class="curated-story__practice">
+<li><p>Start with the template and make the description say both what the skill does and when it should trigger.</p></li><li><p>Keep the main procedure in SKILL.md; move repeatable operations, optional knowledge, and output material into scripts, references, and assets.</p></li><li><p>Diagnose trigger failures separately from output failures: tune description with trigger evals, and tune the body with task assertions and human review.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Use it as a reference library, not a process owner</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Useful when</h3>
+<p>Learning Agent Skill anatomy, creating a new Claude skill, or studying mature document and workflow examples.</p>
+</div>
+<div>
+<h3>Do not assume</h3>
+<p>Anthropic describes most entries as demonstration and educational material. Test them in your own environment; some document skills are source-available rather than open source.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>f17010c</code></p>
+<ul>
+<li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md#about-this-repository" target="_blank" rel="noopener">Repository overview<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">Basic Skill template<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>

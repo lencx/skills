@@ -1,0 +1,15 @@
+# skills
+
+## Pages
+
+- [Skills](https://skills.lencx.me/skills/index.md) — Browse the growing lencx-skills collection by responsibility.
+- [Coding Protocol](https://skills.lencx.me/skills/coding-protocol/index.md) — Risk-scaled repo execution and code-evidence protocol. Skip architecture-only work, explanation, contract-preserving prose, and status. Use for contract changes, debugging, code review, implementation plans, and Git mutation; mixed tasks: only those parts.
+- [Rule Rationale](https://skills.lencx.me/skills/coding-protocol/reference/rule-rationale/index.md) — Canonical Coding Protocol reference: Rule Rationale.
+- [Verification](https://skills.lencx.me/skills/coding-protocol/reference/verification/index.md) — Canonical Coding Protocol reference: Verification.
+- [Keel](https://skills.lencx.me/skills/keel/index.md) — Design, review, or govern load-bearing architecture for open choices, design judgments, or long-lived health; skip fixed-architecture execution. Applies to new/existing systems. Private/local/reversible module boundaries qualify; scale rigor to impact. Covers responsibility/authority, interfaces/contracts, dependency/state/recovery, structural seams, guards/exceptions, drift/rot, migration, retirement, deletion, and rewrite risk.
+- [Architecture Records](https://skills.lencx.me/skills/keel/reference/architecture-records/index.md) — Canonical Keel reference: Architecture Records.
+- [Recovery And Guards](https://skills.lencx.me/skills/keel/reference/recovery-guards/index.md) — Canonical Keel reference: Recovery And Guards.
+- [Rot Audit](https://skills.lencx.me/skills/keel/reference/rot-audit/index.md) — Canonical Keel reference: Rot Audit.
+- [Rule Rationale](https://skills.lencx.me/skills/keel/reference/rule-rationale/index.md) — Canonical Keel reference: Rule Rationale.
+- [Surface And Cutover](https://skills.lencx.me/skills/keel/reference/surface-cutover/index.md) — Canonical Keel reference: Surface And Cutover.
+- [Task Routes And Lenses](https://skills.lencx.me/skills/keel/reference/task-routes-and-lenses/index.md) — Canonical Keel reference: Task Routes And Lenses.

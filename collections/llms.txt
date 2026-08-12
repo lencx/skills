@@ -1,0 +1,11 @@
+# collections
+
+## Pages
+
+- [Curated skills](https://skills.lencx.me/collections/index.md) — Independent GitHub skill projects worth understanding before you install them.
+- [Addy Osmani’s Agent Skills](https://skills.lencx.me/collections/addy-agent-skills/index.md) — A production-engineering lifecycle pack with explicit gates, anti-rationalization rules, specialist personas, and a staged brownfield adoption path.
+- [Anthropic Agent Skills](https://skills.lencx.me/collections/anthropic-agent-skills/index.md) — Anthropic’s public examples and reference implementations for creative, technical, enterprise, and document workflows.
+- [gstack](https://skills.lencx.me/collections/gstack/index.md) — A role-based Claude Code operating system that carries product intent through planning, browser QA, release, deployment, and documentation.
+- [Impeccable](https://skills.lencx.me/collections/impeccable/index.md) — Design guidance and practical commands that help AI coding agents shape, critique, audit, and refine frontend experiences.
+- [Matt Pocock’s Skills](https://skills.lencx.me/collections/matt-pocock-skills/index.md) — A collection of small, adaptable, composable skills for everyday software engineering workflows.
+- [Superpowers](https://skills.lencx.me/collections/superpowers/index.md) — A software development methodology built from composable skills for design, planning, testing, review, and delivery.

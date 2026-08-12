@@ -1,0 +1,69 @@
+---
+title: "Matt Pocock’s Skills"
+description: "一组面向日常软件工程工作流、可组合且易于调整的 Skills。"
+language: "zh-CN"
+---
+
+<div class="curated-detail curated-card--matt">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/28293365?u=0d66fa0a2c0a4ec5201818081308c14a43b72fe5&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Matt Pocock’s Skills">mattpocock/skills</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=engineering" title="按标签筛选: #工程">#工程</a><a href="/zh/collections/?tag=delivery" title="按标签筛选: #交付">#交付</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="213,970">213,970</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="18,468">18,468</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>84fdeff</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">这套集合刻意拒绝成为统一生命周期：显式 orchestrator 负责组合流程，自动选中的 Skill 只贡献一种工程纪律，而仓库 setup 让两者服从项目本身的约定。</p>
+<p>grill-with-docs、implement 等用户调用 Skills 负责组织流程；诊断、TDD、research 和 code review 等模型调用 Skills 只提供一项可复用纪律。首次 setup 会先记录 issue tracker、triage 标签，以及领域上下文与 ADR 的位置，后续流程必须遵循这些仓库约定。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">三种不能混在一起的职责</h2>
+<p>最重要的设计选择是调用边界。它防止一个自动触发的辅助 Skill 在不知不觉中接管整个工程流程。</p>
+</header>
+<div class="curated-signature curated-signature--roles" data-story-kind="roles">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">用户显式调用</span><h3>流程编排器</h3><p>grill-with-docs、to-spec 与 implement 负责用户明确要求的一段流程。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">模型按需调用</span><h3>工程纪律</h3><p>诊断、TDD、research、领域建模与评审分别只提供一种可复用方法。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">仓库拥有</span><h3>Setup 契约</h3><p>后续流程开始依赖之前，先记录 tracker、triage 词汇，以及 CONTEXT.md 或 ADR 的位置。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/README.md#reference" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/setup-matt-pocock-skills/SKILL.md#process" target="_blank" rel="noopener">仓库 Setup<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">可以单独借鉴的工程机制</h2>
+<div class="curated-story__mechanisms">
+<article><h3>领域语言成为仓库状态</h3><p>grill-with-docs 会在 CONTEXT.md 中磨清术语，并把重要决策写入 ADR，让后续会话沿用代码库自己的名词。</p></article><article><h3>诊断从可变红的命令开始</h3><p>diagnosing Skill 在一个无人值守命令准确复现症状前拒绝推测，之后再最小化复现并检验可证伪假设。</p></article><article><h3>架构使用精确模块词汇</h3><p>codebase-design 在明确且可测试的 seam 上寻找深模块——用小接口隐藏大量行为，而不是泛泛建议重写。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">先完成仓库 Setup，再选择一种纪律</h2>
+<ol class="curated-story__practice">
+<li><p>托管的 Claude 插件和可编辑的 skills.sh 安装方式二选一，避免重复加载。</p></li><li><p>首次使用时完成仓库 setup，明确 issue tracker、标签和领域文档位置。</p></li><li><p>困难 Bug 先让一个快速命令稳定复现准确症状，再排列三到五个可证伪假设。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">选择模块化控制，而不是统一生命周期</h2>
+<div class="curated-story__decision">
+<div>
+<h3>适合</h3>
+<p>需要更好规格、领域建模、任务拆分、TDD、困难问题诊断或代码评审的仓库。</p>
+</div>
+<div>
+<h3>采用成本</h3>
+<p>工程 Skills 假设已经完成仓库级 setup；缺少 tracker、标签与文档约定时，默认流程可能与项目错位。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>84fdeff</code></p>
+<ul>
+<li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/README.md#reference" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/diagnosing-bugs/SKILL.md#phase-1--build-a-feedback-loop" target="_blank" rel="noopener">Skills 参考<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/setup-matt-pocock-skills/SKILL.md#process" target="_blank" rel="noopener">仓库 Setup<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>

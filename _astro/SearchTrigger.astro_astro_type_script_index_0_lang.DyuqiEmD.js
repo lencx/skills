@@ -1,0 +1,1 @@
+import{o as e}from"./client.C5pWSDV_.js";e(`[data-search-trigger]`,e=>{let t=navigator.userAgentData?.platform??``;if(t?/mac/i.test(t):/mac|iphone|ipod|ipad/i.test(navigator.userAgent)){e.setAttribute(`aria-keyshortcuts`,`Meta+K`);let t=e.querySelector(`[data-shortcut-key]`);t&&(t.textContent=`⌘`)}return()=>{}});

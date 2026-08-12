@@ -1,0 +1,69 @@
+---
+title: "Anthropic Agent Skills"
+description: "Anthropic 公开的 Agent Skills 示例与参考实现，覆盖创意、技术、企业和文档工作流。"
+language: "zh-CN"
+---
+
+<div class="curated-detail curated-card--anthropic">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/76263028?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/anthropics/skills" target="_blank" rel="noopener" aria-label="查看 GitHub 仓库: Anthropic Agent Skills">anthropics/skills</a>
+<div class="curated-detail__tags" aria-label="项目标签"><a href="/zh/collections/?tag=reference" title="按标签筛选: #参考">#参考</a><a href="/zh/collections/?tag=quality" title="按标签筛选: #质量">#质量</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub 快照">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="168,206">168,206</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="20,038">20,038</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/anthropics/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>查看 GitHub 仓库</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>分析版本 <code>f17010c</code></span><span aria-hidden="true">·</span><span>GitHub 快照 2026年8月12日</span><span aria-hidden="true">·</span><span>指标来自带日期的 GitHub 快照，不作为质量评分。</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">它不是一套软件交付制度。它真正有价值的地方，是用一手文件展示 Skill 如何打包、渐进加载，以及如何与 baseline 对照评估。</p>
+<p>每项 Skill 都是可独立加载的目录：名称与 description 常驻用于发现，触发后才加载 SKILL.md，脚本、references 与 assets 按需使用。仓库中的 skill-creator 还会让真实提示分别运行启用 Skill 与 baseline，评估断言和输出质量，再根据人工反馈迭代。</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">什么内容会在何时进入上下文</h2>
+<p>Skill 的目录结构本质上是一份上下文预算契约：发现成本要低，触发后才加载主流程，较重的知识和工具只在任务真正需要时出现。</p>
+</header>
+<div class="curated-signature curated-signature--layers" data-story-kind="layers">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">始终可见</span><h3>name + description</h3><p>发现元数据同时告诉模型这个 Skill 做什么，以及何时应该选择它。</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">触发之后</span><h3>SKILL.md</h3><p>只有触发条件匹配后，主决策流程才进入上下文。</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">按需使用</span><h3>scripts / references / assets</h3><p>确定性操作、可选知识和输出素材保持在主提示之外，直到被引用或执行。</p></article>
+</div>
+<div class="curated-story__evidence"><span>证据</span><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">基础 Skill 模板<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill Creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">这个仓库真正教会你的 Skill 设计</h2>
+<div class="curated-story__mechanisms">
+<article><h3>三级上下文加载</h3><p>发现元数据始终可见，触发后才加载 SKILL.md，附带资源只在真正需要时进入上下文或执行。</p></article><article><h3>行为与 Baseline 对照评估</h3><p>skill-creator 让真实提示分别启用与不启用 Skill，评估断言、输出、成本和耗时，并提供人工 Review。</p></article><article><h3>从极简到生产型示例</h3><p>极简模板与 Claude 实际使用、包含脚本和素材的文档工作流并列，也明确揭示不同许可边界。</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">先评估行为，再润色文字</h2>
+<ol class="curated-story__practice">
+<li><p>从模板开始，description 要同时说明 Skill 做什么，以及什么情况下应当触发。</p></li><li><p>把主流程留在 SKILL.md，将重复操作、按需知识和输出素材分别放入 scripts、references 与 assets。</p></li><li><p>把触发失败与输出失败分开诊断：description 使用触发 eval，正文使用任务断言和人工 Review。</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">把它当作参考资料库，而不是流程接管者</h2>
+<div class="curated-story__decision">
+<div>
+<h3>适合在</h3>
+<p>学习 Agent Skill 结构、创建 Claude Skill，或研究成熟的文档与工作流实现。</p>
+</div>
+<div>
+<h3>不要默认</h3>
+<p>Anthropic 明确说明多数内容用于演示与教育。应在自己的环境中验证；部分文档 Skills 仅为 source-available。</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">参考来源</h2>
+<p><code>f17010c</code></p>
+<ul>
+<li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md#about-this-repository" target="_blank" rel="noopener">仓库概览<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">基础 Skill 模板<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill Creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>

@@ -1,0 +1,1177 @@
+# lencx-skills documentation
+
+The complete English lencx-skills documentation corpus.
+
+Documentation index: https://skills.lencx.me/llms.txt
+
+---
+
+# Curated skills
+
+Independent GitHub skill projects worth understanding before you install them.
+
+Page: https://skills.lencx.me/collections/
+Markdown: https://skills.lencx.me/collections/index.md
+
+Understand what each project does, where it fits, and what to watch before you install it.
+
+<div class="curated-browser" data-curated-browser>
+<div class="curated-filters" data-curated-filters role="group" aria-label="Filter curated projects by tag" hidden><button type="button" data-tag-filter="all" aria-pressed="true"><span>#All</span><small>6</small></button><button type="button" data-tag-filter="reference" aria-pressed="false"><span>#Reference</span><small>2</small></button><button type="button" data-tag-filter="engineering" aria-pressed="false"><span>#Engineering</span><small>4</small></button><button type="button" data-tag-filter="design" aria-pressed="false"><span>#Design</span><small>2</small></button><button type="button" data-tag-filter="delivery" aria-pressed="false"><span>#Delivery</span><small>3</small></button><button type="button" data-tag-filter="quality" aria-pressed="false"><span>#Quality</span><small>4</small></button></div>
+<div class="curated-grid" data-curated-grid><article class="curated-card curated-card--anthropic" data-curated-card data-tags="reference quality" data-repository="anthropics/skills" data-description-source="github-about" data-art-seed="f2db8404c222" data-art-pattern="orbit" style="--curated-bg-angle:158deg;--curated-glow-x:85%;--curated-glow-y:11%;--curated-shape-right:-30px;--curated-shape-top:6px;--curated-shape-width:160px;--curated-shape-height:99px;--curated-shape-rotate:16deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/76263028?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-anthropic-agent-skills-title">Anthropic Agent Skills</h2><span class="curated-card__repository">anthropics/skills</span></div></div></header><a class="curated-card__primary-link" href="/collections/anthropic-agent-skills/" aria-labelledby="curated-card-anthropic-agent-skills-title" title="Public repository for Agent Skills"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="Project tags"><a class="curated-card__tag" href="/collections/?tag=reference" data-card-tag="reference" aria-label="Filter by tag: #Reference" title="Filter by tag: #Reference">#Reference</a><a class="curated-card__tag" href="/collections/?tag=quality" data-card-tag="quality" aria-label="Filter by tag: #Quality" title="Filter by tag: #Quality">#Quality</a></div><p class="curated-card__description" title="Public repository for Agent Skills">Public repository for Agent Skills</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub snapshot"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="168,206">168.2K</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="20,038">20K</dd></div></dl><a class="curated-card__github-link" href="https://github.com/anthropics/skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Anthropic Agent Skills" title="View GitHub repository"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--matt" data-curated-card data-tags="engineering delivery" data-repository="mattpocock/skills" data-description-source="github-about" data-art-seed="89e612f6ea97" data-art-pattern="slash" style="--curated-bg-angle:151deg;--curated-glow-x:96%;--curated-glow-y:10%;--curated-shape-right:-4px;--curated-shape-top:-32px;--curated-shape-width:201px;--curated-shape-height:143px;--curated-shape-rotate:0deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/28293365?u=0d66fa0a2c0a4ec5201818081308c14a43b72fe5&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-matt-pocock-skills-title">Matt Pocock’s Skills</h2><span class="curated-card__repository">mattpocock/skills</span></div></div></header><a class="curated-card__primary-link" href="/collections/matt-pocock-skills/" aria-labelledby="curated-card-matt-pocock-skills-title" title="Skills for Real Engineers. Straight from my .agents directory."></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="Project tags"><a class="curated-card__tag" href="/collections/?tag=engineering" data-card-tag="engineering" aria-label="Filter by tag: #Engineering" title="Filter by tag: #Engineering">#Engineering</a><a class="curated-card__tag" href="/collections/?tag=delivery" data-card-tag="delivery" aria-label="Filter by tag: #Delivery" title="Filter by tag: #Delivery">#Delivery</a></div><p class="curated-card__description" title="Skills for Real Engineers. Straight from my .agents directory.">Skills for Real Engineers. Straight from my .agents directory.</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub snapshot"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="213,970">214K</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="18,468">18.5K</dd></div></dl><a class="curated-card__github-link" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Matt Pocock’s Skills" title="View GitHub repository"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--impeccable" data-curated-card data-tags="design quality" data-repository="pbakaus/impeccable" data-description-source="github-about" data-art-seed="21fcbee2e5fa" data-art-pattern="panel" style="--curated-bg-angle:145deg;--curated-glow-x:89%;--curated-glow-y:69%;--curated-shape-right:-24px;--curated-shape-top:41px;--curated-shape-width:148px;--curated-shape-height:110px;--curated-shape-rotate:-11deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/43004?u=a2129579fad3fa98301c2d64da926bbb5fb6b129&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-impeccable-title">Impeccable</h2><span class="curated-card__repository">pbakaus/impeccable</span></div></div></header><a class="curated-card__primary-link" href="/collections/impeccable/" aria-labelledby="curated-card-impeccable-title" title="The design language that makes your AI harness better at design."></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="Project tags"><a class="curated-card__tag" href="/collections/?tag=design" data-card-tag="design" aria-label="Filter by tag: #Design" title="Filter by tag: #Design">#Design</a><a class="curated-card__tag" href="/collections/?tag=quality" data-card-tag="quality" aria-label="Filter by tag: #Quality" title="Filter by tag: #Quality">#Quality</a></div><p class="curated-card__description" title="The design language that makes your AI harness better at design.">The design language that makes your AI harness better at design.</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub snapshot"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="58,314">58.3K</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="3,558">3.6K</dd></div></dl><a class="curated-card__github-link" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener" aria-label="View GitHub repository: Impeccable" title="View GitHub repository"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--superpowers" data-curated-card data-tags="engineering delivery quality" data-repository="obra/superpowers" data-description-source="github-about" data-art-seed="4251a228ae40" data-art-pattern="radial" style="--curated-bg-angle:129deg;--curated-glow-x:92%;--curated-glow-y:41%;--curated-shape-right:6px;--curated-shape-top:-14px;--curated-shape-width:190px;--curated-shape-height:130px;--curated-shape-rotate:16deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/45416?u=37d9e6e1ec50898b8c0b4005613538db1f7a4167&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-superpowers-title">Superpowers</h2><span class="curated-card__repository">obra/superpowers</span></div></div></header><a class="curated-card__primary-link" href="/collections/superpowers/" aria-labelledby="curated-card-superpowers-title" title="An agentic skills framework &amp; software development methodology that works."></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="Project tags"><a class="curated-card__tag" href="/collections/?tag=engineering" data-card-tag="engineering" aria-label="Filter by tag: #Engineering" title="Filter by tag: #Engineering">#Engineering</a><a class="curated-card__tag" href="/collections/?tag=delivery" data-card-tag="delivery" aria-label="Filter by tag: #Delivery" title="Filter by tag: #Delivery">#Delivery</a><a class="curated-card__tag" href="/collections/?tag=quality" data-card-tag="quality" aria-label="Filter by tag: #Quality" title="Filter by tag: #Quality">#Quality</a></div><p class="curated-card__description" title="An agentic skills framework &amp; software development methodology that works.">An agentic skills framework &amp; software development methodology that works.</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub snapshot"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="270,806">270.8K</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="24,194">24.2K</dd></div></dl><a class="curated-card__github-link" href="https://github.com/obra/superpowers" target="_blank" rel="noopener" aria-label="View GitHub repository: Superpowers" title="View GitHub repository"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--gstack" data-curated-card data-tags="engineering design delivery" data-repository="garrytan/gstack" data-description-source="github-about" data-art-seed="695e19aa5fb0" data-art-pattern="terminal" style="--curated-bg-angle:119deg;--curated-glow-x:76%;--curated-glow-y:17%;--curated-shape-right:-26px;--curated-shape-top:-15px;--curated-shape-width:150px;--curated-shape-height:125px;--curated-shape-rotate:14deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/19957?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-gstack-title">gstack</h2><span class="curated-card__repository">garrytan/gstack</span></div></div></header><a class="curated-card__primary-link" href="/collections/gstack/" aria-labelledby="curated-card-gstack-title" title="Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="Project tags"><a class="curated-card__tag" href="/collections/?tag=engineering" data-card-tag="engineering" aria-label="Filter by tag: #Engineering" title="Filter by tag: #Engineering">#Engineering</a><a class="curated-card__tag" href="/collections/?tag=design" data-card-tag="design" aria-label="Filter by tag: #Design" title="Filter by tag: #Design">#Design</a><a class="curated-card__tag" href="/collections/?tag=delivery" data-card-tag="delivery" aria-label="Filter by tag: #Delivery" title="Filter by tag: #Delivery">#Delivery</a></div><p class="curated-card__description" title="Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA">Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub snapshot"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="127,596">127.6K</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="19,216">19.2K</dd></div></dl><a class="curated-card__github-link" href="https://github.com/garrytan/gstack" target="_blank" rel="noopener" aria-label="View GitHub repository: gstack" title="View GitHub repository"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article><article class="curated-card curated-card--addy" data-curated-card data-tags="reference engineering quality" data-repository="addyosmani/agent-skills" data-description-source="github-about" data-art-seed="1b1a194f4fbb" data-art-pattern="dots" style="--curated-bg-angle:139deg;--curated-glow-x:95%;--curated-glow-y:17%;--curated-shape-right:-9px;--curated-shape-top:-31px;--curated-shape-width:161px;--curated-shape-height:96px;--curated-shape-rotate:10deg"><header class="curated-card__preview"><div class="curated-card__identity"><span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/110953?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span><div class="curated-card__identity-copy"><h2 id="curated-card-addy-agent-skills-title">Addy Osmani’s Agent Skills</h2><span class="curated-card__repository">addyosmani/agent-skills</span></div></div></header><a class="curated-card__primary-link" href="/collections/addy-agent-skills/" aria-labelledby="curated-card-addy-agent-skills-title" title="Production-grade engineering skills for AI coding agents."></a><div class="curated-card__body"><div class="curated-card__tags" aria-label="Project tags"><a class="curated-card__tag" href="/collections/?tag=reference" data-card-tag="reference" aria-label="Filter by tag: #Reference" title="Filter by tag: #Reference">#Reference</a><a class="curated-card__tag" href="/collections/?tag=engineering" data-card-tag="engineering" aria-label="Filter by tag: #Engineering" title="Filter by tag: #Engineering">#Engineering</a><a class="curated-card__tag" href="/collections/?tag=quality" data-card-tag="quality" aria-label="Filter by tag: #Quality" title="Filter by tag: #Quality">#Quality</a></div><p class="curated-card__description" title="Production-grade engineering skills for AI coding agents.">Production-grade engineering skills for AI coding agents.</p><div class="curated-card__metrics"><dl class="curated-card__stats" aria-label="GitHub snapshot"><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="86,280">86.3K</dd></div><div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="9,269">9.3K</dd></div></dl><a class="curated-card__github-link" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Addy Osmani’s Agent Skills" title="View GitHub repository"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg></a></div></div></article></div>
+</div>
+
+<p class="curated-index-note">Selection is editorial. GitHub metrics describe repository activity, not compatibility or quality. GitHub snapshot: Aug 12, 2026.</p>
+
+---
+
+# Addy Osmani’s Agent Skills
+
+A production-engineering lifecycle pack with explicit gates, anti-rationalization rules, specialist personas, and a staged brownfield adoption path.
+
+Page: https://skills.lencx.me/collections/addy-agent-skills/
+Markdown: https://skills.lencx.me/collections/addy-agent-skills/index.md
+
+<div class="curated-detail curated-card--addy">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/110953?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Addy Osmani’s Agent Skills">addyosmani/agent-skills</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=reference" title="Filter by tag: #Reference">#Reference</a><a href="/collections/?tag=engineering" title="Filter by tag: #Engineering">#Engineering</a><a href="/collections/?tag=quality" title="Filter by tag: #Quality">#Quality</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="86,280">86,280</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="9,269">9,269</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>be42637</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">Its distinguishing feature is not catalog size. Each workflow exposes likely agent rationalizations, red flags, and exit evidence, making engineering discipline inspectable instead of aspirational.</p>
+<p>Commands map Define, Plan, Build, Verify, Review, and Ship onto focused Skills and specialist personas. using-agent-skills routes work and enforces assumptions, pushback, scope, and evidence. Individual Skills follow trigger → process → rationalizations → red flags → verification, while commands compose several disciplines without personas recursively invoking personas.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">Who decides when, how, and from which viewpoint</h2>
+<p>The repository separates orchestration from reusable method and specialist judgment. That boundary makes a multi-agent review understandable and prevents personas from recursively creating hidden process.</p>
+</header>
+<div class="curated-signature curated-signature--responsibilities" data-story-kind="responsibilities">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">When</span><h3>Command</h3><p>Maps lifecycle stages such as Define, Plan, Build, Verify, Review, and Ship onto several capabilities.</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">How</span><h3>Skill</h3><p>Provides one reusable procedure with triggers, steps, rationalizations, red flags, and verification.</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">Who</span><h3>Persona</h3><p>Supplies a specialist review perspective without recursively orchestrating more personas.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/README.md" target="_blank" rel="noopener">Lifecycle and skill catalog<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/docs/adoption-guide.md#L73-L128" target="_blank" rel="noopener">Brownfield adoption<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/skills/doubt-driven-development/SKILL.md#L49-L181" target="_blank" rel="noopener">Doubt-driven review<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">Why the workflows are auditable</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Auditable quality gates</h3><p>Mandatory steps, common excuses and rebuttals, red flags, and explicit exit evidence make each workflow reviewable rather than aspirational.</p></article><article><h3>Staged brownfield adoption</h3><p>Existing codebases start with context, read-only review, and targeted characterization tests instead of loading every Skill or attempting a big-bang rewrite.</p></article><article><h3>Independent doubt cycles</h3><p>Small high-stakes artifacts can be reviewed by a fresh context that receives only the artifact and contract, then reconciles findings against the source.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">Adopt the catalog in stages</h2>
+<ol class="curated-story__practice">
+<li><p>For an established codebase, begin with context engineering, read-only review, and characterization tests around the next change.</p></li><li><p>Load only Skills for the current phase; the repository explicitly discourages injecting the whole catalog into every session.</p></li><li><p>Use a direct persona for one specialist judgment and a command when several review disciplines need orchestration.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Use the lifecycle selectively, not all at once</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Strong fit for</h3>
+<p>Production-oriented teams that want consistent specification, implementation, verification, review, and release gates across greenfield and brownfield codebases.</p>
+</div>
+<div>
+<h3>Keep in scope</h3>
+<p>The pack is deliberately prescriptive and phase-heavy. Per-Skill copies may omit shared root references, and host adapters do not provide identical commands, personas, hooks, or plugin behavior.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>be42637</code></p>
+<ul>
+<li><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/README.md" target="_blank" rel="noopener">Lifecycle and skill catalog<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/docs/adoption-guide.md#L73-L128" target="_blank" rel="noopener">Brownfield adoption<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/addyosmani/agent-skills/blob/be42637c5af93fdc8526b68ec2f2651b930f316c/skills/doubt-driven-development/SKILL.md#L49-L181" target="_blank" rel="noopener">Doubt-driven review<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Anthropic Agent Skills
+
+Anthropic’s public examples and reference implementations for creative, technical, enterprise, and document workflows.
+
+Page: https://skills.lencx.me/collections/anthropic-agent-skills/
+Markdown: https://skills.lencx.me/collections/anthropic-agent-skills/index.md
+
+<div class="curated-detail curated-card--anthropic">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/76263028?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/anthropics/skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Anthropic Agent Skills">anthropics/skills</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=reference" title="Filter by tag: #Reference">#Reference</a><a href="/collections/?tag=quality" title="Filter by tag: #Quality">#Quality</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="168,206">168,206</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="20,038">20,038</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/anthropics/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>f17010c</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">This is not a software-delivery operating system. Its value is showing, in first-party files, how a Skill is packaged, progressively loaded, and tested against a baseline.</p>
+<p>Each Skill is an independently loadable directory. Its name and description stay visible for discovery, SKILL.md loads when triggered, and scripts, references, or assets are used only when needed. The bundled skill-creator then evaluates real prompts against a baseline, grades assertions and output quality, and iterates from human feedback.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">What enters context, and when</h2>
+<p>The package shape is a context-budget contract. A useful Skill keeps discovery cheap, delays its procedure until it triggers, and defers heavy material until the task actually needs it.</p>
+</header>
+<div class="curated-signature curated-signature--layers" data-story-kind="layers">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">Always visible</span><h3>name + description</h3><p>Discovery metadata tells the model both what the Skill does and when it should be selected.</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">After trigger</span><h3>SKILL.md</h3><p>The decision procedure enters context only after the trigger has matched.</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">On demand</span><h3>scripts / references / assets</h3><p>Deterministic work, optional knowledge, and output material remain outside the main prompt until referenced or executed.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">Basic Skill template<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">What the repository teaches about Skill design</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Three context levels</h3><p>Discovery metadata is always visible, SKILL.md loads only after a trigger, and bundled resources enter context or execute only when needed.</p></article><article><h3>Behavior is evaluated against a baseline</h3><p>skill-creator runs realistic prompts with and without the Skill, grades assertions and outputs, records cost and timing, and presents human review.</p></article><article><h3>Minimal and production-heavy examples</h3><p>A tiny template sits beside script- and asset-heavy document workflows used by Claude, exposing both packaging extremes and their license boundary.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">Evaluate behavior before polishing prose</h2>
+<ol class="curated-story__practice">
+<li><p>Start with the template and make the description say both what the skill does and when it should trigger.</p></li><li><p>Keep the main procedure in SKILL.md; move repeatable operations, optional knowledge, and output material into scripts, references, and assets.</p></li><li><p>Diagnose trigger failures separately from output failures: tune description with trigger evals, and tune the body with task assertions and human review.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Use it as a reference library, not a process owner</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Useful when</h3>
+<p>Learning Agent Skill anatomy, creating a new Claude skill, or studying mature document and workflow examples.</p>
+</div>
+<div>
+<h3>Do not assume</h3>
+<p>Anthropic describes most entries as demonstration and educational material. Test them in your own environment; some document skills are source-available rather than open source.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>f17010c</code></p>
+<ul>
+<li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/README.md#about-this-repository" target="_blank" rel="noopener">Repository overview<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/template/SKILL.md" target="_blank" rel="noopener">Basic Skill template<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/anthropics/skills/blob/f17010c9bb483898c1d9c9f42dde2b3a98889434/skills/skill-creator/SKILL.md#test-cases" target="_blank" rel="noopener">Skill creator<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# gstack
+
+A role-based Claude Code operating system that carries product intent through planning, browser QA, release, deployment, and documentation.
+
+Page: https://skills.lencx.me/collections/gstack/
+Markdown: https://skills.lencx.me/collections/gstack/index.md
+
+<div class="curated-detail curated-card--gstack">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/19957?v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/garrytan/gstack" target="_blank" rel="noopener" aria-label="View GitHub repository: gstack">garrytan/gstack</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=engineering" title="Filter by tag: #Engineering">#Engineering</a><a href="/collections/?tag=design" title="Filter by tag: #Design">#Design</a><a href="/collections/?tag=delivery" title="Filter by tag: #Delivery">#Delivery</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="127,596">127,596</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="19,216">19,216</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/garrytan/gstack" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>94993f7</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">gstack behaves less like a loose Skill catalog and more like a command-driven startup team. Artifacts travel from product interrogation through real browser QA, deployment health, release documentation, and reflection.</p>
+<p>The linked sprint is Think → Plan → Build → Review → Test → Ship → Reflect. Commands adopt distinct organizational roles, while artifacts from office-hours and plan reviews feed downstream engineering, browser QA, release, deployment, canary, and documentation stages. Several stages can mutate code, commit, push, open or merge PRs, and deploy.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">The linked sprint, end to end</h2>
+<p>The important distinction is artifact flow. Upstream product and plan decisions become inputs to engineering, QA, release, and operations instead of being discarded after a chat.</p>
+</header>
+<div class="curated-signature curated-signature--sprint" data-story-kind="sprint">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">Think</span><h3>office-hours</h3><p>Interrogate the problem, user, and product thesis.</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">Plan</span><h3>Executive reviews</h3><p>CEO, engineering, design, DX, and security lenses challenge different assumptions.</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">Build</span><h3>Implementation</h3><p>Approved artifacts guide the code change.</p></article><article class="curated-signature__item" style="--story-index:4"><span class="curated-signature__meta">Review</span><h3>Static and independent review</h3><p>Review code and optionally bring in a second model.</p></article><article class="curated-signature__item" style="--story-index:5"><span class="curated-signature__meta">Test</span><h3>Browser QA</h3><p>Reproduce, fix, rerun, and add regression evidence in Chromium.</p></article><article class="curated-signature__item" style="--story-index:6"><span class="curated-signature__meta">Ship</span><h3>PR → deploy → canary</h3><p>Carry the result through CI, production, and post-deploy health.</p></article><article class="curated-signature__item" style="--story-index:7"><span class="curated-signature__meta">Reflect</span><h3>Docs and retrospective</h3><p>Detect stale documentation and feed lessons into the next sprint.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/README.md#L171-L235" target="_blank" rel="noopener">Sprint and role pipeline<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/docs/skills.md" target="_blank" rel="noopener">Skill deep dives<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">Where the sprint goes beyond coding</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Browser-in-the-loop QA</h3><p>QA drives real Chromium, records defects, fixes them with atomic commits, reruns the failing path, and adds regression tests; qa-only keeps the investigation read-only.</p></article><article><h3>Release work continues after review</h3><p>Ship audits tests and coverage before opening a PR; land-and-deploy waits for CI and deployment, canary observes production, and document-release catches stale docs.</p></article><article><h3>Planning uses distinct executive lenses</h3><p>CEO, engineering, design, DX, and security reviews challenge different assumptions instead of collapsing every concern into one generic planning prompt.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">A low-risk way to evaluate the system</h2>
+<ol class="curated-story__practice">
+<li><p>Evaluate it with office-hours → plan-ceo-review → review → qa before adopting the entire sprint.</p></li><li><p>Use qa-only or other report-only modes until code changes, commits, pushes, and deployment actions are explicitly authorized.</p></li><li><p>Enable guard for production incidents or any task whose editable subtree must stay narrow.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Separate report-only use from delivery authority</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Best suited to</h3>
+<p>Technical founders and small teams that want one Claude Code environment to cover product framing, implementation review, live QA, release, deployment, documentation, and retrospectives.</p>
+</div>
+<div>
+<h3>Authority boundary</h3>
+<p>The primary experience is Claude Code, setup can modify global or committed agent state, and many commands are high-authority mutations. The About text says 23 tools, but the current tree evolves quickly; treat that number as reviewed copy, not a live inventory.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>94993f7</code></p>
+<ul>
+<li><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/README.md#L171-L235" target="_blank" rel="noopener">Sprint and role pipeline<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/docs/skills.md" target="_blank" rel="noopener">Skill deep dives<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/garrytan/gstack/blob/94993f74012782fd94416dd44b8314f6363a13a4/README.md#L444-L456" target="_blank" rel="noopener">Privacy and telemetry<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Impeccable
+
+Design guidance and practical commands that help AI coding agents shape, critique, audit, and refine frontend experiences.
+
+Page: https://skills.lencx.me/collections/impeccable/
+Markdown: https://skills.lencx.me/collections/impeccable/index.md
+
+<div class="curated-detail curated-card--impeccable">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/43004?u=a2129579fad3fa98301c2d64da926bbb5fb6b129&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener" aria-label="View GitHub repository: Impeccable">pbakaus/impeccable</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=design" title="Filter by tag: #Design">#Design</a><a href="/collections/?tag=quality" title="Filter by tag: #Quality">#Quality</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="58,314">58,314</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="3,558">3,558</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>ae388ac</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">Impeccable turns design into a system of authorities and rendered evidence. It is not a collection of prompts that merely asks an agent to make a page look better.</p>
+<p>A session starts by resolving PRODUCT.md, DESIGN.md, the matching surface brief, and platform guidance. It then loads exactly one command playbook, and loads a separate craft floor immediately before UI edits. Deterministic detector rules and live browser variants supply evidence that model-only critique cannot.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">The authority stack behind each UI change</h2>
+<p>Each layer answers a different question. Keeping them separate lets a redesign replace visual direction without rewriting product truth, and lets mechanical checks support rather than impersonate design judgment.</p>
+</header>
+<div class="curated-signature curated-signature--authority-stack" data-story-kind="authority-stack">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">Product truth</span><h3>PRODUCT.md</h3><p>Users, jobs, evidence, operating context, constraints, and accessibility stay durable.</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">Visual truth</span><h3>DESIGN.md + surface brief</h3><p>The product-wide visual world and the decisions unique to one surface remain distinct.</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">One judgment</span><h3>Command playbook</h3><p>critique, audit, polish, harden, and other commands load only the method needed for the current task.</p></article><article class="curated-signature__item" style="--story-index:4"><span class="curated-signature__meta">Before editing</span><h3>Craft floor</h3><p>A separate quality floor constrains typography, contrast, spacing, iconography, and common design shortcuts.</p></article><article class="curated-signature__item" style="--story-index:5"><span class="curated-signature__meta">Rendered evidence</span><h3>Detector + live browser</h3><p>Deterministic rules catch mechanical defects; live mode compares real rendered alternatives.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/README.md#why-impeccable" target="_blank" rel="noopener">Why Impeccable<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/SKILL.md#setup" target="_blank" rel="noopener">Commands and examples<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/reference/live.md" target="_blank" rel="noopener">Live browser iteration<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">Where the method is more specific than “good design”</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Product truth and visual direction stay separate</h3><p>A redesign may replace the visual world while preserving users, product purpose, evidence, content, and constraints recorded as product truth.</p></article><article><h3>Commands own different judgments</h3><p>critique evaluates experience quality, audit checks technical quality, polish closes shipping gaps, and harden covers errors, i18n, overflow, and edge cases.</p></article><article><h3>Tool-backed rendered evidence</h3><p>Detectors catch mechanical defects, while live mode operates a real preview with selected elements, alternatives, annotations, and accept or reject actions.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">Choose the command by the judgment you need</h2>
+<ol class="curated-story__practice">
+<li><p>Run impeccable init before other commands so later work has real brand and product context.</p></li><li><p>Pair a command with a concrete target, such as audit the blog, polish settings, or harden checkout.</p></li><li><p>Use critique for experience judgment and audit for deterministic technical checks; do not treat them as interchangeable.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Adopt the method without leaking private context</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Use it for</h3>
+<p>Landing pages, portfolios, application UI, and dashboards that need shaping, UX critique, technical audit, or final polish.</p>
+</div>
+<div>
+<h3>Review before sharing</h3>
+<p>Installation can add project hooks. Codex users should review and approve them, and may need to approve again after hook definitions change.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>ae388ac</code></p>
+<ul>
+<li><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/README.md#why-impeccable" target="_blank" rel="noopener">Why Impeccable<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/SKILL.md#setup" target="_blank" rel="noopener">Commands and examples<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/pbakaus/impeccable/blob/ae388ac58fb33aade50fc47e2be07c3192dcaabd/.agents/skills/impeccable/reference/live.md" target="_blank" rel="noopener">Live browser iteration<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Matt Pocock’s Skills
+
+A collection of small, adaptable, composable skills for everyday software engineering workflows.
+
+Page: https://skills.lencx.me/collections/matt-pocock-skills/
+Markdown: https://skills.lencx.me/collections/matt-pocock-skills/index.md
+
+<div class="curated-detail curated-card--matt">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/28293365?u=0d66fa0a2c0a4ec5201818081308c14a43b72fe5&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener" aria-label="View GitHub repository: Matt Pocock’s Skills">mattpocock/skills</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=engineering" title="Filter by tag: #Engineering">#Engineering</a><a href="/collections/?tag=delivery" title="Filter by tag: #Delivery">#Delivery</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="213,970">213,970</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="18,468">18,468</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>84fdeff</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">This collection deliberately refuses to become one universal lifecycle. Explicit orchestrators compose work; automatically selected Skills contribute one engineering discipline; repository setup keeps both aligned with local conventions.</p>
+<p>User-invoked Skills such as grill-with-docs and implement orchestrate a flow; model-invoked Skills such as diagnosis, TDD, research, and code review contribute one reusable discipline. A repository setup step first records the issue tracker, triage labels, and domain-context or ADR locations that later workflows must follow.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">Three responsibilities that must not blur together</h2>
+<p>The most important design choice is the invocation boundary. It prevents an automatically triggered helper from silently taking over an entire engineering process.</p>
+</header>
+<div class="curated-signature curated-signature--roles" data-story-kind="roles">
+<article class="curated-signature__item" style="--story-index:1"><span class="curated-signature__meta">User-invoked</span><h3>Orchestrators</h3><p>grill-with-docs, to-spec, and implement own an explicit flow requested by the user.</p></article><article class="curated-signature__item" style="--story-index:2"><span class="curated-signature__meta">Model-invoked</span><h3>Disciplines</h3><p>Diagnosis, TDD, research, domain modeling, and review each supply one reusable method.</p></article><article class="curated-signature__item" style="--story-index:3"><span class="curated-signature__meta">Repository-owned</span><h3>Setup contracts</h3><p>Tracker choice, triage vocabulary, and CONTEXT.md or ADR locations are recorded before later workflows depend on them.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/README.md#reference" target="_blank" rel="noopener">Repository overview<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/setup-matt-pocock-skills/SKILL.md#process" target="_blank" rel="noopener">Repository setup<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">Engineering ideas worth borrowing independently</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Domain language becomes repository state</h3><p>grill-with-docs sharpens terms in CONTEXT.md and records consequential decisions in ADRs so later sessions share the codebase’s nouns.</p></article><article><h3>Diagnosis starts with a red-capable command</h3><p>The diagnosing Skill refuses to theorize until one unattended command reproduces the exact symptom, then minimizes it and tests falsifiable hypotheses.</p></article><article><h3>Architecture uses a precise module vocabulary</h3><p>codebase-design looks for deep modules—substantial behavior behind a small interface—at explicit, testable seams instead of proposing broad rewrites.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">Start with repository setup, then pick one discipline</h2>
+<ol class="curated-story__practice">
+<li><p>Choose either the managed Claude plugin or editable skills.sh installation; installing both duplicates the skills.</p></li><li><p>Run the repository setup once so issue tracking, labels, and domain-document locations are explicit.</p></li><li><p>For a difficult bug, make the exact symptom fail from one fast command before ranking three to five falsifiable hypotheses.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Choose modular control over a single lifecycle</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Strong fit for</h3>
+<p>Repositories that need better specification, domain modeling, work breakdown, TDD, difficult bug diagnosis, or code review.</p>
+</div>
+<div>
+<h3>Setup cost</h3>
+<p>The engineering workflows expect repository-level setup. Without tracker, label, and documentation conventions, their defaults can drift from the project.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>84fdeff</code></p>
+<ul>
+<li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/README.md#reference" target="_blank" rel="noopener">Repository overview<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/diagnosing-bugs/SKILL.md#phase-1--build-a-feedback-loop" target="_blank" rel="noopener">Skill reference<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/setup-matt-pocock-skills/SKILL.md#process" target="_blank" rel="noopener">Repository setup<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Superpowers
+
+A software development methodology built from composable skills for design, planning, testing, review, and delivery.
+
+Page: https://skills.lencx.me/collections/superpowers/
+Markdown: https://skills.lencx.me/collections/superpowers/index.md
+
+<div class="curated-detail curated-card--superpowers">
+<div class="curated-detail__identity">
+<span class="curated-card__avatar-frame" aria-hidden="true"><img class="curated-card__avatar curated-card__avatar--fallback" src="/github-placeholder.svg" alt="" width="96" height="96"><img class="curated-card__avatar curated-card__avatar--remote" data-github-avatar src="https://avatars.githubusercontent.com/u/45416?u=37d9e6e1ec50898b8c0b4005613538db1f7a4167&amp;v=4&amp;s=96" alt="" width="96" height="96" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>
+<div class="curated-detail__identity-copy">
+<a class="curated-detail__repository" href="https://github.com/obra/superpowers" target="_blank" rel="noopener" aria-label="View GitHub repository: Superpowers">obra/superpowers</a>
+<div class="curated-detail__tags" aria-label="Project tags"><a href="/collections/?tag=engineering" title="Filter by tag: #Engineering">#Engineering</a><a href="/collections/?tag=delivery" title="Filter by tag: #Delivery">#Delivery</a><a href="/collections/?tag=quality" title="Filter by tag: #Quality">#Quality</a></div>
+</div>
+</div>
+<dl class="curated-detail__stats" aria-label="GitHub snapshot">
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:star"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></svg><span>Stars</span></dt><dd title="270,806">270,806</dd></div>
+<div><dt><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:fork"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9m6 3v3"/></g></svg><span>Forks</span></dt><dd title="24,194">24,194</dd></div>
+</dl>
+<a class="curated-detail__repo" href="https://github.com/obra/superpowers" target="_blank" rel="noopener"><svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:github"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3A5.27 5.27 0 0 0 19.08.32S17.9-.06 15 1.82a13.38 13.38 0 0 0-7 0C5.1-.06 3.92.32 3.92.32A5.27 5.27 0 0 0 3.78 3.3a5.65 5.65 0 0 0-1.5 3.95c0 5.64 3.44 6.89 6.72 7.25A4.8 4.8 0 0 0 8 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg><span>View GitHub repository</span></a>
+</div>
+<p class="curated-detail__snapshot"><span>Analysis revision <code>44c9b2d</code></span><span aria-hidden="true">·</span><span>GitHub snapshot Aug 12, 2026</span><span aria-hidden="true">·</span><span>Metrics are a dated GitHub snapshot and are not used as a quality score.</span></p>
+<div class="curated-story">
+<div class="curated-story__lede">
+<p class="curated-story__thesis">Installing Superpowers means accepting a development method with hard gates. Design approval, isolation, TDD, separate reviews, and fresh verification are requirements, not optional tips.</p>
+<p>Brainstorming and human design approval are hard gates before planning or code. Implementation then moves into an isolated worktree, executes narrow plan tasks with TDD, separates implementer self-review from specification and quality review, and accepts a completion claim only after a freshly run proving command.</p>
+</div>
+<section class="curated-story__section curated-story__signature" aria-labelledby="signature-model">
+<header class="curated-story__section-heading">
+<h2 id="signature-model">The path a change must pass before completion</h2>
+<p>The sequence matters because each gate creates evidence consumed by the next one. Skipping ahead is treated as a process failure, even when the change looks small.</p>
+</header>
+<div class="curated-signature curated-signature--hard-gates" data-story-kind="hard-gates">
+<article class="curated-signature__item" style="--story-index:1"><h3>Brainstorm</h3><p>Clarify intent and compare approaches.</p></article><article class="curated-signature__item" style="--story-index:2"><h3>Approve design</h3><p>A human accepts the proposed behavior before planning.</p></article><article class="curated-signature__item" style="--story-index:3"><h3>Isolate</h3><p>Use a worktree and establish a clean baseline.</p></article><article class="curated-signature__item" style="--story-index:4"><h3>Plan</h3><p>Write narrow tasks with files and proof commands.</p></article><article class="curated-signature__item" style="--story-index:5"><h3>TDD</h3><p>Implement through red, green, and refactor.</p></article><article class="curated-signature__item" style="--story-index:6"><h3>Review twice</h3><p>Check specification first, then code quality.</p></article><article class="curated-signature__item" style="--story-index:7"><h3>Verify fresh</h3><p>Rerun the proving command immediately before the claim.</p></article>
+</div>
+<div class="curated-story__evidence"><span>Evidence</span><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/README.md" target="_blank" rel="noopener">Repository overview<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/brainstorming/SKILL.md#the-process" target="_blank" rel="noopener">Brainstorming workflow<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/verification-before-completion/SKILL.md#the-iron-law" target="_blank" rel="noopener">Verification before completion<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-mechanisms">
+<h2 id="project-mechanisms">Why these gates are load-bearing</h2>
+<div class="curated-story__mechanisms">
+<article><h3>Design approval is a hard gate</h3><p>Even small behavior changes resolve intent, alternatives, and a readable design before scaffolding, planning, or implementation begins.</p></article><article><h3>Implementation and review are distinct roles</h3><p>Each task is implemented, self-reviewed, checked for specification compliance, checked for code quality, and re-reviewed after fixes.</p></article><article><h3>Verification is temporally fresh</h3><p>A completion claim is invalid unless its proving command was rerun immediately and the complete output and exit status were read.</p></article>
+</div>
+</section>
+<section class="curated-story__section" aria-labelledby="project-practice">
+<h2 id="project-practice">Trial the method on one real change</h2>
+<ol class="curated-story__practice">
+<li><p>Complete brainstorming and design approval before asking the agent to write an implementation plan.</p></li><li><p>Reuse an existing isolated workspace when possible, then run setup and baseline tests before changing code.</p></li><li><p>Follow red, green, refactor and rerun the command that directly proves completion before making the claim.</p></li>
+</ol>
+</section>
+<section class="curated-story__section" aria-labelledby="adoption-decision">
+<h2 id="adoption-decision">Adopting it changes how work is approved</h2>
+<div class="curated-story__decision">
+<div>
+<h3>Worth the overhead when</h3>
+<p>Feature development or bug fixes that benefit from a rigorous specification, isolated implementation, TDD, subagent collaboration, and review loop.</p>
+</div>
+<div>
+<h3>Process conflict</h3>
+<p>Its repository describes the workflows as mandatory rather than optional suggestions. Confirm that this degree of process ownership fits the project’s existing rules.</p>
+</div>
+</div>
+</section>
+<section class="curated-story__section curated-story__sources" aria-labelledby="reviewed-sources">
+<h2 id="reviewed-sources">Sources reviewed</h2>
+<p><code>44c9b2d</code></p>
+<ul>
+<li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/README.md" target="_blank" rel="noopener">Repository overview<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/brainstorming/SKILL.md#the-process" target="_blank" rel="noopener">Brainstorming workflow<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li><li><a href="https://github.com/obra/superpowers/blob/44c9b2d6e889982ac18c27d05a19fefe335194e1/skills/verification-before-completion/SKILL.md#the-iron-law" target="_blank" rel="noopener">Verification before completion<svg class="curated-icon" aria-hidden="true" viewBox="0 0 24 24" data-icon="lucide:external"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a></li>
+</ul>
+</section>
+</div>
+
+---
+
+# Get started
+
+Install lencx-skills once through the skills installer or a native plugin.
+
+Page: https://skills.lencx.me/get-started/
+Markdown: https://skills.lencx.me/get-started/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/README.md).
+
+Choose either the skills installer or the native plugin. Using both makes each skill available twice.
+
+## Quick Install (Recommended)
+
+```bash
+npx skills@latest add lencx/skills
+```
+
+## Specific Install (Global)
+
+```bash
+# Claude Code
+npx skills@latest add lencx/skills -a claude-code -g
+
+# Codex
+npx skills@latest add lencx/skills -a codex -g
+```
+
+## Plugin Install
+
+### Codex
+
+```bash
+codex plugin marketplace add lencx/skills
+codex plugin add lencx-skills@lencx
+```
+
+### Claude Code
+
+```bash
+claude plugin marketplace add lencx/skills
+claude plugin install lencx-skills@lencx
+```
+
+## Update Skills
+
+Use the same path you chose for installation.
+
+### Skills Installer
+
+```bash
+# Update the selected project or global scope
+npx skills@latest update
+```
+
+Pass `-p` to update project skills only, or `-g` to update global skills only.
+
+### Native Plugin
+
+```bash
+# Codex — refresh the marketplace, then reinstall from it
+codex plugin marketplace upgrade lencx
+codex plugin add lencx-skills@lencx
+
+# Claude Code — restart Claude Code after the update
+claude plugin update lencx-skills@lencx
+```
+
+Start a new Codex task, or restart Claude Code, to load the updated plugin.
+
+---
+
+# Skills
+
+Browse the growing lencx-skills collection by responsibility.
+
+Page: https://skills.lencx.me/skills/
+Markdown: https://skills.lencx.me/skills/index.md
+
+Each skill declares the work it owns, its applicability boundary, and the point where another workflow should take over.
+
+## Browse the collection
+
+| Skill | Responsibility | Canonical source |
+| --- | --- | --- |
+| [Keel](/skills/keel/) | Keel discovers, judges, and governs load-bearing arrangements. | [`skills/keel/SKILL.md`](https://github.com/lencx/skills/blob/main/skills/keel/SKILL.md) |
+| [Coding Protocol](/skills/coding-protocol/) | A low-friction protocol for reliable repository execution and code-evidence work. | [`skills/coding-protocol/SKILL.md`](https://github.com/lencx/skills/blob/main/skills/coding-protocol/SKILL.md) |
+
+## Combine skills by responsibility
+
+Skills can collaborate without becoming one large process. Let the workflow that owns a judgment make that decision, then hand the authorized work to the workflow that owns execution.
+
+Looking beyond this collection? Browse the [curated skills projects](/collections/) for independent approaches and useful companions.
+
+---
+
+# Coding Protocol
+
+Risk-scaled repo execution and code-evidence protocol. Skip architecture-only work, explanation, contract-preserving prose, and status. Use for contract changes, debugging, code review, implementation plans, and Git mutation; mixed tasks: only those parts.
+
+Page: https://skills.lencx.me/skills/coding-protocol/
+Markdown: https://skills.lencx.me/skills/coding-protocol/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/coding-protocol/SKILL.md).
+
+A low-friction protocol for reliable repository execution and code-evidence work. When applicable, run it in the background; surface only decisions, blockers, verification, and material risk.
+
+## Applicability Gate
+
+Before any protocol step or reference read, select exactly one state in this order: Mixed, Execution, Evidence, Exit. Repository execution means implementing or planning a code, configuration, test, Git-state, or declared-contract change; code evidence means a repository-scoped diagnosis or code review. A contract-preserving prose-only edit is neither.
+
+- **Mixed** — the task includes an Execution or Evidence portion plus a substantive portion owned by another workflow. Apply this protocol only to repository execution or code evidence; do not reshape the other workflow.
+- **Execution** — the only applicable responsibility is authorized repository execution. Apply this protocol to that work. A plan authorizes planning, not mutation.
+- **Evidence** — the only applicable responsibility is a code-evidence judgment without mutation authority. Apply read-only constraints; a diagnosis or review finding does not authorize a fix.
+- **Exit** — the deliverable carries neither repository-execution nor code-evidence responsibility. After a forced or mistaken load, state the mismatch briefly. If the host exposes a skill catalog, inspect it and completely read a suitable owning workflow when one is present; otherwise continue with the general workflow. Stop using this protocol's framing, references, and completion language.
+
+## Composition
+
+Repository evidence supplies local facts; repository instructions and contracts supply required checks. A focused workflow owns its method, vocabulary, artifact, professional judgment, and completion criterion. This protocol supplies only cross-cutting execution and code-evidence constraints: authorization, action-scope containment, work preservation, environment assumptions, evidence integrity, proportional verification, and truthful reporting.
+
+Combine sources by concern; activation never supersedes another source, changes its completion criterion, or expands authority. Follow the host's established precedence when requirements conflict. Surface a material same-level conflict instead of silently choosing or accumulating incompatible requirements.
+
+Use the focused workflow's completion criterion when one applies. Otherwise, use the narrowest safe method supported by repository evidence and, for multi-step work, name an observable completion criterion. Work as `[action] -> [check]`, revising the route when evidence changes. Expose a plan only when it clarifies risk, coordination, or sequencing.
+
+## 1. Scale By Risk
+
+Scale effort with ambiguity, blast radius, and reversibility:
+
+- For read-only work, inspect relevant evidence and do not mutate.
+- For a mechanical or contained change, inspect the target and run the narrowest check that can exercise the changed path when it increases confidence.
+- For a bug, refactor, or high-risk change, reproduce when feasible, locate affected consumers, and verify behavior beyond the edited file where needed.
+- Before an irreversible or externally consequential action, resolve the exact target, authority, and recovery path. Stop if any depends on a material assumption.
+
+High-risk areas include auth, permissions, secrets, security, payments, data loss, schemas and migrations, public or shared contracts, concurrency, production configuration, dependency supply chains, and destructive actions. Risk raises the evidence bar, not the change scope.
+
+## 2. Work From Evidence
+
+Inspect relevant code, tests, types, documentation, contracts, and runtime output before claiming how the system works. Separate observations from assumptions when the difference matters. Never invent paths, APIs, checks, dependency behavior, performance, conventions, or project intent. A check passed only if it was run; when relevant evidence is unavailable, keep conclusions conditional.
+
+Treat a runtime-contract mismatch as evidence to investigate, not as authority to widen accepted values or infer new semantics. Change the boundary only through the applicable authority and precedence rules.
+
+## 3. Handle Material Uncertainty
+
+Authority comes from the user and host, not skill activation. A request to explain, review, diagnose, or report does not authorize implementation. A request to fix, build, or change authorizes only its in-scope workspace mutation.
+
+Automatic matching or loading grants no authority. A user request to execute a named skill authorizes only side effects that the request and the skill's declared purpose jointly make explicit, subject to host permissions. Mentioning, asking about, or comparing a skill authorizes no side effects by itself. Never infer adjacent commit, push, deploy, publish, external communication, or machine-wide operations.
+
+Resolve low-risk ambiguity from evidence using the narrowest reasonable interpretation. Ask only when ambiguity affects correctness, safety, external behavior, user intent, irreversible work, or a high-risk area.
+
+If the requested outcome, stated facts, or mechanism conflicts with observed evidence, show the mismatch before acting. Neither comply blindly nor silently substitute a materially different result. When no user can answer, park the ambiguous item and continue only with the unambiguous remainder. Keep work under uncertainty local and reversible.
+
+## 4. Keep Changes Small
+
+Evidence stays read-only: bound inspection and conclusions to the requested code-evidence judgment. Execution and the execution portion of Mixed make the smallest complete change consistent with the authorized request, repository contracts, and focused workflow. Match local patterns. Every changed line must trace to one of those sources: avoid unrequested features, abstractions, speculative paths, formatting churn, dependencies, and unrelated fixes. Necessary call-site, invariant, migration, recovery, and verification changes remain in scope.
+
+An execution slice does not define or expand the intended target. Take target scope from the request or an authoritative source. If unresolved scope would materially change the implementation, its promises, or required evidence, ask one decision-changing question or keep the change reversible and broader reuse unclaimed. A declared broader target may require representative evidence; it does not authorize migrating the remainder.
+
+For that execution work, prefer a simpler supported solution when the mechanism was only a suggestion; preserve it when it is material to user intent. Refactor only as needed for a safe completion. Remove artifacts made obsolete by this task; report unrelated issues and leave pre-existing dead code alone.
+
+## 5. Preserve User Work
+
+Preserve user changes outside the task. Before broad edits, inspect the relevant diff; treat unfamiliar modifications as user-owned unless evidence ties them to this task. Do not overwrite, delete, move, reformat, or revert them.
+
+Task necessity is not destructive authorization. Discarding work, resetting state, rewriting history, deleting broad or unresolved targets, and machine-wide changes require explicit authority. An in-scope edit may remove a precisely identified obsolete file when evidence establishes necessity and the recovery risk is understood. Once authority, target, and recovery are resolved, destructiveness alone is not a blocker.
+
+## 6. Respect Local Context
+
+Inspect relevant local signals before depending on package managers, tools, dependencies, network, credentials, ports, services, or writable paths. Prefer project-local commands and existing dependencies. Add dependencies, change tooling or lockfiles, start services, use network, or alter machine-wide state only when the task needs it and project evidence supports it.
+
+## 7. Verify Proportionally
+
+Run checks required by the user, repository, or focused workflow; add the cheapest evidence proportional to risk. A green gate proves behavior only when it exercises the changed path.
+
+Get to green honestly. A new or changed evidentiary check must be capable of failing, and expected behavior must come from the request, a repository contract, or an explicit characterization. Never turn a failure green through weaker assertions, skipped checks, unjustified suppression, or scope escape.
+
+Diagnose before widening the change. If attempts thrash, stop with the diagnosis. Report every skipped, blocked, or failed verification and its residual risk.
+
+## 8. Report Only What Matters
+
+Produce the artifact and handoff required by the task or focused workflow. Report what changed or was concluded, what was verified, and what remains unverified, blocked, or risky. Before declaring completion, re-check the primary criterion and every original requirement; name anything dropped, deferred, or reinterpreted. Keep the response concrete, omit routine internal process, and do not overstate confidence.
+
+## References
+
+After the applicability gate, load only the reference that applies:
+
+- [`references/verification.md`](/skills/coding-protocol/reference/verification/) — only when designing or changing an evidentiary check, establishing a negative control, relying on representation-level evidence, or considering a suppression.
+- [`references/rule-rationale.md`](/skills/coding-protocol/reference/rule-rationale/) — only before changing or auditing this protocol's rules; keep every failure-mode-to-section mapping accurate.
+
+Load neither reference on Exit.
+
+---
+
+# Rule Rationale
+
+Canonical Coding Protocol reference: Rule Rationale.
+
+Page: https://skills.lencx.me/skills/coding-protocol/reference/rule-rationale/
+Markdown: https://skills.lencx.me/skills/coding-protocol/reference/rule-rationale/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/coding-protocol/references/rule-rationale.md).
+
+The initial observations are traceable to [Andrej Karpathy's public post](https://x.com/karpathy/status/2015883857489522876). Later rows are this project's failure-mode hypotheses from observed use; do not attribute the full map to that source.
+
+## Failure modes → protocol rules
+
+This is a maintenance index for non-obvious failure mechanisms, not a requirement for one rule or test per row. Keep mappings useful, merge overlap, and remove rows that no longer change the protocol.
+
+| Failure mode | Countered by |
+| --- | --- |
+| **Silent assumptions** — incorrect assumptions made on the user's behalf; inconsistencies not surfaced, including same-level conflicts hidden by letting load order choose or by accumulating incompatible requirements | Composition; 2 Work From Evidence; 3 Handle Material Uncertainty |
+| **Contract drift** — treating runtime data outside a declared contract as authority to widen accepted values or invent semantics without resolving the applicable authority and precedence | 2 Work From Evidence; 3 Handle Material Uncertainty; 4 Keep Changes Small |
+| **Unverified claims** — stating behavior or "passing" checks that were never actually run | 2 Work From Evidence; 7 Verify Proportionally |
+| **Overcomplicated output** — bloated code, abstractions, and APIs; far more code than necessary | 4 Keep Changes Small |
+| **Execution-slice scope inference** — treating a first tranche, sample count, code shape, or later outcome as authority to define or expand the target either underfits stated broader intent or invents unsupported reuse | 3 Handle Material Uncertainty; 4 Keep Changes Small; 8 Report Only What Matters |
+| **Collateral changes** — edits to code and comments orthogonal to the task, including parts not sufficiently understood | 4 Keep Changes Small; 5 Preserve User Work |
+| **No self-cleanup** — scaffolding and dead code left behind by the model's own edits | 4 Keep Changes Small (cleanup clause) |
+| **Sycophancy** — agreeing too readily instead of pushing back or surfacing better alternatives | 3 (evidence-conflict clause); 4 (surface the simpler solution) |
+| **Contrarian substitution** — replacing an explicitly required mechanism or outcome merely because the agent prefers a simpler one | 3 Handle Material Uncertainty; 4 Keep Changes Small |
+| **Action-scope expansion** — treating a request to review, explain, diagnose, mention, or compare a skill, or the automatic loading of a focused skill, as permission to edit the workspace | Applicability Gate (Execution; Evidence); 3 Handle Material Uncertainty |
+| **Publication expansion** — treating permission to edit locally, or a side effect named only by an automatically loaded workflow, as permission to commit, push, deploy, publish, message externally, or change machine-wide state | 3 Handle Material Uncertainty; 5 Preserve User Work |
+| **Implicit destructive authorization** — treating a task's apparent need as permission to discard work, reset state, rewrite history, or delete a broad target | 5 Preserve User Work |
+| **Destructive-action paralysis** — refusing an explicitly authorized, exactly targeted, recoverable destructive action solely because it is destructive | 5 Preserve User Work |
+| **Low-risk paralysis** — asking the user to decide harmless, reversible details that local evidence can resolve | 1 Scale By Risk; 3 Handle Material Uncertainty |
+| **Risk-label ritual** — re-asking for decisions already explicit, including a side effect jointly clear in a user's execution request and the named skill's purpose, or refusing a fully authorized task merely because its category is high risk | 1 Scale By Risk; 3 Handle Material Uncertainty |
+| **Workspace damage** — overwriting user work, destructive commands, machine-wide changes | 5 Preserve User Work |
+| **Environment mismatch** — assuming tools, dependencies, network, or services not present locally | 6 Respect Local Context |
+| **Irrelevant verification** — citing a required or passing check that does not exercise the changed behavior as proof of correctness, or skipping a required check because a focused proof exists | 7 Verify Proportionally |
+| **Verification inflation** — running expensive broad checks or changing the environment when neither repository policy nor a focused workflow requires them and a cheaper check would provide the same confidence | 1 Scale By Risk; 7 Verify Proportionally |
+| **Dishonest green** — silencing a failing check (suppression comment, loosened assertion, skipped test, scope escape) instead of fixing the cause | 7 Verify Proportionally |
+| **Suppression absolutism** — refusing a narrow, documented boundary suppression even when the underlying source is immutable and the repository policy defines ownership and removal | 7 Verify Proportionally |
+| **Vacuous test** — a new or changed check has no demonstrated negative control and may pass without exercising the change | 7 Verify Proportionally |
+| **Bug-encoding test** — asserting the code's current output instead of the requested behavior, locking the defect in as truth | 7 Verify Proportionally |
+| **Representation-coupled verification** — asserting an incidental or private implementation representation as if it proved behavior, when that exact representation is not the documented contract or guard target | 7 Verify Proportionally |
+| **Thrashing** — repeated failed fix attempts that widen the blast radius or flip direction instead of stopping with a diagnosis | 7 Verify Proportionally |
+| **Unattended guessing** — with no user available to ask, material ambiguity silently downgrades to a confident guess | 3 Handle Material Uncertainty |
+| **Dropped requirements** — reporting done while parts of the request, a mixed task's applicable execution portion, or a focused workflow's primary completion criterion were silently dropped or reinterpreted | Applicability Gate (Mixed); Composition; 8 Report Only What Matters |
+| **Process noise** — applying execution ritual outside the protocol's scope, including continuing after its applicability gate excludes the task; narrating irrelevant process; overstating confidence; or compressing a required focused artifact in the name of brevity | Applicability Gate (Exit); 8 Report Only What Matters |
+
+## Effective working patterns
+
+**Tests first, when feasible.** Write tests first, then make them pass. This provides a concrete, self-verifiable objective. (Informs the bug-fix rungs in sections 1 and 7.)
+
+**Naive-then-optimize.** Start with the obviously correct version, then optimize while preserving correctness. This reduces the risk of subtle bugs introduced by overly clever initial implementations. (Informs section 4.)
+
+A third pattern from the source material — give the model declarative success criteria rather than imperative step lists — is advice for the human prompting the agent, so it lives in the repository README rather than in this protocol.
+
+---
+
+# Verification
+
+Canonical Coding Protocol reference: Verification.
+
+Page: https://skills.lencx.me/skills/coding-protocol/reference/verification/
+Markdown: https://skills.lencx.me/skills/coding-protocol/reference/verification/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/coding-protocol/references/verification.md).
+
+Repository policy and focused testing or debugging workflows own commands and completion.
+
+## Choose Evidence
+
+Identify the changed path and observable. Prefer the narrowest reliable seam: public output, state transition, protocol effect, or another stable observable. Treat a source shape, private call sequence, or incidental snapshot as supporting evidence unless that representation is a declared contract or guard target; name it and scope the claim.
+
+## Prove Sensitivity
+
+A new or changed evidentiary check needs one credible negative control:
+
+- observe the pre-fix failure;
+- temporarily revert or mutate behavior;
+- plant a scoped violation; or
+- use a known violating input.
+
+Confirm the intended failure, then restore the exact pre-control state, including every pre-existing user change. If no safe control exists, report green without proved sensitivity.
+
+Derive expected behavior from the request or authoritative contract. A characterization names the behavior frozen and why; copied current output alone is not a specification.
+
+## Admit Suppressions Narrowly
+
+Admit a suppression only when the source is immutable within the authorized task and repository policy recognizes the boundary, owner, and removal path. Use the narrowest mechanism and record at the site:
+
+- source and why it cannot be corrected;
+- owner and removal condition; and
+- residual risk or coverage gap.
+
+Otherwise fix the cause or return the failure. Baseline growth, a skipped check, weakened assertion, or analysis-scope escape is a suppression regardless of label.
+
+---
+
+# Keel
+
+Design, review, or govern load-bearing architecture for open choices, design judgments, or long-lived health; skip fixed-architecture execution. Applies to new/existing systems. Private/local/reversible module boundaries qualify; scale rigor to impact. Covers responsibility/authority, interfaces/contracts, dependency/state/recovery, structural seams, guards/exceptions, drift/rot, migration, retirement, deletion, and rewrite risk.
+
+Page: https://skills.lencx.me/skills/keel/
+Markdown: https://skills.lencx.me/skills/keel/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/SKILL.md).
+
+Keel discovers, judges, and governs load-bearing arrangements. It shapes the best-supported direction and keeps declared architecture enforceable, economical, migratable, and deletable as the system evolves.
+
+Use *keel* at module, boundary, and system scale for responsibility between parts, authority or ownership, interfaces or contracts, dependency direction, state or recovery ownership, and seams that isolate future change. Use repository-native terms and treat applicable instructions, records, contracts, and entry paths as evidence rather than decoration.
+
+## State And Ownership
+
+Inspect only enough of the request, governing sources, and representative call sites or contracts to select the current state. Transition only when evidence changes the architecture job:
+
+- **Decision** — establish, change, or compare a load-bearing arrangement. This includes greenfield work and an authorized improvement to an existing target.
+- **Judgment** — evaluate the adequacy, conformance, or feasibility of a supplied architecture, design, RFC, change set, or existing system. Keep the target fixed. If it is infeasible, finish Open with evidence and required decision authority; enter Decision only when selection or improvement is authorized.
+- **Governance** — decide whether to restore, retain, migrate, retire, or remove a declared or evidenced architecture arrangement or control, or judge its long-lived health. Evidence must show a load-bearing obligation, recurring bypass, or architecture drift rather than ordinary maintenance. Enter Decision only when an authorized remedy requires a new load-bearing arrangement.
+- **Exit** — the request and governing sources fix a feasible material architecture and the remaining task only implements, diagnoses, tunes, tests, or verifies within it. Re-enter only when evidence opens a materially different load-bearing Decision, Judgment, or Governance issue.
+
+Private, local, reversible, and single-consumer choices can still require Decision or Judgment; scale evidence and ceremony to impact, reversibility, and uncertainty.
+
+Focused workflows own their domain evidence, criteria, method, vocabulary, artifact, professional judgment, and completion condition. Keel integrates only the load-bearing architecture result under declared decision authority; execution workflows own mutation, work preservation, test mechanics, and verification.
+
+Automatic or forced loading grants neither applicability nor action authority. On Exit, inspect the skill catalog when the host exposes one, select and completely read a suitable owning workflow when present, and otherwise continue with the general workflow. Stop using Keel-specific routes, references, and output framing.
+
+## Solve Constructively
+
+Decision, Judgment, and Governance share a bounded evidence loop but do different work. Decision compares directions. Judgment tests the supplied target and transitions to Decision before proposing improvements. Governance compares applicable restoration, retention, migration, retirement, removal, and no-action responses.
+
+1. **Frame and inspect** — state the current state's question, desired outcome, authority, hard constraints, and criteria. **Greenfield evidence** consists of user goals, explicit external constraints, provenance-bearing focused or domain findings, and operating context. Treat architecture shapes as candidates, label assumptions, and treat absent repository precedent as unavailable rather than inventing inherited architecture. Search only for evidence likely to change the framing, candidate set, or result.
+2. **Form, test, or compare** — for Decision, derive the smallest set of materially distinct viable directions needed to expose the real tradeoff. For Judgment, test the supplied target against the same declared criteria without generating replacement directions. For Governance, compare only applicable interventions. Include a simpler or no-change result when credible; do not invent alternatives when constraints leave one path. Use a bounded model, characterization, conformance check, or reversible experiment when it is the cheapest decision-changing evidence.
+3. **Integrate and return** — preserve focused-workflow findings, assess evidence and any real candidates on the same criteria, and return the best-supported direction, verdict, or governance action with its material tradeoffs and confidence. Surface a better option the user did not name when evidence supports it without silently changing the goal.
+4. **Deepen only the supported result** — resolve numbered concerns only when their answers can still change the result, adoption, recovery, or retirement plan.
+
+Stop when more search, options, or detail are unlikely to change the result or close a material risk. If new evidence reopens a viable direction, compare it rather than defending the incumbent.
+
+Decision, Judgment, and Governance finish in one of two states; Exit hands off without this framing:
+
+- **Closed** — the best-supported result, applicable authority, accountability, and material risks are resolved; no known unknown can still change the result.
+- **Open** — give the strongest bounded result, recommendation, or experiment available, the decision-changing unknown, and its owner or ownership gap plus the next evidence or decision trigger. Alternatives are included only when real.
+
+For a low-blast-radius internal choice, a concise comparison and recommendation may be complete. Do not invent compatibility, migration, recovery, guards, governance, or artifacts that cannot change the choice.
+
+For Governance, a constructive result may be subtraction, restored enforcement, a cheaper governed path, staged migration, retirement, or justified no action—not a new layer by default.
+
+## 1. Keep The Spine Small
+
+Map only the load-bearing points that apply, using repository-native terms. Entry surfaces, mutation admission, accepted state, externally visible effects, completion, and recovery are examples, not a required inventory. When a repository-declared or risk-plausible point is omitted, state why it is absent or inapplicable rather than inventing a stage. Changing or adding an applicable point is a boundary decision.
+
+A load-bearing decision chain is not one controller, writer, process, transport, or deployment topology. Multiple execution mechanisms may coexist when they preserve every applicable declared boundary contract. A new or changed load-bearing point is a redesign: name the outcome, force, or blocker it addresses; its reconciliation rule when relevant; and the path it changes or retires.
+
+Cross-cutting mechanisms may have dedicated owners without becoming parallel authority roots or bypasses. Add a top-level concept only when its jurisdiction is explicit, no existing owner can carry it without distortion, and it removes more ambiguity than it adds.
+
+## 2. Grade Every Surface
+
+Grade each concrete surface by the compatibility promise it carries, using repository categories when available. When categories are absent, use a proportionate fallback rather than grading a whole domain or mechanism: its private implementation and cross-boundary contract may differ.
+
+Every export, field, flag, option, and consumer-relied observable is a potential promise. Choose the narrowest promise that satisfies the requirement. Public, persisted, and cross-boundary surfaces need an explicit compatibility or cutover strategy; never break one silently.
+
+A clean break may converge directly on the target only when target and cutover decision authority, consumer and data scope, old-entry retirement, and recovery are explicit. Otherwise version or migrate.
+
+## 3. Declare Authority, Writers, And Projections
+
+For each material fact and jurisdiction, use the simplest supported model. Declare only dimensions that exist and keep them independent:
+
+- **Fact authority** — source or rule determining accepted truth.
+- **Decision authority** — actor allowed to approve or change a load-bearing choice.
+- **Accountable owner** — responsibility for semantics, policy, lifecycle, and escalation; section 4 covers joint accountability.
+- **Writers and admission** — who may propose a mutation and through which route. Writing grants neither ownership nor fact authority.
+- **Data partition** — jurisdiction, boundaries, and transfer rules.
+- **Replica** — role, provenance, freshness, and read semantics.
+- **Commit** — acceptance, ordering or version, visibility, and quorum.
+- **Conflict** — prevention or detection plus the convergence rule.
+- **Recovery** — trigger, decision authority, owner, action, terminal invariant, and evidence required by section 5.
+
+These dimensions coexist; partitioning, replication, quorum, and multi-writer admission do not replace an authority model.
+
+An artifact may project one fact while authoritatively recording another; declare each relation separately. Change a projection through its source and regeneration path. Resolve overlapping fact authority instead of calling writers interchangeable.
+
+## 4. Own Boundaries And Target Scope
+
+Give each material fact, contract, boundary decision, and lifecycle an accountability model. Owner differs from writer, maintainer, operator, and consumer; one owner is common, not universal. Joint or federated accountability declares jurisdiction, decision rights, tie-break or escalation, and lifecycle.
+
+State what each load-bearing owner owns. Where adjacent duties could be confused, also state what it **does not own**.
+
+Follow declared dependency direction and cross boundaries through their public surface or assembly seam. Move semantics into a shared domain only when they are neutral and accountability belongs there; two consumers needing the same capability is insufficient.
+
+**Target scope** — Separate the requested local outcome, any proposed reusable seam or family, and the first implementation tranche. Resolve scope from the request or an authoritative scope source; sample count, code shape, the word *pilot*, and later outcomes are feasibility evidence, not scope authority. When broader family scope is authorized, test the seam against representative, materially distinct members without migrating them. When unresolved scope can change the decision, keep broader reuse unclaimed and return the cheapest clarification or reversible experiment.
+
+Prefer bounded, declared, tool-enumerable entry surfaces so retirement remains possible.
+
+## 5. Design The Negative Path And The Time Axis
+
+Define behavior or an explicit unknown for material negative outcomes. Examine only cases plausible for the design, including failure, partial or stale work, cancellation, timeout, duplication, concurrency, uncertain commit, retry, restart, and replay. Do not invent a state machine for a reversible private choice.
+
+Close each applicable recovery with:
+
+- detection or trigger;
+- decision authority and recovery owner;
+- rollback, forward repair, or reconciliation action;
+- terminal invariant and completion evidence; and
+- escalation when convergence fails.
+
+Classify effects as reversible, compensable, or irreversible and scale controls accordingly. Establish closure rather than merely naming a recovery route.
+
+## 6. Guard Boundaries With Falsifiable Checks
+
+Keep a traceable reason for each material architecture rule. Add a falsifiable guard or explicit review only when violation creates meaningful risk and the check can change action. A guard needs evidence that it detects a known or safely planted violation; an execution workflow owns how that evidence is produced.
+
+Default exception baselines to shrink-only. Growth is a boundary decision that records decision authority, reason, narrow scope, owner, review trigger, and removal condition. Moving code outside a guard's scope is also a boundary change.
+
+Change or retire a Keel rule only when a simpler obligation preserves its invariant or evidence shows that its failure mechanism is no longer decision-relevant. Observed silence alone proves neither.
+
+## 7. Keep The Governed Path Cheapest
+
+Reduce avoidable friction without weakening controlling product, safety, security, privacy, or compliance policy. Recurring bypass signals route cost, not misconduct. The owning workflow may contain active risk immediately; trace containment scope, decision authority, cost, and exit while repairing the durable path.
+
+## 8. Metabolize Or Rot
+
+Rot is entropy: it cannot be prevented, only metabolized faster than it accumulates. Make drift, migration, and deletion routine. A new noun, layer, or abstraction must remove more ambiguity than it adds. In an existing system, name what it retires; otherwise record net growth, accountability, reason, and review trigger. In greenfield work, compare it with a simpler omitted alternative instead of inventing a retirement ledger.
+
+A retirement closes the active entry surface, enumerates and migrates or retires dependents, and preserves required behavioral evidence outside the implementation. Historical code informs behavior and risk; it does not define the target topology.
+
+## References
+
+After selecting Decision, Judgment, or Governance, load only the matching branch references needed by the selected state and active material concerns; Exit loads none:
+
+- [`references/rule-rationale.md`](/skills/keel/reference/rule-rationale/) — when changing, auditing, replacing, or retiring a Keel rule.
+- [`references/task-routes-and-lenses.md`](/skills/keel/reference/task-routes-and-lenses/) — when a substantial greenfield design, architecture review, boundary change, or structural refactor benefits from a formal route, or a rewrite needs slice-versus-whole-target judgment.
+- [`references/surface-cutover.md`](/skills/keel/reference/surface-cutover/) — when repository grades are absent, a surface may be a de facto contract, or cutover evidence is needed.
+- [`references/recovery-guards.md`](/skills/keel/reference/recovery-guards/) — when selecting recovery controls, designing or retiring a guard, or changing an exception baseline.
+- [`references/rot-audit.md`](/skills/keel/reference/rot-audit/) — for Governance of architecture decay, drift, recurring bypass, exception growth, or long-lived health.
+- [`references/architecture-records.md`](/skills/keel/reference/architecture-records/) — when records carry or route load-bearing architecture facts.
+
+---
+
+# Architecture Records
+
+Canonical Keel reference: Architecture Records.
+
+Page: https://skills.lencx.me/skills/keel/reference/architecture-records/
+Markdown: https://skills.lencx.me/skills/keel/reference/architecture-records/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/references/architecture-records.md).
+
+This reference governs records that carry or route load-bearing architecture facts. General documentation, prose quality, rendering, and domain-specific artifact formats remain with their owning workflow.
+
+## Resolve Authority Before Structure
+
+Separate six concerns:
+
+- **Record scope** — within the already authorized change, which records are in scope.
+- **Fact authority** — which source or rule states accepted architecture facts.
+- **Decision authority** — who may approve or change those facts.
+- **Editorial authority** — who may record or revise an authorized fact. Editorial access does not confer decision rights.
+- **Format authority** — who may change structure, metadata, and naming.
+- **Lifecycle authority** — who may supersede, migrate, archive, or delete a record.
+
+This list grants no edit permission. The user and host grant action authorization; an execution workflow governs authorized edits and work preservation. A request to reorganize files does not authorize rewriting facts or historical records. Treat repository-declared sources and decision or lifecycle roles as current until an authorized migration closes. A stale source may be challenged but not replaced without decision authority. For a greenfield Decision, apply SKILL.md's Greenfield evidence rule before proposing structure; preserve the owning workflow's facts and do not present a proposal as inherited truth.
+
+## Select A Route
+
+If sources or requests conflict, resolve the conflict branch alongside the structural context, then apply SKILL.md's Closed/Open contract to the combined result.
+
+| Context | Default action | Complete when |
+| --- | --- | --- |
+| Existing; structure preserved | Clarify the current canonical record's status and repair focused links without changing facts. Apply the conflict overlay when sources or requests disagree. | No new document structure or parallel authority was introduced, every changed fact still resolves to its declared source, and any conflict is resolved through the overlay. |
+| Existing; restructuring authorized | Inventory facts, owners, readers, inbound links, generators, guards, immutable history, and rollback or forward-recovery routes. Migrate the smallest coherent slice and retire or redirect its old entry points. | The target owner, every affected reader and route, regeneration, validation, migration recovery, and old-record lifecycle are resolved. |
+| Greenfield; record structure authorized | Create only the records required by current facts and decisions. Start with one canonical record per coherent fact jurisdiction; add an index only when more than one entry path needs navigation. | Every material fact has an owner and evidence path, without empty scaffolding or duplicated prose. |
+| Sources or requests conflict | Partition jurisdiction. Select one source with projections only when decision authority or precedence permits; otherwise keep the material choice open. Accept unusual but coherent format preferences. | The conflict branch is complete when decision authority or precedence yields an explicit conflict rule; otherwise it contributes an applicable finding or decision-changing unknown to SKILL.md's Open branch. |
+
+## Keep Record Roles Distinct
+
+| Role | Represents or owns |
+| --- | --- |
+| Canonical record | Authoritative representation of its declared facts. Decision, editorial, format, and lifecycle rights remain with their declared authorities. |
+| Index | Navigation, bounded relevance summaries, and redirects; not the facts behind its links. |
+| Projection | Its source binding, generation status, freshness, and failures; not copied source facts. |
+| Working note | Exploration and unresolved options; it becomes authoritative only through the declared decision path. |
+
+Preserve focused artifacts such as threat models, domain models, API schemas, and historical decisions in their native form. Index them or add Keel findings; do not flatten their method or vocabulary into a generic record.
+
+## Add Structure Only When Delegated
+
+Use this decision ladder only when no repository-native system owns the shape and the applicable format and lifecycle authorities explicitly authorize it for the named record scope. Fact and decision authority stay with their declared holders.
+
+- Start with one focused canonical record per coherent fact jurisdiction.
+- Add an index only when more than one entry path needs navigation.
+- Add routing metadata only when repeated discovery or ambiguity has a named machine consumer.
+
+This ladder is not a prescribed file tree, schema, or prose template. The repository or focused documentation workflow chooses those shapes. If routing metadata earns its cost, derive the minimum fields from the consumer's questions and repository identifiers; do not create a universal schema. Let source control supply history unless another consumer genuinely requires timestamps or per-record schema versions.
+
+A new canonical record must make its purpose, fact source, applicable decision, editorial, format, and lifecycle authorities, owned and excluded scope, load-bearing facts or contracts, and applicable evidence, failure, migration, or open questions discoverable. Express those semantics in repository-native form.
+
+Treat an index as navigation, not a fact store. When it is generated, declare one editable routing source and regenerate the projection from it. Report unowned, ambiguous, unavailable, and superseded routes rather than guessing. Do not copy record bodies or repository-wide inventories into an index.
+
+## Hand Off Without Taking Over
+
+Return the required fact ownership, record role, routing, migration boundary, and closure conditions. When present, let a focused writing or documentation workflow own wording and presentation, and let an execution workflow own edits, verification, and user-work preservation. Otherwise, follow repository and host defaults. Neither workflow may turn a projection into a second fact authority.
+
+---
+
+# Recovery And Guards
+
+Canonical Keel reference: Recovery And Guards.
+
+Page: https://skills.lencx.me/skills/keel/reference/recovery-guards/
+Markdown: https://skills.lencx.me/skills/keel/reference/recovery-guards/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/references/recovery-guards.md).
+
+Repository requirements and focused workflows own concrete recovery or guard mechanisms and verification execution; this file supplies branch-specific control choices.
+
+## Select Controls From Failure
+
+- Retry or duplicate: idempotency, deduplication, confirmation, or receipt.
+- Uncertain commit, stale view, or partition: authoritative status, freshness or degraded-mode rule, reconciliation, and convergence owner.
+- Partial work or failed cutover: rollback, resumable migration, compensation, or repair queue.
+- Ordering or concurrent conflict: version rule, detector, merge, tie-break, or escalation.
+
+Guard evidence shows a known or safely planted violation fails, the exact pre-control state passes after restoration, and scope cannot be escaped. Record the guard owner and freshness trigger; track real violations separately. Exception growth records decision authority, scope, reason, owner, review trigger, and removal condition. A review-only guard names the review event, retained evidence, and escalation.
+
+---
+
+# Rot Audit
+
+Canonical Keel reference: Rot Audit.
+
+Page: https://skills.lencx.me/skills/keel/reference/rot-audit/
+Markdown: https://skills.lencx.me/skills/keel/reference/rot-audit/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/references/rot-audit.md).
+
+This Governance audit examines architecture drift, recurring bypass, exception growth, and the long-lived health of boundaries and guards.
+
+## Route
+
+Declare the audit scope, selected indicators, evidence window, exception baseline, and negative-control evidence. Evidence accounting is complete when every in-scope indicator has grounded evidence, an explicitly unavailable source, or a reasoned exclusion.
+
+Apply SKILL.md's Closed/Open contract to the audit. Unavailable sources or exclusions that could change a load-bearing decision contribute applicable findings or decision-changing unknowns and therefore select Open. In either state, additionally return justified no-action or subtraction candidates, indicator owners or explicit ownership gaps, the next review trigger, and any next snapshot.
+
+## Indicators
+
+Lagging symptoms such as incidents and rewrites arrive late, so use leading indicators only where they earn their cost. Interpret level and direction against repository context: expected product growth can raise a healthy count. Reuse a repository-defined review trigger when present; otherwise a concerning trend creates a finding for its owner, not an automatic work item.
+
+| Indicator | How to read it |
+| --- | --- |
+| Suppression count — lint disables, unchecked casts, skipped tests, baseline entries | Default the trend and baseline to shrink-only. A justified increase is a visible decision with authority, reason, narrow scope, owner, review trigger, and removal condition; unreviewed growth is exception accretion. |
+| Negative-control freshness | Track the last time a planted or known violation was detected. Staleness questions the guard mechanism even when the repository is clean. |
+| Observed violation history | Track real violations separately as pressure on the boundary. A long quiet period does not by itself justify retiring a falsifiable guard. |
+| Public surface growth | Compare exports, fields, and options added per period with delivered behavior or outcomes. Surface outgrowing delivery means promises may be minted as a side effect. |
+| Concept count | Compare new nouns—services, managers, layers, configuration keys—with retired concepts or explicitly accepted net growth. |
+| Duplicate truth or stale authority | The same fact is independently editable through multiple routes, or its declared source or owner no longer matches the active change path. Deliberate federation and replicas are not defects when the applicable section 3 dimensions and reconciliation are explicit. |
+| Boundary or accountability divergence | Code widens or crosses a declared boundary without corresponding contract and decision-right evidence. Internal churn behind an unchanged contract is not drift. |
+| Bypass frequency | Track how often the governed path is skipped. After controlling policy is accounted for, a rising rate may expose avoidable route cost; it is not evidence of individual misconduct. |
+| Undeclared cross-boundary imports | Count imports that violate declared dependency direction or bypass a public surface, not directory kinship by itself. |
+| Hand-edited derived files | Diffs touching declared generated files suggest the generator costs more than a direct edit; improve that path before normalizing hand edits. |
+
+## Evidence Retention
+
+Prefer existing version-control history, automated-check artifacts, and metrics over a new Keel-owned store. If a new snapshot is justified, declare its scope, cadence, retention, owner, and deletion condition. Do not append unbounded history or build a second source of truth merely to measure drift.
+
+Indicators are projections of health, not health itself. Declare each scope, evidence window, and known blind spots. Validate a quiet signal before treating it as proof of health or as grounds for retirement.
+
+---
+
+# Rule Rationale
+
+Canonical Keel reference: Rule Rationale.
+
+Page: https://skills.lencx.me/skills/keel/reference/rule-rationale/
+Markdown: https://skills.lencx.me/skills/keel/reference/rule-rationale/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/references/rule-rationale.md).
+
+SKILL.md states the rules; this file records what the rules cannot carry: the mechanism that makes each failure mode happen, the public practice the rules translate, and what was deliberately left out.
+
+Observed silence is weak evidence: a rule may be effective, the path dormant, or the detector blind. Rule retirement is justified by a simpler obligation protecting the same invariant or by evidence that the mechanism is no longer decision-relevant; silence alone establishes neither.
+
+## Failure modes → mechanisms
+
+This is a maintenance index, not a requirement for one rule or test per row. Keep a row only while it explains a non-obvious design choice. Prefer merging overlapping mechanisms over adding another clause, route, or completion criterion.
+
+| Failure mode | Mechanism — why it keeps happening | Rule |
+| --- | --- | --- |
+| **Spine bloat** | Adding an authority or completion path outside the declared model is locally cheaper than negotiating a boundary and reconciliation rule; the integration cost is deferred to every future reader. Deadlines select the peer. | 1 (load-bearing-point scope; new-point gate; top-level-concept jurisdiction) |
+| **Execution-topology collapse** | Equating one load-bearing decision chain with one controller, process, queue, or plan flattens legitimate replaceable mechanisms and leaks today's execution topology into the architecture contract. Treating every possible point as mandatory similarly invents write, commit, effect, or recovery stages in simpler systems. | 1 (omission discipline; topology coexistence) |
+| **Product-shape overreach** | Turning a load-bearing-boundary heuristic into a ban on product modes or single-domain top-level concepts substitutes architecture taste for user, repository, and focused product-design evidence. | 1 (top-level-concept jurisdiction) |
+| **Constraint-only architecture** | Risks and missing facts are easier to enumerate than a coherent target direction. The first plausible seam can also become an incumbent before real alternatives are compared. | Decision; Judgment; Governance; Solve Constructively; Closed/Open; 4 (Target scope); 8 |
+| **Greenfield authority vacuum** | With no repository precedent, an agent either stalls indefinitely, discards supplied alternatives, or imports its preferred topology as fact. An answer-shaped template can also manufacture alternatives because an empty slot looks unfinished. | Decision (Greenfield evidence); Solve Constructively; Closed/Open; 1; 4 |
+| **Accidental stability** | Exporting is one keystroke; the promise it creates is invisible until changing it breaks a consumer. A declared clean target can likewise be mistaken for cutover authority while consumers, data, old routes, or recovery remain unresolved. | 2 (surface grading; potential promises; clean-break gate) |
+| **Load-bearing accident** | With enough consumers, every observable behavior is depended on regardless of intent (Hyrum's law). The contract you wrote is always a subset of the contract you actually shipped. | 2 (potential promises; compatibility/cutover) |
+| **Truth fragmentation** | Replicas and generated files are easier to hand-edit than their sources, so provenance and reconciliation decay. Imposed record maps can add an editable route, confuse decision with editorial authority, override ownership, or rewrite lifecycle history. | 3 (independent authority dimensions; projection provenance) |
+| **Projection-category collapse** | Treating a file kind such as cache, transcript, or view as permanently non-authoritative hides independent operational facts that the artifact legitimately owns, while still failing to identify which source facts it merely projects. | 3 (projection provenance) |
+| **Authority-model collapse** | Fact authority, ownership, write admission, data partition, replication, commit, conflict, and recovery are orthogonal. Treating them as competing types—or forcing one writer or owner—destroys availability and jurisdiction semantics. | 3 (independent authority dimensions); 4 (accountability model) |
+| **Ambiguous ownership** | Accountability decays silently when decision rights, partitions, tie-breakers, or lifecycle responsibility are missing. Either "everyone owns it" or an invented sole owner can conceal the real defect. | 4 (accountability model; owned/excluded scope) |
+| **Ownership-role collapse** | Confusing artifact or domain with responsibility either lets Keel replace focused judgment or skips Keel when that work must also change architecture. Automatic loading creates pressure to apply Keel even when the task only consumes fixed decisions. | State And Ownership (focused ownership; Exit); 4 |
+| **Sideways coupling** | Reaching into another domain's internals is one import; negotiating a declared public surface or assembly seam is a design conversation. Selection favors the import. Deletability dies first, replaceability second. | 4 (declared dependency surfaces) |
+| **Shared-kernel dumping** | Moving domain semantics into a generic lower layer satisfies the import graph immediately, but erases focused accountability and turns the shared layer into a permanent coordination tax. | 4 (shared-domain neutrality) |
+| **Target-scope collapse** | Small-change pressure makes the first migrated examples feel like the whole target. Sample count, the label “pilot,” and later outcomes reveal feasibility, not whether the intended result was local, reusable, or disposable. | 4 (Target scope) |
+| **Happy-path architecture** | Demos and polished reports reward premature closure. A named recovery route or confident conclusion can hide missing authority, ownership, terminal invariants, or next evidence. | Judgment; Governance; Closed/Open; 5 |
+| **Time-axis leaks** | Components are tested in single-process, single-run harnesses; restart, retry, replay, uncertain commit, and failed convergence exist only in production. Every layer can be individually correct while the composition leaks along the time axis. | 5 (time-axis cases; recovery closure) |
+| **Architecture ceremony inflation** | Treating private or reversible scope as non-architectural loses real module choices; applying every concern to those choices makes governance costlier than bypassing it. | State And Ownership (proportionality); Solve Constructively; 5; 6; 8 |
+| **Paper boundaries** | An unowned prose-only rule is easy to bypass and forget. Material rules need proportionate falsifiable enforcement; when automation is not justified, the review mechanism and its evidence still need to be explicit and auditable. | 6 (rule reason; falsifiable guard; auditable review) |
+| **Wallpaper guards** | A guard that never fires is indistinguishable from a working one until someone plants a violation. Noisy guards get disabled; silent ones get trusted. Both end at zero protection. | 6 (guard sensitivity) |
+| **Quiet-guard retirement** | Using the absence of real violations as guard-health evidence retires a healthy boundary check even when its negative control still proves that the protected mechanism and detector are live. | 6; 8 |
+| **Exception accretion** | Each exception is individually reasonable; the list only grows because removal has no owner and no deadline. | 6 (shrink-only exceptions) |
+| **Pricing inversion** | After controlling product, safety, security, privacy, or compliance requirements are accounted for, avoidable cost still selects the bypass under deadline and each successful bypass lowers the social cost of the next. Discipline cannot outrun economics. | 7 (governed-path cost) |
+| **Containment deferral** | Treating “make the governed path cheapest” as a strict sequencing law can leave an active safety or correctness breach open while the ideal low-friction route is built. Immediate containment and durable path economics operate on different time horizons. | 7 (containment versus durable repair) |
+| **Concept inflation** | Naming a new thing is the author's joy and the reader's tax, and the tax is invisible in the PR that adds it. Saturated cognition breeds patch-on-patch. | 8 (concept net growth) |
+| **Rewrite gravity** | Once comprehension cost exceeds rewrite cost for one individual, the rewrite looks locally rational; the institutional knowledge it destroys was never on that individual's balance sheet. | task-routes-and-lenses.md (Rewrite branch); 8 (retirement evidence) |
+| **Rewrite containment dogma** | Treating the smallest-slice heuristic as an absolute preserves migration machinery even when a bounded replacement cannot close or the whole target is cheap, isolated, and explicitly replaceable. | task-routes-and-lenses.md (Rewrite branch: bounded-slice and whole-target gates); 8 |
+| **Knowledge evaporation** | Reasons live in heads and chat logs; rules live in files. The rule outlives the reason and becomes either superstition or noise. When architecture is treated as design-time work only, drift, stale guards, bypass economics, and undeletable structure stay invisible until a rewrite. | Governance; 6; 7; 8 |
+
+## Translated practice (provenance)
+
+What each section borrows, so the borrowing can be re-examined at the source if a rule comes under question:
+
+- **Linux** — graded stability (userspace contract sacred, in-kernel interfaces refuse stability promises) → section 2.
+- **Git** — plumbing/porcelain stability split → section 2 and the Assembly or wiring fallback grade in `surface-cutover.md`.
+- **SQLite** — invariants sunk into file formats, state machines, and a test corpus rather than convention → section 6.
+- **PostgreSQL** — change classes, upgrade paths, and deprecation as routine institutions rather than heroics → section 8.
+- **Hyrum's law** → section 2. **Gall's law** → section 1.
+- **Conway's law, attention form** — structure mirrors the communication structure of its maintainers; for agent-maintained code that structure is the context window, so architecture that cannot be navigated in bounded reads will be bypassed, then forgotten → sections 1 and 7.
+
+## Deliberate omissions
+
+Recorded so they are not "discovered missing" and re-added by accident:
+
+- **Built-in solution-shape canon** (event sourcing, CQRS, microservices vs monolith, hexagonal, …) — Keel does not prescribe a timeless preferred shape or carry an inventory of patterns. It may generate and recommend concrete shapes from task evidence, focused knowledge, and engineering practice; named patterns enter only when they help explain or test a viable direction. Baking them into the rule set would date the skill and bias discovery.
+- **Org-design mechanics** (maintainer hierarchies, LTS branch policy, RFC committees) — they presume a human organization; the protocol must also work for a single agent session.
+- **Mandatory documentation tooling** (universal frontmatter schemas, manifest formats, named checkers) — the protocol states the invariant and defaults to repository-native mechanisms. The structure decision ladder in `architecture-records.md` applies only when format and lifecycle authority are explicitly delegated.
+- **Repository-specific topology and contract vocabulary** — Keel reads and obeys authoritative project sources; it does not copy them into a generic rule set.
+
+---
+
+# Surface And Cutover
+
+Canonical Keel reference: Surface And Cutover.
+
+Page: https://skills.lencx.me/skills/keel/reference/surface-cutover/
+Markdown: https://skills.lencx.me/skills/keel/reference/surface-cutover/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/references/surface-cutover.md).
+
+Repository compatibility categories remain authoritative; this file supplies fallback grading and cutover evidence.
+
+## Fallback Surface Ladder
+
+Use this ladder only when the repository has no compatibility categories. It is an internal comparison tool, not a required label set.
+
+| Grade | Review |
+| --- | --- |
+| Public API or persisted schema | Enumerate consumers and data; define version, migration, or authorized cutover. |
+| Declared cross-boundary interface | Name owner, consumers, and coordinated change boundary. |
+| Module-private implementation | Keep cheap to reshape unless evidence reveals external reliance. |
+| Assembly or wiring | Reshape freely while higher-grade behavior remains stable. |
+
+Observable error text, ordering, timing, and quirks can become de facto contracts. A clean break needs target and cutover decision authority, consumer and data scope, old-entry retirement, recovery, and post-cutover evidence. An unresolved consumer remains migration risk. For unenumerable public consumers, state the support boundary, discovery evidence, notice or end-of-life path, and decision authority accepting residual risk.
+
+---
+
+# Task Routes And Lenses
+
+Canonical Keel reference: Task Routes And Lenses.
+
+Page: https://skills.lencx.me/skills/keel/reference/task-routes-and-lenses/
+Markdown: https://skills.lencx.me/skills/keel/reference/task-routes-and-lenses/index.md
+
+> Rendered directly from the [canonical source](https://github.com/lencx/skills/blob/main/skills/keel/references/task-routes-and-lenses.md).
+
+This file contains branch-specific concerns only. SKILL.md owns working-state
+selection, the constructive loop, Closed/Open completion, and sections 1–8.
+
+## Task routes
+
+Choose a route after the working state and initial framing are clear. A route
+organizes deeper evidence; it does not preselect a solution or require a new
+artifact. If another route contributes a material concern, import that concern
+without duplicating the full route.
+
+| Route | Use when | Branch-specific concern |
+| --- | --- | --- |
+| `greenfield_design` | **Decision:** goals and external constraints exist without inherited repository architecture | apply SKILL.md's greenfield evidence rule; state assumptions, decision authority, and the cheapest way to test the result |
+| `architecture_review` | **Judgment:** a design, RFC, change set, or existing system needs a load-bearing adequacy, conformance, feasibility, or integration verdict | map material claims to evidence or explicit unknowns, preserve focused ownership, and transition to Decision before proposing authorized improvements |
+| `boundary_change` | **Decision:** a contract, schema, export, flag, entry surface, or compatibility promise is added, widened, moved, or removed | identify affected consumers, decision authority, compatibility or cutover commitment, and proportionate verification |
+| `structural_refactor` | **Decision:** a load-bearing module or seam is split, merged, moved, rewritten, or generalized | apply SKILL.md's Target scope rule; preserve contracts and the deletion path |
+
+Complete a selected route only when its branch-specific concern appears in the result or is recorded as an Open unknown. Treat SKILL.md sections 1–8 as the sole source of cross-cutting obligations.
+
+If evidence reopens a materially different direction, return to comparison
+instead of finishing the current route by inertia.
+
+## Rewrite branch
+
+For a `structural_refactor` that proposes a rewrite, apply SKILL.md's Target
+scope rule, derive the target terminal invariant from representative evidence,
+and start with the smallest independently replaceable implementation slice and
+its preserved contracts. Expand only when a bounded migration cannot close
+safely or carries greater evidenced migration or recovery risk.
+
+A whole-target replacement is supported only when the target is bounded; its
+surfaces, dependents, state, and preserved contracts are known; acceptance
+evidence maps those contracts and the terminal invariant; runnable rollback or
+retreat evidence exists; and representative, materially distinct smaller slices
+do not reach the same invariant at equal or lower evidenced risk. Do not require
+proof against unbounded hypothetical slices.
+
+## Optional review prompts
+
+SKILL.md sections 1–8 are the source of these concerns. Ask only questions whose
+answers can change the recommendation or a material risk:
+
+- Which concrete surfaces carry compatibility promises?
+- Which authority, ownership, writer, dependency, or projection relations
+  actually exist?
+- Which negative or time-axis outcome could invalidate the direction?
+- Which guard, migration, recovery, or deletion evidence is necessary at this
+  blast radius?
+- What new concept or layer is added, what does it retire, and is a simpler
+  direction still viable?
+
+Group inapplicable concerns without producing an empty matrix.

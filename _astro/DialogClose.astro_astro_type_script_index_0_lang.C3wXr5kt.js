@@ -1,0 +1,1 @@
+import{o as e}from"./client.C5pWSDV_.js";e(`[data-dialog-close]`,e=>{let t=()=>e.closest(`dialog`)?.close();return e.addEventListener(`click`,t),()=>e.removeEventListener(`click`,t)});

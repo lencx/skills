@@ -1,0 +1,1 @@
+import{a as e,o as t}from"./client.C5pWSDV_.js";function n(t){let n=t.querySelector(`[data-nb-collapsible-trigger]`),r=t.querySelector(`[data-nb-collapsible-content]`);if(!n||!r)return()=>{};let i=t.dataset.nbDefaultOpen===`true`,a=e({trigger:n,content:r,defaultOpen:i});return()=>a.destroy()}t(`[data-nb-collapsible]`,n);
