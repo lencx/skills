@@ -1,3 +1,39 @@
+# OS metadata
 .DS_Store
+
+# Generated output and tool caches
 dist/
 evals/
+node_modules/
+.astro/
+.wrangler/
+.nimbus/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.dev.vars
+.dev.vars.*
+
+# Package-manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and local agent settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+/.claude/settings.local.json
+
+# Private planning context
+/DESIGN.md
+/PRODUCT.md
+/docs/AGENT.md
+/docs/.research/
+
+# Documentation source is tracked only on the local docs branch
+/docs/

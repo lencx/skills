@@ -6,7 +6,7 @@
     "name": "lencx",
     "url": "https://lencx.me"
   },
-  "homepage": "https://lencx.me",
+  "homepage": "https://skills.lencx.me",
   "repository": "https://github.com/lencx/skills",
   "license": "MIT",
   "keywords": [
@@ -25,13 +25,13 @@
       "Load-bearing architecture design and governance",
       "Risk-scaled repository execution and code evidence"
     ],
-    "websiteURL": "https://lencx.me",
+    "websiteURL": "https://skills.lencx.me",
     "defaultPrompt": [
       "Use keel to design, review, or govern this project's load-bearing architecture.",
       "Use coding-protocol for this repository's implementation, debugging, or code review."
     ],
-    "brandColor": "#0F172A",
-    "composerIcon": "./assets/lencx-skills.svg",
-    "logo": "./assets/lencx-skills.svg"
+    "brandColor": "#5268DC",
+    "composerIcon": "./icon.svg",
+    "logo": "./icon.svg"
   }
 }

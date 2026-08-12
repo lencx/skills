@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/lencx-skills.svg" alt="lencx skills logo" width="160">
+  <img src="./icon.svg" alt="lencx skills logo" width="160">
 </p>
 
 <h1 align="center">lencx-skills</h1>
@@ -8,9 +8,9 @@
   <a href="https://skills.sh/lencx/skills"><img src="https://skills.sh/b/lencx/skills" alt="skills.sh"></a>
 </p>
 
-> 💡 Rooted in lencx’s hands-on experience — turning knowledge into reliable execution.
+> 💡 Rooted in lencx’s hands-on experience — turning hard-won lessons into repeatable execution.
 
-English | [中文](./locales/README.zh-CN.md)
+English | [中文](https://skills.lencx.me/zh/)
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
@@ -50,21 +50,31 @@ claude plugin marketplace add lencx/skills
 claude plugin install lencx-skills@lencx
 ```
 
-## Updates and Versioning
+### Update Skills
 
-`@latest` selects the installer, not the skill content.
+Use the same path you chose for installation.
+
+#### Skills Installer
 
 ```bash
-# Update installed skills
-npx skills@latest update keel coding-protocol -p  # project
-npx skills@latest update keel coding-protocol -g  # global
-
-# Reproducible install
-npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a codex -g -y        # Codex
-npx skills@latest add "lencx/skills#v1.4.0" --skill keel coding-protocol -a claude-code -g -y  # Claude Code
+# Update the selected project or global scope
+npx skills@latest update
 ```
 
-`update` operates on tracked skills. Use `add` to install a new skill or change its Git ref.
+Pass `-p` to update project skills only, or `-g` to update global skills only.
+
+#### Native Plugin
+
+```bash
+# Codex — refresh the marketplace, then reinstall from it
+codex plugin marketplace upgrade lencx
+codex plugin add lencx-skills@lencx
+
+# Claude Code — restart Claude Code after the update
+claude plugin update lencx-skills@lencx
+```
+
+Start a new Codex task, or restart Claude Code, to load the updated plugin.
 
 ## Skills
 

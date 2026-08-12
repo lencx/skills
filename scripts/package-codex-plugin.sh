@@ -13,7 +13,7 @@ command -v zip >/dev/null 2>&1 || {
 
 required_paths=(
   ".codex-plugin/plugin.json"
-  "assets/lencx-skills.svg"
+  "icon.svg"
   "skills"
   "LICENSE"
   "README.md"
@@ -42,7 +42,7 @@ trap cleanup EXIT
   cd "${repo_root}"
   zip -qr "${temp_dir}/${archive_name}" \
     .codex-plugin \
-    assets/lencx-skills.svg \
+    icon.svg \
     skills \
     LICENSE \
     README.md \
