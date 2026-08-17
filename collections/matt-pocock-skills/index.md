@@ -14,9 +14,9 @@ image: "https://skills.lencx.me/og.png"
 
 Tags: #engineering · #delivery
 
-Stars: 213,970 · Forks: 18,468
+Stars: 219,312 · Forks: 18,884
 
-Analysis revision: `84fdeff` · GitHub snapshot: Aug 12, 2026
+Analysis revision: `84fdeff` · GitHub snapshot: Aug 17, 2026
 
 > This collection deliberately refuses to become one universal lifecycle. Explicit orchestrators compose work; automatically selected Skills contribute one engineering discipline; repository setup keeps both aligned with local conventions.
 

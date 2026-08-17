@@ -14,9 +14,9 @@ language: "zh-CN"
 
 标签: #engineering · #delivery
 
-Stars: 213,970 · Forks: 18,468
+Stars: 219,312 · Forks: 18,884
 
-分析版本: `84fdeff` · GitHub 快照: 2026年8月12日
+分析版本: `84fdeff` · GitHub 快照: 2026年8月17日
 
 > 这套集合刻意拒绝成为统一生命周期：显式 orchestrator 负责组合流程，自动选中的 Skill 只贡献一种工程纪律，而仓库 setup 让两者服从项目本身的约定。
 

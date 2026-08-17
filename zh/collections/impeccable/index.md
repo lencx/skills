@@ -14,9 +14,9 @@ language: "zh-CN"
 
 标签: #design · #quality
 
-Stars: 58,314 · Forks: 3,558
+Stars: 59,683 · Forks: 3,650
 
-分析版本: `ae388ac` · GitHub 快照: 2026年8月12日
+分析版本: `ae388ac` · GitHub 快照: 2026年8月17日
 
 > Impeccable 把设计变成一套权威来源与渲染证据系统，而不是一组只会要求 Agent“把页面做得更好看”的提示词。
 

@@ -14,9 +14,9 @@ image: "https://skills.lencx.me/og.png"
 
 Tags: #reference · #engineering · #quality
 
-Stars: 86,280 · Forks: 9,269
+Stars: 87,770 · Forks: 9,404
 
-Analysis revision: `be42637` · GitHub snapshot: Aug 12, 2026
+Analysis revision: `be42637` · GitHub snapshot: Aug 17, 2026
 
 > Its distinguishing feature is not catalog size. Each workflow exposes likely agent rationalizations, red flags, and exit evidence, making engineering discipline inspectable instead of aspirational.
 

@@ -14,9 +14,9 @@ language: "zh-CN"
 
 标签: #engineering · #delivery · #quality
 
-Stars: 270,806 · Forks: 24,194
+Stars: 272,823 · Forks: 24,393
 
-分析版本: `44c9b2d` · GitHub 快照: 2026年8月12日
+分析版本: `44c9b2d` · GitHub 快照: 2026年8月17日
 
 > 安装 Superpowers 等于接受一套带硬门槛的开发制度：设计确认、隔离环境、TDD、独立评审和新鲜验证都是要求，而不是可选技巧。
 

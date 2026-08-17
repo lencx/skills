@@ -14,9 +14,9 @@ image: "https://skills.lencx.me/og.png"
 
 Tags: #engineering · #delivery · #quality
 
-Stars: 270,806 · Forks: 24,194
+Stars: 272,823 · Forks: 24,393
 
-Analysis revision: `44c9b2d` · GitHub snapshot: Aug 12, 2026
+Analysis revision: `44c9b2d` · GitHub snapshot: Aug 17, 2026
 
 > Installing Superpowers means accepting a development method with hard gates. Design approval, isolation, TDD, separate reviews, and fresh verification are requirements, not optional tips.
 

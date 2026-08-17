@@ -14,9 +14,9 @@ language: "zh-CN"
 
 标签: #reference · #quality
 
-Stars: 168,206 · Forks: 20,038
+Stars: 169,761 · Forks: 20,207
 
-分析版本: `f17010c` · GitHub 快照: 2026年8月12日
+分析版本: `f17010c` · GitHub 快照: 2026年8月17日
 
 > 它不是一套软件交付制度。它真正有价值的地方，是用一手文件展示 Skill 如何打包、渐进加载，以及如何与 baseline 对照评估。
 

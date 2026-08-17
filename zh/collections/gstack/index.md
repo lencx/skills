@@ -14,9 +14,9 @@ language: "zh-CN"
 
 标签: #engineering · #design · #delivery
 
-Stars: 127,596 · Forks: 19,216
+Stars: 128,278 · Forks: 19,305
 
-分析版本: `94993f7` · GitHub 快照: 2026年8月12日
+分析版本: `94993f7` · GitHub 快照: 2026年8月17日
 
 > gstack 与其说是松散的 Skills 目录，不如说是一支被命令化的创业团队：产物从产品追问一路流向真实浏览器 QA、部署健康、发布文档和复盘。
 

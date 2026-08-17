@@ -14,9 +14,9 @@ image: "https://skills.lencx.me/og.png"
 
 Tags: #design · #quality
 
-Stars: 58,314 · Forks: 3,558
+Stars: 59,683 · Forks: 3,650
 
-Analysis revision: `ae388ac` · GitHub snapshot: Aug 12, 2026
+Analysis revision: `ae388ac` · GitHub snapshot: Aug 17, 2026
 
 > Impeccable turns design into a system of authorities and rendered evidence. It is not a collection of prompts that merely asks an agent to make a page look better.
 

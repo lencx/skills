@@ -14,9 +14,9 @@ image: "https://skills.lencx.me/og.png"
 
 Tags: #engineering · #design · #delivery
 
-Stars: 127,596 · Forks: 19,216
+Stars: 128,278 · Forks: 19,305
 
-Analysis revision: `94993f7` · GitHub snapshot: Aug 12, 2026
+Analysis revision: `94993f7` · GitHub snapshot: Aug 17, 2026
 
 > gstack behaves less like a loose Skill catalog and more like a command-driven startup team. Artifacts travel from product interrogation through real browser QA, deployment health, release documentation, and reflection.
 

@@ -14,9 +14,9 @@ image: "https://skills.lencx.me/og.png"
 
 Tags: #reference · #quality
 
-Stars: 168,206 · Forks: 20,038
+Stars: 169,761 · Forks: 20,207
 
-Analysis revision: `f17010c` · GitHub snapshot: Aug 12, 2026
+Analysis revision: `f17010c` · GitHub snapshot: Aug 17, 2026
 
 > This is not a software-delivery operating system. Its value is showing, in first-party files, how a Skill is packaged, progressively loaded, and tested against a baseline.
 

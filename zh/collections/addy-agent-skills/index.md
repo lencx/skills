@@ -14,9 +14,9 @@ language: "zh-CN"
 
 标签: #reference · #engineering · #quality
 
-Stars: 86,280 · Forks: 9,269
+Stars: 87,770 · Forks: 9,404
 
-分析版本: `be42637` · GitHub 快照: 2026年8月12日
+分析版本: `be42637` · GitHub 快照: 2026年8月17日
 
 > 它的独特性不在目录规模，而在每个工作流都会公开 Agent 常见的合理化借口、红旗和退出证据，让工程纪律可以被检查，而不是停留在口号。
 
